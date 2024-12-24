@@ -1,0 +1,10 @@
+pc-tool/RDBEd.exe
+pc-tool/WFC_conv
+
+python/__pycache__
+python/common/__pycache__
+
+roms/roms-exist.xml
+roms/roms-new.xml
+
+wii/wiiflow/log_cachecreate.txt
