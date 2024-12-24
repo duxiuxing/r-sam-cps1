@@ -1,0 +1,83 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Game-List description="roms 文件夹里所有的 CPS1 街机游戏">
+    <Game name="1941 - Counter Attack">
+        <Rom crc32="64E58DC3" bytes="1420289"
+            title="1941"
+            en="1941 - Counter Attack (900227 World)"
+            zhcn="1941 反击战 (900227 世界版)"
+            apps-work="" apps-not-work=""
+        />
+    </Game>
+    <Game name="Adventure Quiz Capcom World 2">
+        <Rom crc32="319BF022" bytes="1753871"
+            title="cworld2j"
+            en="Adventure Quiz Capcom World 2 (920611 Japan)"
+            zhcn="卡普空世界2 (920611 日版)"
+            apps-work=""
+            apps-not-work=""
+        />
+    </Game>
+    <Game name="Cadillacs and Dinosaurs">
+        <Rom crc32="5214C514" bytes="4116096"
+            title="dino"
+            en="Cadillacs and Dinosaurs (930201 World)"
+            zhcn="恐龙快打 (930201 世界版)"
+            apps-work=""
+            apps-not-work=""
+        />
+    </Game>
+    <Game name="Captain Commando">
+        <Rom crc32="903715AE" bytes="2542116"
+            title="captcomm"
+            en="Captain Commando (911202 World)"
+            zhcn="名将 (911202 世界版)"
+            apps-work=""
+            apps-not-work=""
+        />
+    </Game>
+    <Game name="Carrier Air Wing">
+        <Rom crc32="31B0791C" bytes="1440062"
+            title="cawing"
+            en="Carrier Air Wing (U.S. navy 901012 etc)"
+            zhcn="雌虎战机 (美国海军 901012 etc)"
+            apps-work=""
+            apps-not-work=""
+        />
+    </Game>
+    <Game name="Dynasty Wars">
+        <Rom crc32="13133F73" bytes="2193606"
+            title="dynwar"
+            en="Dynasty Wars (US set 1)"
+            zhcn="吞食天地 王朝战争 (美版 set 1)"
+            apps-work=""
+            apps-not-work=""
+        />
+    </Game>
+    <Game name="Final Fight">
+        <Rom crc32="E5524363" bytes="1429616"
+            title="ffight"
+            en="Final Fight (World, set 1)"
+            zhcn="快打旋风 (世界版, set 1)"
+            apps-work=""
+            apps-not-work=""
+        />
+    </Game>
+    <Game name="Ghouls'n Ghosts">
+        <Rom crc32="B5E40BEF" bytes="1608233"
+            title="ghouls"
+            en="Ghouls'n Ghosts (World)"
+            zhcn="大魔界村 (世界版)"
+            apps-work=""
+            apps-not-work=""
+        />
+    </Game>
+    <Game name="Three Wonders">
+        <Rom crc32="C1A3CC0C" bytes="2479888"
+            title="3wonders"
+            en="Three Wonders (wonder 3 910520 etc)"
+            zhcn="三个奇迹 (wonder 3 910520 etc)"
+            apps-work=""
+            apps-not-work=""
+        />
+    </Game>
+</Game-List>

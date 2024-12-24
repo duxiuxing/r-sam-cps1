@@ -4,7 +4,7 @@
 	<game name="1941 - Counter Attack">
 		<id>39873A</id>
 	<locale lang="EN">
-	<title>1941: Counter Attack</title>
+	<title>1941 - Counter Attack</title>
 	<synopsis>The goal is to shoot down enemy airplanes and collect weapon power-ups (POW). One is only able to perform three loops per level and a bonus is awarded at the end of the level for unused loops. Player 1 uses a P-38 Lightning and Player 2 uses a Mosquito Mk IV. The game shifts from the original Pacific Front setting with that of the Western Front.
 
 The game consists of six levels.
@@ -30,6 +30,19 @@ O Jogador 1 usa um P-38 Relâmpago e o Jogador 2 usa um Mosquito MkIV. O jogo mu
 O jogo consiste em seis níveis.
 Foi o primeiro shoot 'em up para adicionar +1 ao placar quando um continue é usado.</synopsis>
 	<genre>Shoot'em Up / Vertical,Shoot'em Up</genre>
+	</locale>
+	<locale lang="ZHCN">
+		<title>1941 反击战</title>
+		<synopsis>《1941 反 击 战》一 改 以 往 同 类 型 游 戏 中，玩 家 拥 有 若 干 架 飞 机 生 命 的 做 法，采 用 了 生 命 值 系 统 的 设 计，每 当 玩 家 被 击 中 时 就 损 失 一 格 生 命 值，当 生 命 值 为 0 时 则 游 戏 结 束，玩 家 可 以 选 择 是 否 投 币 继 续。游 戏 中 的 保 险 大 招 会 有 强 力 的 清 屏 效 果，但 代 价 是 损 失 一 格 生 命 值。
+
+游 戏 一 共 有 六 大 关 卡：北 大 西 洋 上 空、欧 洲 港 口、V3 火 箭 基 地、布 兰 登 堡 大 门、大 平 原 和 敌 方 总 基 地。
+
+虽 然 游 戏 名 称 里 的 年 份（1941）比 1942 要 早，但 是 这 款 游 戏 的 推 出 时 间 实 际 上 比《1942》要 晚 很 多，而 且 游 戏 的 内 容 似 乎 已 经 脱 离 二 战 题 材，改 走 未 来 战 争 的 路 线 了。
+
+游 戏 的 蓄 力 系 统 和 宝 物 Power 等 的 设 计 跟《1942》和《1943》差 不 多，但 是 趣 味 性 和 难 度 有 所 提 升。玩 家 控 制 的 飞 机 也 很 有 个 性，可 以 沿 着 崖 壁 的 边 缘，象 个 风 车 一 样 旋 转 前 进。
+
+关 卡 中 的 机 关 设 计 很 是 巧 妙，比 如 能 反 射 激 光 的 镜 子。Boss 团 里 的 战 斗 机、坦 克、装 甲 车，一 个 二 个 都 是 卡 普 空 STG 关 卡 的 招 牌 Boss，足 以 看 出 这 款 作 品 有 多 硬 核。</synopsis>
+	<genre>竖版飞行射击游戏</genre>
 	</locale>
 		<developer>Capcom</developer>
 		<publisher>Capcom</publisher>
@@ -70,6 +83,15 @@ Le jeu est en japonais, totalement injouable pour ceux ou celles qui ne maîtris
 	<locale lang="JA">
 	<title>Capcom World 2</title>
 	</locale>
+	<locale lang="ZHCN">
+		<title>卡普空世界2</title>
+		<synopsis>《卡 普 空 世 界2》聚 集 了 很 多 卡 普 空 的 经 典 游 戏 人 物，加 上 富 有 创 意 的 剧 情，是 卡 普 空 公 司 相 当 具 有 纪 念 价 值 的 作 品。
+
+游 戏 以 大 富 翁 走 格 子 的 方 式 进 行，目 的 要 打 倒 终 极 大 魔 王。不 过 由 于 这 是 一 款 问 答 游 戏，并 且 只 有 日 文 版 本，这 使 得 游 戏 的 受 众 非 常 有 限。
+
+虽 然 游 戏 设 计 得 相 当 巧 妙，但 是 不 懂 日 文 就 无 福 消 受 了，推 荐 日 文 水 平 出 色 的 玩 家 尝 试。</synopsis>
+		<genre>日文问答游戏</genre>
+	</locale>
 		<developer>Capcom</developer>
 		<publisher>Capcom</publisher>
 		<date year="1992" month="" day=""/>
@@ -82,7 +104,7 @@ Le jeu est en japonais, totalement injouable pour ceux ou celles qui ne maîtris
 			<control type="gamecube" required="false"/>
 		</input>
 	</game>
-	<game name="Cadillacs And Dinosaurs">
+	<game name="Cadillacs and Dinosaurs">
 		<id>37360A</id>
 	<locale lang="EN">
 	<title>Cadillacs and Dinosaurs</title>
@@ -108,6 +130,25 @@ Após inúmeros desastres naturais causados pela poluição, a humanidade entra 
 	</locale>
 	<locale lang="JA">
 	<title>Cadillacs Kyouryuu-Shinseiki</title>
+	</locale>
+	<locale lang="ZHCN">
+		<title>恐龙快打</title>
+		<synopsis>《恐 龙 快 打》又 称《恐 龙 新 世 纪》，承 载 了 许 多 80 后 的 童 年 回 忆。
+
+作 品 中 的 道 具 较 以 往 同 类 作 品 有 很 大 的 强 化。比 如 木 桶 一 类 的 容 器 道 具，除 了 砸 破 后 可 以 得 到 其 中 的 物 品，还 可 以 被 角 色 抬 起 作 为 投 掷 道 具。又 比 如 所 有 的 枪 械 道 具 都 有 弹 药 的 概 念，弹 药 用 完 就 只 能 作 为 一 次 性 的 投 掷 道 具 了，玩 家 甚 至 还 可 以 抢 到 敌 人 的 武 器 来 反 制。
+
+除 了 普 通 攻 击、快 跑 中 的 重 击、两 键 齐 按 的 去 血 保 命 绝 招，配 合 方 向 键，还 能 使 出 各 种 大 招 和 摔 技。
+
+游 戏 改 编 自 1986 年 的 美 国 漫 画《Xenozoic Tales》，中 文 名《新 侏 罗 纪 神 话》，讲 述 由 于 全 球 气 候 变 暖，海 平 面 上 升，人 类 不 得 已 躲 入 深 埋 地 下 的 Vault 避 难 所 以 求 生 存。
+
+到 了 公 元 26 世 纪，地 表 恢 复 到 适 宜 居 住 的 状 态，人 类 再 次 回 到 地 面，发 现 恐 龙 因 全 球 变 暖 和 生 态 好 转 再 次 出 现。人 们 对 于 恐 龙 的 看 法 不 一，一 些 人 认 为 应 该 和 恐 龙 和 谐 共 存，另 一 些 人 则 以 猎 杀 或 抓 捕 恐 龙 牟 利。
+
+主 角 Jack 住 在 纽 约，是 坚 定 的“人 龙 共 存 派”，为 了 保 护 恐 龙，常 与 恐 龙 猎 人 发 生 冲 突。Jack 的 爱 好 是 收 集 和 修 复 经 典 的 20 世 纪 美 制 凯 迪 拉 克 轿 车，但 由 于 石 油 的 枯 竭 亦 或 是 炼 油 技 术 的 丧 失，他 必 须 使 用 恐 龙 提 取 液 作 为 车 子 的 替 代 能 源。
+
+2513 年，针 对 恐 龙 的 盗 猎 活 动 突 然 猛 增，Jack 和 他 的 朋 友 们 决 定 一 查 到 底，发 现 其 中 有 远 比 投 机 买 卖 更 大 的 阴 谋。原 来，疯 狂 科 学 家 Fessenden 博 士 想 通 过 基 因 工 程，研 究 恐 龙 以 获 得 征 服 世 界 的 力 量。他 通 过 黑 市 交 易 购 买 恐 龙 就 是 为 了 获 取 实 验 样 品。他 不 仅 制 造、控 制 恐 龙，而 且 还 研 究 如 何 将 人 和 恐 龙 合 体，创 造 攻 击 力 超 强 的 变 异 怪 物。
+
+游 戏 的 四 个 主 角 得 知 了 博 士 的 计 划 后，开 着 凯 迪 拉 克 轿 车，一 路 奋 战，打 败 了 博 士 众 多 的 手 下，杀 死 已 变 异 的 邪 恶 博 士，并 触 发 了 位 于 纽 约 地 下，由 原 Vault 避 难 所 改 造 而 成 的 博 士 实 验 室 自 毁。</synopsis>
+		<genre>清版动作游戏</genre>
 	</locale>
 		<developer>Capcom</developer>
 		<publisher>Capcom</publisher>
@@ -141,6 +182,19 @@ Após inúmeros desastres naturais causados pela poluição, a humanidade entra 
 	</locale>
 	<locale lang="PT">
 	<synopsis>Captain Commando se passa em futuro assustador no ano de 2026, onde um super-herói chamado Capitão Comando, auxiliado por seus três companheiros de comando, se levanta para proteger a Terra e toda a Galáxia de um bando de criminosos superpotentes.</synopsis>
+	</locale>
+	<locale lang="ZHCN">
+		<title>名将</title>
+		<synopsis>《名 将》这 款 游 戏 的 平 衡 性 较 强，难 度 适 中，节 奏 爽 快，讲 究 配 合，最 多 支 持 4 人 同 时 游 戏，每 个 角 色 都 个 性 鲜 明，拥 有 独 一 无 二 的 招 式。
+
+这 款 风 靡 一 时 的 街 机 清 版 动 作 游 戏，是 卡 普 空 公 司 的 原 创 作 品，当 年 还 有 漫 画 同 步 发 行，《突 击 队 长》才 是 它 的 正 确 名 字，但 是 因 为 漫 画 并 未 传 入 国 内，所 以 很 多 玩 家 并 不 知 晓。
+
+故 事 讲 述 的 是 公 元 2026 年，地 球 上 恶 势 力 横 行，罪 犯 们 大 多 拥 有 常 人 所 没 有 的 特 殊 能 力 和 高 科 技 武 器。一 支 由 木 乃 伊、警 察、忍 者 和 天 才 儿 童 组 成 的 特 种 部 队 奋 起 反 抗，与 超 能 力 犯 罪 集 团 展 开 斗 争。
+
+在 游 戏 过 程 中，主 角 可 以 坐 上 巨 大 的 步 行 机 与 敌 人 作 战，步 行 机 虽 然 威 力 巨 大，但 是 由 于 体 积 巨 大，而 且 行 动 迟 缓，被 攻 击 的 可 能 性 也 大 大 增 加，这 种“坐 骑”的 设 计 概 念 被 以 后 很 多 作 品 所 借 鉴。
+
+除 了 游 戏 画 面 和 操 作 手 感 上 的 巨 大 进 步，《名 将》还 将《快 打 旋 风》开 创 的“摆 拳”玩 法 进 一 步 发 扬 光 大，无 论 什 么 Boss，都 可 以 用 一 套 摆 拳 直 接 连 死。</synopsis>
+		<genre>清版动作游戏</genre>
 	</locale>
 		<developer>Capcom</developer>
 		<publisher>Capcom</publisher>
@@ -182,6 +236,13 @@ Au premier coup d'?il, cette suite de U.N Squadron / Area 88 a l'aspect d'un sho
 	<locale lang="JA">
 	<title>U.S. Navy</title>
 	</locale>
+	<locale lang="ZHCN">
+		<title>雌虎战机</title>
+		<synopsis>在本作诞生之前，卡普空原本是想制作一款《战区88》的续编作品，但由于未能取得相关版权，制作人只好修改计划，制作成内容独立的原创作品。
+《雌虎战机》沿袭了《战区88》的佣兵制系统，每一关消灭Boss后获得的金钱，可以用来购买和升级各种武器装备，还是可以用来购买加长生命的血槽。
+游戏剧情中，X国的兵器大体上以苏联兵器为主题，也使用了一部分诸如隐形战斗机、早期警戒机等美国兵器。</synopsis>
+		<genre>横版飞行射击游戏</genre>
+	</locale>
 		<developer>Capcom</developer>
 		<publisher>Capcom</publisher>
 		<date year="1990" month="" day=""/>
@@ -218,6 +279,10 @@ Au premier coup d'?il, cette suite de U.N Squadron / Area 88 a l'aspect d'un sho
 	<locale lang="JA">
 	<title>Tenchi wo Kurau</title>
 	</locale>
+	<locale lang="ZHCN">
+		<title>吞食天地 王朝战争</title>
+		<genre>清版动作游戏</genre>
+	</locale>
 		<developer>Capcom</developer>
 		<publisher>Capcom</publisher>
 		<date year="1989" month="" day=""/>
@@ -252,6 +317,10 @@ Au premier coup d'?il, cette suite de U.N Squadron / Area 88 a l'aspect d'un sho
 	<synopsis>Final Fight pode ser jogado por até dois jogadores simultaneamente, com cada jogador controlando um personagem diferente. Antes do jogo começar, o jogador escolhe entre os três personagens principais, Guy, Cody e Haggar, cada um com seu próprio estilo de luta e atributos. Guy é o mais fraco, mas tem ataques mais rápidos, Haggar é o mais forte, mas também o mais lento, e Cody tem todos os atributos.
 
 Final Fight consiste em seis etapas ou "rodadas", bem como duas rodadas de bônus. Cada rodada tem lugar em uma seção diferente de Metro City, como as favelas e do metrô, com a maioria das rodadas com mais de um nível. No final de cada rodada, o jogador enfrentará um personagem de chefe exclusivo dessa rodada.</synopsis>
+	</locale>
+	<locale lang="ZHCN">
+		<title>快打旋风</title>
+		<genre>清版动作游戏</genre>
 	</locale>
 		<developer>Capcom</developer>
 		<publisher>Capcom</publisher>
@@ -292,6 +361,9 @@ Situado em um futuro distante, um deus maligno conhecido como Imperador BIOS des
 	<locale lang="JA">
 	<title>Lost Worlds</title>
 	</locale>
+	<locale lang="ZHCN">
+		<title>失落的世界</title>
+	</locale>
 		<developer>Capcom</developer>
 		<publisher>Capcom</publisher>
 		<date year="1988" month="06" day="01"/>
@@ -326,6 +398,9 @@ The game concept is pretty simple: 2 Frogs who have to eat as much insects as po
 	<locale lang="PT">
 	<synopsis>Frog Feast é um jogo caseiro e uma adaptação do jogo para Intellivision "Frog Bog".nnO conceito do jogo é bem simples: 2 rãs que precisam comer o máximo de insetos possível em um tempo limitado.</synopsis>
 	</locale>
+	<locale lang="ZHCN">
+		<title>青蛙捕虫</title>
+	</locale>
 		<developer>Rastersoft</developer>
 		<publisher>Rastersoft</publisher>
 		<date year="2006" month="" day=""/>
@@ -359,6 +434,9 @@ The game concept is pretty simple: 2 Frogs who have to eat as much insects as po
 	<locale lang="PT">
 	<synopsis>Ganbare Marin-kun é o último e provavelmente mais raro jogo lançado no CPS1. Eu não conheço ninguém que tenha ouvido falar até que ele apareceu para venda. É um jogo de medalhas, mas junto com Tobikose Jumpman e Alien, os melhores que eu já vi. A música copia várias coisas, incluindo a música tema do Indiana Jones.</synopsis>
 	<genre>Tiro,Tiro / Tiro em 3ª pessoa</genre>
+	</locale>
+	<locale lang="ZHCN">
+		<title>加油！海洋君</title>
 	</locale>
 		<developer>Capcom</developer>
 		<publisher>Capcom</publisher>
@@ -400,6 +478,10 @@ Você percorrerá perigosamente o Local de Execução, a Aldeia de Decadência, 
 	<locale lang="JA">
 	<title>Dai Makai-Mura</title>
 	</locale>
+	<locale lang="ZHCN">
+		<title>大魔界村</title>
+		<genre>平台动作游戏</genre>
+	</locale>
 		<developer>Capcom</developer>
 		<publisher>Capcom</publisher>
 		<date year="1988" month="12" day="01"/>
@@ -412,10 +494,10 @@ Você percorrerá perigosamente o Local de Execução, a Aldeia de Decadência, 
 			<control type="gamecube" required="false"/>
 		</input>
 	</game>
-	<game name="King Of Dragons, The">
+	<game name="The King of Dragons">
 		<id>37366A</id>
 	<locale lang="EN">
-	<title>The King Of Dragons</title>
+	<title>The King of Dragons</title>
 	<synopsis>The King of Dragons is a 1991 side-scrolling hack and slash video game by Capcom that allows players to choose from five characters (Elf, Wizard, Fighter, Cleric, and Dwarf) in order to travel through the kingdom of Malus and defeat the monsters that have taken over, as well as their leader, the red dragon Gildiss. Like Capcom's Knights of the Round, it features a level advancement system, allowing character attributes to be upgraded as players progress through the game. The setting is very similar to that of Dungeons &amp; Dragons and other medieval fantasy worlds, with familiar monsters such as Orcs, Gnolls, Harpies, Wyverns, Cyclopes, and Minotaurs.
 
 The game was ported to the Super NES and released in 1994. An emulated version of the game was released as part of Capcom Classics Collection Vol. 2 and Capcom Classics Collection: Reloaded.</synopsis>
@@ -437,6 +519,9 @@ The game was ported to the Super NES and released in 1994. An emulated version o
 O jogo foi portado para o Super NES e lançado em 1994. Uma versão emulada do jogo foi lançado como parte da Capcom Classics Collection Vol. 2 e Capcom Classics Coleção: Reloaded.</synopsis>
 	<genre>Briga de rua,Luta / 2.5D,Luta</genre>
 	</locale>
+	<locale lang="ZHCN">
+		<title>龙王战士</title>
+	</locale>
 		<developer>Capcom</developer>
 		<publisher>Capcom</publisher>
 		<date year="1991" month="" day=""/>
@@ -449,7 +534,7 @@ O jogo foi portado para o Super NES e lançado em 1994. Uma versão emulada do j
 			<control type="gamecube" required="false"/>
 		</input>
 	</game>
-	<game name="Knights Of The Round">
+	<game name="Knights of the Round">
 		<id>42020A</id>
 	<locale lang="EN">
 	<title>Knights of the Round</title>
@@ -471,6 +556,9 @@ A ne pas manquer !!!</synopsis>
 	<locale lang="PT">
 	<synopsis>Knights of the Round é um jogo de arcade lançado pela Capcom em 1991. Um side-scrolling beat 'em up baseado livremente sobre a lenda do Rei Arthur e os Cavaleiros da Tábula Redonda, o jogo apresenta um sistema avançado de melhorias no estilo RPG, com os lutadores obtendo novas armas e armaduras confome avançam através do jogo, no entanto, o jogador não pode escolher como atualizar seu personagem - sistema de melhorias é estático.</synopsis>
 	</locale>
+	<locale lang="ZHCN">
+		<title>圆桌骑士</title>
+	</locale>
 		<developer>Capcom</developer>
 		<publisher>Capcom</publisher>
 		<date year="1991" month="" day=""/>
@@ -486,7 +574,7 @@ A ne pas manquer !!!</synopsis>
 	<game name="Magic Sword - Heroic Fantasy">
 		<id>57920A</id>
 	<locale lang="EN">
-	<title>Magic Sword: Heroic Fantasy</title>
+	<title>Magic Sword - Heroic Fantasy</title>
 	<synopsis>The land has been cast in darkness by Drokmar, who has been corrupted by the Black Orb; an artefact that promises immortality to anyone who comes under the influence of the orb's powerful sorcery. Tw</synopsis>
 	<genre>Plateform / Fighter Scrolling,Platform</genre>
 	</locale>
@@ -511,6 +599,9 @@ No final do jogo, quando Drokmar é derrotado, o jogador tem a opção de duas t
 	<locale lang="JA">
 	<title>Magic Sword</title>
 	</locale>
+	<locale lang="ZHCN">
+		<title>魔法剑 英雄的幻想</title>
+	</locale>
 		<developer>Capcom</developer>
 		<publisher>Capcom</publisher>
 		<date year="1990" month="" day=""/>
@@ -526,7 +617,7 @@ No final do jogo, quando Drokmar é derrotado, o jogador tem a opção de duas t
 	<game name="Mega Man - The Power Battle">
 		<id>78892A</id>
 	<locale lang="EN">
-	<title>Mega Man: The Power Battle</title>
+	<title>Mega Man - The Power Battle</title>
 	<synopsis>Have you ever pictured a Rockman or Megaman game that allows to skip all the platform elements and just grapple against the bosses? That's pretty much the main idea in this game! Choose from Rockman/Megaman, Protoman or Bass and battle against classic bosses in the series. Features great 2-D graphics, solid control, and a nice use of strategy (since the right order of weapons will rid you of specific enemies in no time!).</synopsis>
 	<genre>Fight /  Co-op,Fight</genre>
 	</locale>
@@ -556,6 +647,9 @@ Uma adaptação de ambos os jogos para o Neo Geo Pocket Color, intitulado Rockma
 	</locale>
 	<locale lang="JA">
 	<title>Rockman: The Power Battle</title>
+	</locale>
+	<locale lang="ZHCN">
+		<title>洛克人 力量之战</title>
 	</locale>
 		<developer>Capcom</developer>
 		<publisher>Capcom</publisher>
@@ -595,6 +689,9 @@ O jogo conta com dois gêmeos que estão tentando retomar o controle de sua terr
 	<locale lang="JA">
 	<title>Chiki Chiki Boys</title>
 	</locale>
+	<locale lang="ZHCN">
+		<title>双麒儿</title>
+	</locale>
 		<developer>Capcom</developer>
 		<publisher>Capcom</publisher>
 		<date year="1990" month="" day=""/>
@@ -632,6 +729,9 @@ A versão arcade do jogo tem até três jogadores disponíveis para jogar. Os jo
 	<locale lang="JA">
 	<title>Senjo no Okami II</title>
 	</locale>
+	<locale lang="ZHCN">
+		<title>战场之狼2</title>
+	</locale>
 		<developer>Capcom</developer>
 		<publisher>Capcom</publisher>
 		<date year="1990" month="" day=""/>
@@ -648,7 +748,7 @@ A versão arcade do jogo tem até três jogadores disponíveis para jogar. Os jo
 	<game name="Muscle Bomber Duo - Ultimate Team Battle">
 		<id>37367A</id>
 	<locale lang="EN">
-	<title>Muscle Bomber Duo : Ultimate Team Battle</title>
+	<title>Muscle Bomber Duo - Ultimate Team Battle</title>
 	<synopsis>Professional wrestling experienced a sudden increase in popularity during the early 1980s, where many professional wrestling organizations were started all over the world. A severe rivalry existed among the organizations.
 
 In order to resolve this conflict, 8 organizations combined to form the Capcom Professional Wrestling Association (CPWA), led by Victor Ortega, the CPWA?s first champion.
@@ -682,6 +782,9 @@ Silent Assassins (Scorpion and Jumbo)</synopsis>
 	</locale>
 	<locale lang="JA">
 	<title>Muscle Bomber Duo: Heat Up Warriors</title>
+	</locale>
+	<locale lang="ZHCN">
+		<title>摔角霸王 最终之战</title>
 	</locale>
 		<developer>Capcom</developer>
 		<publisher>Capcom</publisher>
@@ -719,6 +822,9 @@ Nemo is a colourful and abstract platform shoot-em-up set in the dream world of 
 	<synopsis>Uma noite, enquanto Nemo dorme, ele é visitado em um sonho pelo rei de Slumberland, que convida Nemo a vir brincar com a filha do rei, a princesa. Nemo encontra-se incapaz de encontrar a princesa no entanto, assim ele e 'Flip', um companheiro estranho que também aparece no sonho, decidem explorar Slumberland e encontrar o rei. Nemo é um jogo shoot-em-up de colorido e abstrato dentro do mundo dos sonhos de Slumberland, um mundo surreal em que os brinquedos das crianças são malvados e devem ser destruído. Nemo está armado com uma coisas mágicas que emitem uma explosão de magia para destruir os muitos inimigos, alguns dos quais exigem vários acertos. Uma série de power-ups também aparecem em intervalos regulares para ajudar Nemo em sua busca através de sete estágios difíceis.</synopsis>
 	<genre>Plataforma,Plataforma / Combate com rolagem</genre>
 	</locale>
+	<locale lang="ZHCN">
+		<title>梦幻冒险</title>
+	</locale>
 		<developer>Capcom</developer>
 		<publisher>Capcom</publisher>
 		<date year="1990" month="" day=""/>
@@ -755,6 +861,9 @@ Another notable difference is in the game's use of backdrops: instead of the wor
 	<synopsis>Pang! 3, também conhecido como Buster Buddies, é um jogo de arcade de 1995 desenvolvido pela Capcom e publicado pela Mitchell Corp. Pinturas famosas são usadas como cenários para a ação.
 
 Ajude os dois personagens individuais a usarem as suas habilidades especiais para superar os obstáculos e estourar os balões! Assuma o controle de Don Tacos e use sua capacidade de atirar duas barreiras em direções separadas, ou Pirate Hog e sua habilidade incrível de enganchar barreiras sobre os níveis no topo da área também! Há também o Pink Leopard e Sheila the Thief para ajudar as missões! Com seus personagens escolhidos você deve percorrer os níveis para estourar todas os balões no menor número de acertos e tempo possível.</synopsis>
+	</locale>
+	<locale lang="ZHCN">
+		<title>魔法气泡3</title>
 	</locale>
 		<developer>Mitchell</developer>
 		<publisher>Capcom</publisher>
@@ -796,6 +905,9 @@ Il faudra donc agencer vos Pnickies de manière à les détruire. Pour ce faire,
 	<synopsis>Um jogo de queda de blocos lançado apenas para arcades. Os blocos da mesma cor combinam-se junto e mais pontos são concedidos por combos maiores.</synopsis>
 	<genre>Quebra-cabeças,Quebra-cabeças / Queda</genre>
 	</locale>
+	<locale lang="ZHCN">
+		<title>魔法方块</title>
+	</locale>
 		<developer>Capcom</developer>
 		<publisher>Capcom</publisher>
 		<date year="1994" month="" day=""/>
@@ -829,6 +941,9 @@ Il faudra donc agencer vos Pnickies de manière à les détruire. Pour ce faire,
 	<locale lang="PT">
 	<synopsis>Pokonyan! Balloon é um raro jogo da Capcom do Kids Amusement Park.nnVocê está em um balão, soltando flores e pegando outro balão.</synopsis>
 	</locale>
+	<locale lang="ZHCN">
+		<title>叮当猫</title>
+	</locale>
 		<developer>Capcom</developer>
 		<publisher>Capcom</publisher>
 		<date year="1994" month="" day=""/>
@@ -841,7 +956,7 @@ Il faudra donc agencer vos Pnickies de manière à les détruire. Pour ce faire,
 			<control type="gamecube" required="false"/>
 		</input>
 	</game>
-	<game name="Punisher, The">
+	<game name="The Punisher">
 		<id>37375A</id>
 	<locale lang="EN">
 	<title>The Punisher</title>
@@ -862,6 +977,9 @@ Il faudra donc agencer vos Pnickies de manière à les détruire. Pour ce faire,
 	<locale lang="PT">
 	<synopsis>The Punisher é um jogo arcade, beat 'em up,desenvolvido e lançado pela Capcom em 1993. Ele estrela o anti-herói da Marvel Comics o Punisher e co-estrela da S.H.I.E.L.D., o Agente Nick Fury, como o personagem do segundo jogador juntos embarcam em uma missão para matar o senhor do crime o Kingpin e derrubar sua organização. Apesar de seguir a mesma fórmula geral que o anterior beat 'em ups da Capcom, o jogo tem uma gama de armas utilizáveis ??e uma apresentação em estilo de quadrinhos</synopsis>
 	</locale>
+	<locale lang="ZHCN">
+		<title>惩罚者</title>
+	</locale>
 		<developer>Capcom</developer>
 		<publisher>Capcom</publisher>
 		<date year="1993" month="" day=""/>
@@ -874,10 +992,10 @@ Il faudra donc agencer vos Pnickies de manière à les détruire. Pour ce faire,
 			<control type="gamecube" required="false"/>
 		</input>
 	</game>
-	<game name="Quiz And Dragons - Capcom Quiz Game">
+	<game name="Quiz &amp; Dragons - Capcom Quiz Game">
 		<id>42583A</id>
 	<locale lang="EN">
-	<title>Quiz &amp; Dragons: Capcom Quiz Game</title>
+	<title>Quiz &amp; Dragons - Capcom Quiz Game</title>
 	<synopsis>The game plays similar to a board game, where the player is given a predetermined dice roll that moves the player up to six spaces on the board; however, if the player is so given the choice, he can move to a space of his choosing if there is a fork in the road. After landing on a space, the player is given a series of questions (the amount of questions needed to be answered increase as the game progresses) in order to proceed back to the board for another dice roll. The player is given a time limit to answer the question, with points given that vary based on how fast the player answered the question correctly. If the player is successful in answering a question, one of the orbs above the enemy's portrait will light up, indicating a correct answer. If the player answers a question incorrectly, he will lose a life point. if the player loses all life points, the player must continue within the time limit or else the game is over.</synopsis>
 	<genre>Quiz,Quiz / English</genre>
 	</locale>
@@ -898,6 +1016,9 @@ Le joueur choisit un des quatre aventuriers entre le guerrier, le ninja, l'amazo
 	<synopsis>O jogo é semelhante a um jogo de tabuleiro, onde o jogador recebe um lance de dados predeterminado que move o jogador até seis casas no tabuleiro; no entanto, se o jogador tiver essa opção, ele poderá se mover para um espaço de sua escolha se houver uma bifurcação na estrada. Depois de aterrissar em um espaço, o jogador recebe uma série de perguntas (a quantidade de perguntas que precisam ser respondidas aumentam à medida que o jogo avança) para voltar ao tabuleiro para outro teste de dados. O jogador recebe um limite de tempo para responder à pergunta, com pontos que variam de acordo com a rapidez com que o jogador respondeu à pergunta corretamente. Se o jogador for bem sucedido em responder a uma pergunta, um dos orbes acima do retrato do inimigo se acenderá, indicando uma resposta correta. Se o jogador responder uma pergunta incorretamente, ele perderá um ponto de vida. Se o jogador perder todos os pontos de vida, o jogador deve continuar dentro do limite de tempo ou então o jogo termina.</synopsis>
 	<genre>Quiz,Quiz / Inglês</genre>
 	</locale>
+	<locale lang="ZHCN">
+		<title>龙之迷题</title>
+	</locale>
 		<developer>Capcom</developer>
 		<publisher>Capcom</publisher>
 		<date year="1992" month="" day=""/>
@@ -910,10 +1031,10 @@ Le joueur choisit un des quatre aventuriers entre le guerrier, le ninja, l'amazo
 			<control type="gamecube" required="false"/>
 		</input>
 	</game>
-	<game name="Quiz Tonosama No Yabou 2 - Zenkoku-ban">
+	<game name="Quiz Tonosama no Yabou 2 - Zenkoku-ban">
 		<id>42606A</id>
 	<locale lang="EN">
-	<title>Quiz Tonosama no Yabou 2: Zenkoku-ban</title>
+	<title>Quiz Tonosama no Yabou 2 - Zenkoku-ban</title>
 	<synopsis>Quiz Tonosama no Yabou 2 - Zenkoku-ban is a feudal Japanese quiz game from Capcom.</synopsis>
 	<genre>Quiz,Quiz / Japanese</genre>
 	</locale>
@@ -931,6 +1052,9 @@ Le joueur choisit un des quatre aventuriers entre le guerrier, le ninja, l'amazo
 	<locale lang="PT">
 	<synopsis>Quiz Tonosama no Yabou 2 - Zenkoku-ban é um jogo de perguntas feudal japonês da Capcom.</synopsis>
 	<genre>Quiz,Quiz / Japonês</genre>
+	</locale>
+	<locale lang="ZHCN">
+		<title>城主的野心问答2 全国版</title>
 	</locale>
 		<developer>Capcom</developer>
 		<publisher>Capcom</publisher>
@@ -967,6 +1091,9 @@ Le joueur choisit un des quatre aventuriers entre le guerrier, le ninja, l'amazo
 O jogo foi seguido de um upgrade chamado "Muscle Bomber Duo: Ultimate Team Battle" em Dezembro de 1993.</synopsis>
 	<genre>Esporte,Esporte / Luta Livre</genre>
 	</locale>
+	<locale lang="ZHCN">
+		<title>摔角霸王</title>
+	</locale>	
 		<developer>Capcom</developer>
 		<publisher>Capcom</publisher>
 		<date year="1993" month="" day=""/>
@@ -979,10 +1106,10 @@ O jogo foi seguido de um upgrade chamado "Muscle Bomber Duo: Ultimate Team Battl
 			<control type="gamecube" required="false"/>
 		</input>
 	</game>
-	<game name="Street Fighter 2 - Hyper Fighting">
+	<game name="Street Fighter II' Turbo - Hyper Fighting">
 		<id>37378A</id>
 	<locale lang="EN">
-	<title>Street Fighter II : Hyper Fighting</title>
+	<title>Street Fighter II' Turbo - Hyper Fighting</title>
 	<synopsis>Street Fighter II' - Hyper Fighting is the second SFII follow-up. Here's what's new: 
 Gameplay is SIGNIFICANTLY sped up to intensify the pace of the game. 
 More special moves (ie. Chun Li's fireball, Dhalsim's Yoga Teleport) are added for each character except for M. Bison. 
@@ -1012,6 +1139,9 @@ Hyper Fighting é o ultimo jogo da série a utilizar o hardware original do CP S
 	<locale lang="JA">
 	<title>Street Fighter II' Turbo: Hyper Fighting</title>
 	</locale>
+	<locale lang="ZHCN">
+		<title>街头霸王2 究极格斗</title>
+	</locale>
 		<developer>Capcom</developer>
 		<publisher>Capcom</publisher>
 		<date year="1992" month="12" day="01"/>
@@ -1024,10 +1154,10 @@ Hyper Fighting é o ultimo jogo da série a utilizar o hardware original do CP S
 			<control type="gamecube" required="false"/>
 		</input>
 	</game>
-	<game name="Street Fighter 2 - The World Warrior">
+	<game name="Street Fighter II - The World Warrior">
 		<id>42982A</id>
 	<locale lang="EN">
-	<title>Street Fighter II: The World Warrior</title>
+	<title>Street Fighter II - The World Warrior</title>
 	<synopsis>GET READY TO RUMBLE!
 
 From across the globe comes eight of the wildest fighters the world has ever known. Choose your champion, gather your courage and prepare to battle your opponents in a bare knuckle brawl. Face Ken and his devastating "Dragon Punch"! Watch the temperature rise as Dhalsim incinerates you with his mystical Yoga Flame! Hear your spine crack as Zangief smashes you to the pavement with his spinning pile driver! Cover your ears as Guile breaks the sound barrier with the awesome power of the Sonic Boom!
@@ -1054,6 +1184,9 @@ Un jeu indispensable, qui est toujours, depuis sa sortie en 1991, l'archétype d
 	<synopsis>Street Fighter II: The World Warrior é um videojogo de luta competitivo, lançado originalmente para as máquinas arcade em 1991. É o segundo jogo da série Street Fighter e a sequela do jogo original, lançado em 1987. Foi o décimo quarto título da Capcom a usar um hardware CP System. Street Fighter II melhorou muitos dos conceitos introduzidos no primeiro jogo, incluindo o uso de movimentos especiais baseados em comandos, uma configuração de seis botões, ao mesmo tempo que oferecia aos jogadores uma seleção múltipla de personagens jogáveis, cada um com o seu próprio estilo de luta. Street Fighter II também introduziu o sistema de ?combos? e o combate "frente-a-frente" entre dois jogadores.</synopsis>
 	<genre>Luta,Luta / Versus</genre>
 	</locale>
+	<locale lang="ZHCN">
+		<title>街头霸王2 天下斗士</title>
+	</locale>
 		<developer>Capcom</developer>
 		<publisher>Capcom</publisher>
 		<date year="1991" month="" day=""/>
@@ -1066,10 +1199,10 @@ Un jeu indispensable, qui est toujours, depuis sa sortie en 1991, l'archétype d
 			<control type="gamecube" required="false"/>
 		</input>
 	</game>
-	<game name="Street Fighter 2' - Champion Edition">
+	<game name="Street Fighter II' - Champion Edition">
 		<id>37377A</id>
 	<locale lang="EN">
-	<title>Street Fighter II' : Champion Edition</title>
+	<title>Street Fighter II' - Champion Edition</title>
 	<synopsis>From the corners of the globe come twelve of the toughest fighters to ever prowl the streets. Choose your champion and step into the arena as one of the eight original challengers or as one of the four Grand Masters! Pound your opponent as Balrog and knock them out for the count. Tower over your prey as Sagat and daze them with your awesome Tiger Shot. Slash your opponent with Vega's claw and send them running for cover. Or strike fear into your enemies as M. Bison, the greatest Grand Master of them all!</synopsis>
 	<genre>Fight,Fight / Versus</genre>
 	</locale>
@@ -1088,6 +1221,9 @@ Un jeu indispensable, qui est toujours, depuis sa sortie en 1991, l'archétype d
 	<synopsis>Dos cantos do globo vêm doze dos lutadores mais durões, vindo das ruas. Escolha o seu campeão e entre na arena como um dos oito desafiadores originais ou como um dos quatro Grandes Mestres! Soque seu oponente e nocautei-os até a abertura da contagem, como Balrog. Proteja-se de sua presa como Sagat e em seguida os atordoe com seu impressionante tiro Tiger. Fatie seu oponente com garra de Vega e enviá-los correndo para casa. Ou golpeie o medo em seus inimigos como o M. Bison, o grande mestre de tudo!</synopsis>
 	<genre>Luta,Luta / Versus</genre>
 	</locale>
+	<locale lang="ZHCN">
+		<title>街头霸王2 四大天王</title>
+	</locale>
 		<developer>Capcom</developer>
 		<publisher>Capcom</publisher>
 		<date year="1992" month="03" day="01"/>
@@ -1103,7 +1239,7 @@ Un jeu indispensable, qui est toujours, depuis sa sortie en 1991, l'archétype d
 	<game name="Street Fighter Zero">
 		<id>64254A</id>
 	<locale lang="EN">
-	<title>Street Fighter Alpha: Warriors' Dreams</title>
+	<title>Street Fighter Zero</title>
 	<synopsis>The game introduces several new features, expanding on the Super Combo system previously featured in Super Street Fighter II Turbo, with graphics drawn in the same cartoonish style Capcom employed in Darkstalkers and X-Men: Children of the Atom.[2][3] The plot of Street Fighter Alpha is set after the original Street Fighter but before Street Fighter II and thus the game features younger versions of established characters, as well as characters from the original Street Fighter and Final Fight, and a few who are new to the series.</synopsis>
 	<genre>Fight,Fight / 2D</genre>
 	</locale>
@@ -1124,6 +1260,9 @@ Un jeu indispensable, qui est toujours, depuis sa sortie en 1991, l'archétype d
 	</locale>
 	<locale lang="JA">
 	<title>Street Fighter Zero</title>
+	</locale>
+	<locale lang="ZHCN">
+		<title>少年街霸</title>
 	</locale>
 		<developer>Capcom</developer>
 		<publisher>Capcom</publisher>
@@ -1165,6 +1304,9 @@ Todavia, Hiryu, um valente guerreiro Strider, armado com sua poderosa espada cyp
 	<locale lang="JA">
 	<title>Strider Hiryu</title>
 	</locale>
+	<locale lang="ZHCN">
+		<title>出击飞龙</title>
+	</locale>
 		<developer>Capcom</developer>
 		<publisher>Capcom</publisher>
 		<date year="1989" month="" day=""/>
@@ -1177,10 +1319,10 @@ Todavia, Hiryu, um valente guerreiro Strider, armado com sua poderosa espada cyp
 			<control type="gamecube" required="false"/>
 		</input>
 	</game>
-	<game name="Warriors Of Fate">
+	<game name="Warriors of Fate">
 		<id>44111A</id>
 	<locale lang="EN">
-	<title>Tenchi wo Kurau II: Sekiheki no Tatakai</title>
+	<title>Warriors of Fate</title>
 	<synopsis>Warriors of Fate is a side-scrolling beat 'em up produced by Capcom, first released as a coin-operated arcade game in 1992 and later ported to the Sega Saturn and Sony PlayStation. It is Capcom's third game based on the Tenchi wo Kurau manga, following Dynasty Wars and Destiny of an Emperor.</synopsis>
 	<genre>Beat'em Up</genre>
 	</locale>
@@ -1204,6 +1346,9 @@ Sympa.</synopsis>
 	</locale>
 	<locale lang="JA">
 	<title>Tenchi wo Kurau II: Sekiheki no Tatakai</title>
+	</locale>
+	<locale lang="ZHCN">
+		<title>吞食天地2 赤壁之战</title>
 	</locale>
 		<developer>Capcom</developer>
 		<publisher>Capcom</publisher>
@@ -1245,6 +1390,9 @@ Chariot: Aventura através do céu - Um shoot 'em up jogo com os personagens de 
 Don't Pull- Um jogo de quebra-cabeça semelhante a jogos como a série Eggerland, Pengo e Capcom próprio jogo de puzzle Navio Pirata Higemaru que envolve empurrar blocos para esmagar monstros.</synopsis>
 	<genre>Plataforma,Compilação</genre>
 	</locale>
+	<locale lang="ZHCN">
+		<title>三个奇迹</title>
+	</locale>
 		<developer>Capcom</developer>
 		<publisher>Capcom</publisher>
 		<date year="1991" month="" day=""/>
@@ -1257,7 +1405,7 @@ Don't Pull- Um jogo de quebra-cabeça semelhante a jogos como a série Eggerland
 			<control type="gamecube" required="false"/>
 		</input>
 	</game>
-	<game name="U.n. Squadron">
+	<game name="U.N. Squadron">
 		<id>43837A</id>
 	<locale lang="EN">
 	<title>U.N. Squadron</title>
@@ -1286,6 +1434,9 @@ Greg Gates: Greg voa um A-10 Thunderbolt; Este avião tem menor poder de fogo pa
 	<locale lang="JA">
 	<title>Area 88</title>
 	</locale>
+	<locale lang="ZHCN">
+		<title>战区88</title>
+	</locale>
 		<developer>Capcom</developer>
 		<publisher>Capcom</publisher>
 		<date year="1989" month="" day=""/>
@@ -1301,7 +1452,7 @@ Greg Gates: Greg voa um A-10 Thunderbolt; Este avião tem menor poder de fogo pa
 	<game name="Varth - Operation Thunderstorm">
 		<id>37382A</id>
 	<locale lang="EN">
-	<title>Varth: Operation Thunderstorm</title>
+	<title>Varth - Operation Thunderstorm</title>
 	<synopsis>Varth: Operation Thunderstorm is an arcade game in the vertical scrolling shooter genre, published in 1992. The game did not see a console port following its initial release, but 14 years later Digital Eclipse Software would port the game onto the PlayStation 2, PSP and Xbox as part of the Capcom Classics Collection Vol. 2.</synopsis>
 	<genre>Shoot'em up / Vertical,Shoot'em Up</genre>
 	</locale>
@@ -1319,6 +1470,9 @@ Greg Gates: Greg voa um A-10 Thunderbolt; Este avião tem menor poder de fogo pa
 	<locale lang="PT">
 	<synopsis>Varth: Operation Thunderstorm é um jogo de arcade no gênero de tiro com rolagem vertical, publicado em 1992. O jogo não viu um port para consoles após seu lançamento inicial, mas 14 anos depois o Digital Eclipse Software colocaria o jogo no PlayStation 2, PSP e Xbox como parte da coleção Capcom Classics Vol. 2</synopsis>
 	<genre>Shoot'em Up / Vertical,Shoot'em Up</genre>
+	</locale>
+	<locale lang="ZHCN">
+		<title>威虎战机 雷暴行动</title>
 	</locale>
 		<developer>Capcom</developer>
 		<publisher>Capcom</publisher>
@@ -1363,6 +1517,9 @@ Jogos de Willow não relacionados também foram lançados para o Amiga, Atari ST
 Enredo
 A bruxa malvada rainha Bavmorda está atrás do bebê santo das terras, Elora Danan, com a intenção de destruí-la. Um jovem assistente chamado Willow Ufgood foi selecionado para proteger Elora. Mais tarde, um bravo guerreiro chamado Madmartigan se junta a Willow para lutar contra o rival rival Geral Kael.</synopsis>
 	<genre>Plataforma,Plataforma / Tiro com rolagem</genre>
+	</locale>
+	<locale lang="ZHCN">
+		<title>威洛之旅</title>
 	</locale>
 		<developer>Capcom</developer>
 		<publisher>Lucasfilm</publisher>
