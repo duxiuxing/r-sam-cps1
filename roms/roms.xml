@@ -71,6 +71,85 @@
             apps-not-work=""
         />
     </Game>
+    <Game name="Knights of the Round">
+        <Rom crc32="29BC394F" bytes="2355202"
+            title="knights"
+            en="Knights of the Round (911127 etc)"
+            zhcn="圆桌骑士 (911127 etc)"
+            apps-work="" apps-not-work=""
+        />
+    </Game>
+    <Game name="Magic Sword - Heroic Fantasy">
+        <Rom crc32="CF246210" bytes="1440358"
+            title="msword"
+            en="Magic Sword - Heroic Fantasy (25.07.1990 other country)"
+            zhcn="魔法剑 英雄的幻想 (25.07.1990 other country)"
+            apps-work="" apps-not-work=""
+        />
+    </Game>
+    <Game name="Mega Man - The Power Battle">
+        <Rom crc32="779C1CE7" bytes="3301557"
+            title="megaman"
+            en="Mega Man - The Power Battle (951006 USA)"
+            zhcn="洛克人 力量之战 (951006 美版)"
+            apps-work=""
+            apps-not-work=""
+        />
+    </Game>
+    <Game name="Mega Twins">
+        <Rom crc32="37C648BE" bytes="1435432"
+            title="mtwins"
+            en="Mega Twins (chiki chiki boys 900619 etc)"
+            zhcn="双麒儿 (chiki chiki boys 900619 etc)"
+            apps-work="" apps-not-work=""
+        />
+    </Game>
+    <Game name="Mercs">
+        <Rom crc32="DD86F423" bytes="1754056"
+            title="mercs"
+            en="Mercs (900302 etc)"
+            zhcn="战场之狼2 (900302 etc)"
+            apps-work="" apps-not-work="" />
+    </Game>
+    <Game name="Muscle Bomber Duo - Ultimate Team Battle">
+        <Rom crc32="7E214FC4" bytes="6510038"
+            title="mbombrd"
+            en="Muscle Bomber Duo - Ultimate Team Battle (931206 World)"
+            zhcn="摔角霸王 最终之战 (931206 世界版)"
+            apps-work="" apps-not-work=""
+        />
+    </Game>
+    <Game name="Nemo">
+        <Rom crc32="2DE12145" bytes="1340367"
+            title="nemo" en="Nemo (90 11 30 etc)"
+            zhcn="梦幻冒险 (90 11 30 etc)"
+            apps-work="" apps-not-work=""
+        />
+    </Game>
+    <Game name="Pang! 3">
+        <Rom crc32="48BFD83A" bytes="1536927"
+            title="pang3"
+            en="Pang! 3 (950601 Euro)"
+            zhcn="魔鬼气泡3 (950601 欧版)"
+            apps-work="" apps-not-work=""
+        />
+    </Game>
+    <Game name="Pnickies">
+        <Rom crc32="3A8E9DCB" bytes="768480"
+            title="pnickj"
+            en="Pnickies (940608 Japan)"
+            zhcn="魔法方块 (940608 日版)"
+            apps-work="" apps-not-work=""
+        />
+    </Game>
+    <Game name="The King of Dragons">
+        <Rom crc32="4F51657C" bytes="2361501"
+            title="kod"
+            en="The King of Dragons (World 910805)"
+            zhcn="龙王战士 (世界版 910805)"
+            apps-work="" apps-not-work=""
+        />
+    </Game>
     <Game name="Three Wonders">
         <Rom crc32="C1A3CC0C" bytes="2479888"
             title="3wonders"
