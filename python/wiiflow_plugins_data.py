@@ -122,7 +122,7 @@ class WiiFlowPluginsData:
         xml_file_path = WiiFlowPluginsData.xml_file_path()
 
         if not os.path.exists(xml_file_path):
-            print(f"无效的文件：{xml_file_path}")
+            print(f"【错误】无效的文件 {xml_file_path}")
             return
 
         self.game_id_to_info.clear()
@@ -142,7 +142,7 @@ class WiiFlowPluginsData:
                     if lang == "EN":
                         en_title = elem.find("title").text
                         if en_title not in game_name.split(" / "):
-                            print("英文名不一致")
+                            print("【警告】英文名不一致")
                             print(f"\tname     = {game_name}")
                             print(f"\tEN title = {en_title}")
                     elif lang == "ZHCN":
@@ -161,7 +161,7 @@ class WiiFlowPluginsData:
         ini_file_path = WiiFlowPluginsData.ini_file_path()
 
         if not os.path.exists(ini_file_path):
-            print(f"无效的文件：{ini_file_path}")
+            print(f"【错误】无效的文件 {ini_file_path}")
             return
 
         self.rom_crc32_to_game_id.clear()
@@ -185,7 +185,7 @@ class WiiFlowPluginsData:
                     self.game_id_to_info[game_id].rom_title = rom_title
                     self.game_id_to_info[game_id].rom_crc32_list = rom_crc32_list
                 else:
-                    print(f"{plugin_name}.xml 中未发现 game_id = {game_id}")
+                    print(f"【警告】{plugin_name}.xml 中未发现 game_id = {game_id}")
 
     def query_game_info(
         self, rom_crc32=None, rom_title=None, en_title=None, zhcn_title=None
@@ -208,13 +208,13 @@ class WiiFlowPluginsData:
             if rom_crc32 in self.rom_crc32_to_game_id.keys():
                 game_id = self.rom_crc32_to_game_id.get(rom_crc32)
             else:
-                print(f"{plugin_name}.ini 中未发现 rom_crc32 = {rom_crc32}")
+                print(f"【警告】{plugin_name}.ini 中未发现 rom_crc32 = {rom_crc32}")
 
         if game_id is None and rom_title is not None:
             if rom_title in self.rom_title_to_game_id.keys():
                 game_id = self.rom_title_to_game_id.get(rom_title)
             else:
-                print(f"{plugin_name}.ini 中未发现 rom_title = {rom_title}")
+                print(f"【警告】{plugin_name}.ini 中未发现 rom_title = {rom_title}")
 
         if game_id is not None and game_id in self.game_id_to_info.keys():
             return self.game_id_to_info.get(game_id)
@@ -244,7 +244,7 @@ class WiiFlowPluginsData:
                 ):
                     return game_info
 
-        print(f"{plugin_name}.xml 中未发现 rom_title = {rom_title}")
+        print(f"【警告】{plugin_name}.xml 中未发现 rom_title = {rom_title}")
         return None
 
     def export_all_fake_roms_to(self, dst_folder_path):
