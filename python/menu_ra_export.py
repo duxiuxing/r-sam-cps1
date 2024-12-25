@@ -21,7 +21,6 @@ class RA_ExportMenu:
         export_all.playlist_name = playlist_name_en
         export_all.playlist_label_value = EnLabelValue()
         export_all.playlist_path_value = AndroidPathValue()
-        export_all.src_boxart_folder = "disc"
         main_menu.add_cmd(f"导出 {playlist_name_en} 到 Android (英文)", export_all)
 
         # export to Android in Simplified Chinese
@@ -30,7 +29,6 @@ class RA_ExportMenu:
         export_all.playlist_name = playlist_name_zhcn
         export_all.playlist_label_value = ZhcnLabelValue()
         export_all.playlist_path_value = AndroidPathValue()
-        export_all.src_boxart_folder = "disc"
         main_menu.add_cmd(f"导出 {playlist_name_zhcn} 到 Android (简中)", export_all)
 
         # export to Windows in English
@@ -39,7 +37,6 @@ class RA_ExportMenu:
         export_all.playlist_name = playlist_name_en
         export_all.playlist_label_value = EnLabelValue()
         export_all.playlist_path_value = WinPathValue()
-        export_all.src_boxart_folder = "disc"
         main_menu.add_cmd(f"导出 {playlist_name_en} 到 Windows (英文)", export_all)
 
         # export to Windows in Simplified Chinese
@@ -48,7 +45,6 @@ class RA_ExportMenu:
         export_all.playlist_name = playlist_name_zhcn
         export_all.playlist_label_value = ZhcnLabelValue()
         export_all.playlist_path_value = WinPathValue()
-        export_all.src_boxart_folder = "disc"
         main_menu.add_cmd(f"导出 {playlist_name_zhcn} 到 Windows (简中)", export_all)
 
         # export to XBOX in English
@@ -57,7 +53,6 @@ class RA_ExportMenu:
         export_all.playlist_name = playlist_name_en
         export_all.playlist_label_value = EnLabelValue()
         export_all.playlist_path_value = XBoxPathValue()
-        export_all.src_boxart_folder = "disc"
         main_menu.add_cmd(f"导出 {playlist_name_en} 到 XBOX (英文)", export_all)
 
         # export to XBOX in Simplified Chinese
@@ -66,5 +61,4 @@ class RA_ExportMenu:
         export_all.playlist_name = playlist_name_zhcn
         export_all.playlist_label_value = ZhcnLabelValue()
         export_all.playlist_path_value = XBoxPathValue()
-        export_all.src_boxart_folder = "disc"
         main_menu.add_cmd(f"导出 {playlist_name_zhcn} 到 XBOX (简中)", export_all)

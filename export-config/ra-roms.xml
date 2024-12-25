@@ -1,0 +1,162 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Rom-List description="导出到 Arcade (FB Alpha 2012 CPS-1) 的游戏">
+    <Rom crc32="64E58DC3" bytes="1420289"
+        title="1941"
+        en="1941 - Counter Attack (900227 World)"
+        zhcn="# - 1941 反击战 (900227 世界版)"
+    />
+    <Rom crc32="319BF022" bytes="1753871"
+        title="cworld2j"
+        en="Adventure Quiz Capcom World 2 (920611 Japan)"
+        zhcn="K - 卡普空世界冒险问答2 (920611 日版)"
+    />
+    <Rom crc32="5214C514" bytes="4116096"
+        title="dino"
+        en="Cadillacs and Dinosaurs (930201 World)"
+        zhcn="K - 恐龙快打 (930201 世界版)"
+    />
+    <Rom crc32="903715AE" bytes="2542116"
+        title="captcomm"
+        en="Captain Commando (911202 World)"
+        zhcn="M - 名将 (911202 世界版)"
+    />
+    <Rom crc32="31B0791C" bytes="1440062"
+        title="cawing"
+        en="Carrier Air Wing (U.S. navy 901012 etc)"
+        zhcn="C - 雌虎战机 (美国海军 901012 etc)"
+    />
+    <Rom crc32="13133F73" bytes="2193606"
+        title="dynwar"
+        en="Dynasty Wars (US set 1)"
+        zhcn="T - 吞食天地 王朝战争 (美版 set 1)"
+    />
+    <Rom crc32="E5524363" bytes="1429616"
+        title="ffight"
+        en="Final Fight (World, set 1)"
+        zhcn="K - 快打旋风 (世界版, set 1)"
+    />
+    <Rom crc32="B5E40BEF" bytes="1608233"
+        title="ghouls"
+        en="Ghouls'n Ghosts (World)"
+        zhcn="D - 大魔界村 (世界版)"
+    />
+    <Rom crc32="29BC394F" bytes="2355202"
+        title="knights"
+        en="Knights of the Round (911127 etc)"
+        zhcn="Y - 圆桌骑士 (911127 etc)"
+    />
+    <Rom crc32="CF246210" bytes="1440358"
+        title="msword"
+        en="Magic Sword - Heroic Fantasy (25.07.1990 other country)"
+        zhcn="M - 魔法剑 英雄的幻想 (25.07.1990 other country)"
+    />
+    <Rom crc32="779C1CE7" bytes="3301557"
+        title="megaman"
+        en="Mega Man - The Power Battle (951006 USA)"
+        zhcn="L - 洛克人 力量之战 (951006 美版)"
+    />
+    <Rom crc32="37C648BE" bytes="1435432"
+        title="mtwins"
+        en="Mega Twins (chiki chiki boys 900619 etc)"
+        zhcn="S - 双麒儿 (chiki chiki boys 900619 etc)"
+    />
+    <Rom crc32="DD86F423" bytes="1754056"
+        title="mercs"
+        en="Mercs (900302 etc)"
+        zhcn="Z - 战场之狼2 (900302 etc)"
+    />
+    <Rom crc32="7E214FC4" bytes="6510038"
+        title="mbombrd"
+        en="Muscle Bomber Duo - Ultimate Team Battle (931206 World)"
+        zhcn="S - 摔角霸王 最终之战 (931206 世界版)"
+    />
+    <Rom crc32="2DE12145" bytes="1340367"
+        title="nemo" en="Nemo (90 11 30 etc)"
+        zhcn="M - 梦幻冒险 (90 11 30 etc)"
+    />
+    <Rom crc32="48BFD83A" bytes="1536927"
+        title="pang3"
+        en="Pang! 3 (950601 Euro)"
+        zhcn="M - 魔鬼气泡3 (950601 欧版)"
+    />
+    <Rom crc32="3A8E9DCB" bytes="768480"
+        title="pnickj"
+        en="Pnickies (940608 Japan)"
+        zhcn="M - 魔法方块 (940608 日版)"
+    />
+    <Rom crc32="BC181DDF" bytes="1095855"
+        title="qad"
+        en="Quiz &amp; Dragons (capcom quiz game 920701 USA)"
+        zhcn="L - 龙之迷题 (卡普空问答游戏 920701 美版)"
+    />
+    <Rom crc32="847A5C2B" bytes="1945248"
+        title="qtono2j"
+        en="Quiz Tonosama no Yabou 2 - Zenkoku-ban (tonosama 2 950123 Japan)"
+        zhcn="C - 城主的野心问答2 全国版 (殿样 2 950123 日版)"
+    />
+    <Rom crc32="26EB81A2" bytes="6589085"
+        title="slammast"
+        en="Saturday Night Slam Masters (Slam Masters 930713 World)"
+        zhcn="S - 摔角霸王 (摔角霸王 930713 世界版)"
+    />
+    <Rom crc32="B62D0BC7" bytes="3551819"
+        title="sf2"
+        en="Street Fighter II - The World Warrior (910522 World)"
+        zhcn="J - 街头霸王2 天下斗士 (910522 世界版)"
+    />
+    <Rom crc32="60FF7935" bytes="3584791"
+        title="sf2ce"
+        en="Street Fighter II' - Champion Edition (street fighter 2' 920513 World)"
+        zhcn="J - 街头霸王2 四大天王 (街头霸王2 920513 世界版)"
+    />
+    <Rom crc32="A86F0C6C" bytes="3640355"
+        title="sf2hf"
+        en="Street Fighter II' - Hyper Fighting (street fighter 2' T 921209 World)"
+        zhcn="J - 街头霸王2 究极格斗 (街头霸王2 T 921209 世界版)"
+    />
+    <Rom crc32="F9A2076F" bytes="3890541"
+        title="sfzch"
+        en="Street Fighter Zero (CPS Changer, 951020 Japan)"
+        zhcn="S - 少年街霸 (CPS 转换版, 951020 日版)"
+    />
+    <Rom crc32="329FB3E2" bytes="2101117"
+        title="strider"
+        en="Strider (US set 1)"
+        zhcn="C - 出击飞龙 (美版 set 1)"
+    />
+    <Rom crc32="4F51657C" bytes="2361501"
+        title="kod"
+        en="The King of Dragons (World 910805)"
+        zhcn="L - 龙王战士 (世界版 910805)"
+    />
+    <Rom crc32="2E7981B0" bytes="4042628"
+        title="punisher"
+        en="The Punisher (930422 World)"
+        zhcn="C - 惩罚者 (930422 世界版)"
+    />
+    <Rom crc32="C1A3CC0C" bytes="2479888"
+        title="3wonders"
+        en="Three Wonders (wonder 3 910520 etc)"
+        zhcn="S - 三个奇迹 (wonder 3 910520 etc)"
+    />
+    <Rom crc32="01ADC184" bytes="1274553"
+        title="unsquad"
+        en="U.N. Squadron (US)"
+        zhcn="Z - 战区88 (美版)"
+    />
+    <Rom crc32="B732BB4D" bytes="1544886"
+        title="varth"
+        en="Varth - Operation Thunderstorm (920714 etc)"
+        zhcn="W - 威虎战机 雷暴行动 (920714 etc)"
+    />
+    <Rom crc32="DC01687D" bytes="3943624"
+        title="wof"
+        en="Warriors of Fate (921031 World)"
+        zhcn="T - 吞食天地2 赤壁之战 (921031 世界版)"
+    />
+    <Rom crc32="890E3C76" bytes="1773778"
+        title="willow"
+        en="Willow (World)"
+        zhcn="W - 威洛之旅 (世界版)"
+    />
+</Rom-List>
