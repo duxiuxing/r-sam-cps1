@@ -48,12 +48,12 @@ class WiiFlowPluginsData:
                 letter = "#"
             return os.path.join(
                 LocalConfigs.repository_folder_path(),
-                f"wii\\wiiflow\\boxcovers\\\{plugin_name}\\{letter}\\{game_info.rom_title}{ConsoleConfigs.rom_extension()}.png",
+                f"wii\\wiiflow\\boxcovers\\{plugin_name}\\{letter}\\{game_info.rom_title}{ConsoleConfigs.rom_extension()}.png",
             )
         else:
             return os.path.join(
                 LocalConfigs.repository_folder_path(),
-                f"wii\\wiiflow\\boxcovers\\\{plugin_name}\\{game_info.rom_title}{ConsoleConfigs.rom_extension()}.png",
+                f"wii\\wiiflow\\boxcovers\\{plugin_name}\\{game_info.rom_title}{ConsoleConfigs.rom_extension()}.png",
             )
 
     @staticmethod
@@ -67,12 +67,12 @@ class WiiFlowPluginsData:
                 letter = "#"
             return os.path.join(
                 LocalConfigs.repository_folder_path(),
-                f"wii\\wiiflow\\cache\\\{plugin_name}\\{letter}\\{game_info.rom_title}{ConsoleConfigs.rom_extension()}.wfc",
+                f"wii\\wiiflow\\cache\\{plugin_name}\\{letter}\\{game_info.rom_title}{ConsoleConfigs.rom_extension()}.wfc",
             )
         else:
             return os.path.join(
                 LocalConfigs.repository_folder_path(),
-                f"wii\\wiiflow\\cache\\\{plugin_name}\\{game_info.rom_title}{ConsoleConfigs.rom_extension()}.wfc",
+                f"wii\\wiiflow\\cache\\{plugin_name}\\{game_info.rom_title}{ConsoleConfigs.rom_extension()}.wfc",
             )
 
     @staticmethod
@@ -86,12 +86,12 @@ class WiiFlowPluginsData:
                 letter = "#"
             return os.path.join(
                 LocalConfigs.repository_folder_path(),
-                f"wii\\wiiflow\\snapshots\\\{plugin_name}\\{letter}\\{game_info.rom_title}.png",
+                f"wii\\wiiflow\\snapshots\\{plugin_name}\\{letter}\\{game_info.rom_title}.png",
             )
         else:
             return os.path.join(
                 LocalConfigs.repository_folder_path(),
-                f"wii\\wiiflow\\snapshots\\\{plugin_name}\\{game_info.rom_title}.png",
+                f"wii\\wiiflow\\snapshots\\{plugin_name}\\{game_info.rom_title}.png",
             )
 
     def __init__(self):
