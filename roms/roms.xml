@@ -53,6 +53,14 @@
             apps-not-work=""
         />
     </Game>
+    <Game name="Forgotten Worlds">
+        <Rom crc32="0C6F70CB" bytes="1952681"
+            title="forgottn"
+            en="Forgotten Worlds (World, newer)"
+            zhcn="失落的世界 (世界版, 较新版)"
+            apps-work="" apps-not-work=""
+        />
+    </Game>
     <Game name="Final Fight">
         <Rom crc32="E5524363" bytes="1429616"
             title="ffight"

@@ -39,7 +39,6 @@ class Wii_ExportAll:
         ra_export_all.export_roms = self.export_roms
         ra_export_all.playlist_label_value = EnLabelValue()
         ra_export_all.playlist_path_value = WiiSdPathValue()
-        ra_export_all.src_boxart_folder = "disc"
         if ra_export_all.run() is False:
             return False
 

@@ -30,6 +30,11 @@
         en="Dynasty Wars (US set 1)"
         zhcn="T - 吞食天地 王朝战争 (美版 set 1)"
     />
+    <Rom crc32="0C6F70CB" bytes="1952681"
+        title="forgottn"
+        en="Forgotten Worlds (World, newer)"
+        zhcn="S - 失落的世界 (世界版, 较新版)"
+    />
     <Rom crc32="E5524363" bytes="1429616"
         title="ffight"
         en="Final Fight (World, set 1)"
