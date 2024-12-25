@@ -84,8 +84,8 @@ Le jeu est en japonais, totalement injouable pour ceux ou celles qui ne maîtris
 	<title>Capcom World 2</title>
 	</locale>
 	<locale lang="ZHCN">
-		<title>卡普空世界2</title>
-		<synopsis>《卡 普 空 世 界2》聚 集 了 很 多 卡 普 空 的 经 典 游 戏 人 物，加 上 富 有 创 意 的 剧 情，是 卡 普 空 公 司 相 当 具 有 纪 念 价 值 的 作 品。
+		<title>卡普空世界冒险问答2</title>
+		<synopsis>《卡 普 空 世 界 冒 险 问 答2》聚 集 了 很 多 卡 普 空 的 经 典 游 戏 人 物，加 上 富 有 创 意 的 剧 情，是 卡 普 空 公 司 相 当 具 有 纪 念 价 值 的 作 品。
 
 游 戏 以 大 富 翁 走 格 子 的 方 式 进 行，目 的 要 打 倒 终 极 大 魔 王。不 过 由 于 这 是 一 款 问 答 游 戏，并 且 只 有 日 文 版 本，这 使 得 游 戏 的 受 众 非 常 有 限。
 
@@ -992,10 +992,10 @@ Il faudra donc agencer vos Pnickies de manière à les détruire. Pour ce faire,
 			<control type="gamecube" required="false"/>
 		</input>
 	</game>
-	<game name="Quiz &amp; Dragons - Capcom Quiz Game">
+	<game name="Quiz &amp; Dragons">
 		<id>42583A</id>
 	<locale lang="EN">
-	<title>Quiz &amp; Dragons - Capcom Quiz Game</title>
+	<title>Quiz &amp; Dragons</title>
 	<synopsis>The game plays similar to a board game, where the player is given a predetermined dice roll that moves the player up to six spaces on the board; however, if the player is so given the choice, he can move to a space of his choosing if there is a fork in the road. After landing on a space, the player is given a series of questions (the amount of questions needed to be answered increase as the game progresses) in order to proceed back to the board for another dice roll. The player is given a time limit to answer the question, with points given that vary based on how fast the player answered the question correctly. If the player is successful in answering a question, one of the orbs above the enemy's portrait will light up, indicating a correct answer. If the player answers a question incorrectly, he will lose a life point. if the player loses all life points, the player must continue within the time limit or else the game is over.</synopsis>
 	<genre>Quiz,Quiz / English</genre>
 	</locale>
@@ -1106,10 +1106,10 @@ O jogo foi seguido de um upgrade chamado "Muscle Bomber Duo: Ultimate Team Battl
 			<control type="gamecube" required="false"/>
 		</input>
 	</game>
-	<game name="Street Fighter II' Turbo - Hyper Fighting">
+	<game name="Street Fighter II' - Hyper Fighting">
 		<id>37378A</id>
 	<locale lang="EN">
-	<title>Street Fighter II' Turbo - Hyper Fighting</title>
+	<title>Street Fighter II' - Hyper Fighting</title>
 	<synopsis>Street Fighter II' - Hyper Fighting is the second SFII follow-up. Here's what's new: 
 Gameplay is SIGNIFICANTLY sped up to intensify the pace of the game. 
 More special moves (ie. Chun Li's fireball, Dhalsim's Yoga Teleport) are added for each character except for M. Bison. 

@@ -12,7 +12,7 @@
         <Rom crc32="319BF022" bytes="1753871"
             title="cworld2j"
             en="Adventure Quiz Capcom World 2 (920611 Japan)"
-            zhcn="卡普空世界2 (920611 日版)"
+            zhcn="卡普空世界冒险问答2 (920611 日版)"
             apps-work=""
             apps-not-work=""
         />
@@ -142,11 +142,67 @@
             apps-work="" apps-not-work=""
         />
     </Game>
+    <Game name="Quiz &amp; Dragons">
+        <Rom crc32="BC181DDF" bytes="1095855"
+            title="qad"
+            en="Quiz &amp; Dragons (capcom quiz game 920701 USA)"
+            zhcn="龙之迷题 (卡普空问答游戏 920701 美版)"
+            apps-work="" apps-not-work=""
+        />
+    </Game>
+    <Game name="Saturday Night Slam Masters">
+        <Rom crc32="26EB81A2" bytes="6589085"
+            title="slammast"
+            en="Saturday Night Slam Masters (Slam Masters 930713 World)"
+            zhcn="摔角霸王 (摔角霸王 930713 世界版)"
+            apps-work="" apps-not-work=""
+        />
+    </Game>
+    <Game name="Street Fighter II - The World Warrior">
+        <Rom crc32="B62D0BC7" bytes="3551819"
+            title="sf2"
+            en="Street Fighter II - The World Warrior (910522 World)"
+            zhcn="街头霸王2 天下斗士 (910522 世界版)"
+            apps-work="" apps-not-work=""
+        />
+    </Game>
+    <Game name="Street Fighter II' - Champion Edition">
+        <Rom crc32="60FF7935" bytes="3584791"
+            title="sf2ce"
+            en="Street Fighter II' - Champion Edition (street fighter 2' 920513 World)"
+            zhcn="街头霸王2 四大天王 (街头霸王2 920513 世界版)"
+            apps-work="" apps-not-work=""
+        />
+    </Game>
+    <Game name="Street Fighter II' - Hyper Fighting">
+        <Rom crc32="A86F0C6C" bytes="3640355"
+            title="sf2hf"
+            en="Street Fighter II' - Hyper Fighting (street fighter 2' T 921209 World)"
+            zhcn="街头霸王2 究极格斗 (街头霸王2 T 921209 世界版)"
+            apps-work="" apps-not-work=""
+        />
+    </Game>
+    <Game name="Strider">
+        <Rom crc32="329FB3E2" bytes="2101117"
+            title="strider"
+            en="Strider (US set 1)"
+            zhcn="出击飞龙 (美版 set 1)"
+            apps-work="" apps-not-work=""
+        />
+    </Game>
     <Game name="The King of Dragons">
         <Rom crc32="4F51657C" bytes="2361501"
             title="kod"
             en="The King of Dragons (World 910805)"
             zhcn="龙王战士 (世界版 910805)"
+            apps-work="" apps-not-work=""
+        />
+    </Game>
+    <Game name="The Punisher">
+        <Rom crc32="2E7981B0" bytes="4042628"
+            title="punisher"
+            en="The Punisher (930422 World)"
+            zhcn="惩罚者 (930422 世界版)"
             apps-work="" apps-not-work=""
         />
     </Game>
@@ -157,6 +213,38 @@
             zhcn="三个奇迹 (wonder 3 910520 etc)"
             apps-work=""
             apps-not-work=""
+        />
+    </Game>
+    <Game name="U.N. Squadron">
+        <Rom crc32="01ADC184" bytes="1274553"
+            title="unsquad"
+            en="U.N. Squadron (US)"
+            zhcn="战区88 (美版)"
+            apps-work="" apps-not-work=""
+        />
+    </Game>
+    <Game name="Varth - Operation Thunderstorm">
+        <Rom crc32="B732BB4D" bytes="1544886"
+            title="varth"
+            en="Varth - Operation Thunderstorm (920714 etc)"
+            zhcn="威虎战机 雷暴行动 (920714 etc)"
+            apps-work="" apps-not-work=""
+        />
+    </Game>
+    <Game name="Warriors of Fate">
+        <Rom crc32="DC01687D" bytes="3943624"
+            title="wof"
+            en="Warriors of Fate (921031 World)"
+            zhcn="吞食天地2 赤壁之战 (921031 世界版)"
+            apps-work="" apps-not-work=""
+        />
+    </Game>
+    <Game name="Willow">
+        <Rom crc32="890E3C76" bytes="1773778"
+            title="willow"
+            en="Willow (World)"
+            zhcn="威洛之旅 (世界版)"
+            apps-work="" apps-not-work=""
         />
     </Game>
 </Game-List>
