@@ -109,7 +109,8 @@
             title="mercs"
             en="Mercs (900302 etc)"
             zhcn="战场之狼2 (900302 etc)"
-            apps-work="" apps-not-work="" />
+            apps-work="" apps-not-work=""
+        />
     </Game>
     <Game name="Muscle Bomber Duo - Ultimate Team Battle">
         <Rom crc32="7E214FC4" bytes="6510038"
@@ -150,6 +151,14 @@
             apps-work="" apps-not-work=""
         />
     </Game>
+    <Game name="Quiz Tonosama no Yabou 2 - Zenkoku-ban">
+        <Rom crc32="847A5C2B" bytes="1945248"
+            title="qtono2j"
+            en="Quiz Tonosama no Yabou 2 - Zenkoku-ban (tonosama 2 950123 Japan)"
+            zhcn="城主的野心问答2 全国版 (殿样 2 950123 日版)"
+            apps-work="" apps-not-work=""
+        />
+    </Game>
     <Game name="Saturday Night Slam Masters">
         <Rom crc32="26EB81A2" bytes="6589085"
             title="slammast"
@@ -179,6 +188,14 @@
             title="sf2hf"
             en="Street Fighter II' - Hyper Fighting (street fighter 2' T 921209 World)"
             zhcn="街头霸王2 究极格斗 (街头霸王2 T 921209 世界版)"
+            apps-work="" apps-not-work=""
+        />
+    </Game>
+    <Game name="Street Fighter Zero">
+        <Rom crc32="F9A2076F" bytes="3890541"
+            title="sfzch"
+            en="Street Fighter Zero (CPS Changer, 951020 Japan)"
+            zhcn="少年街霸 (CPS 转换版, 951020 日版)"
             apps-work="" apps-not-work=""
         />
     </Game>
