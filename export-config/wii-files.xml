@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Copy-List description="导出到 Wii 的文件">
+    <File
+        src="wii\wiiflow\boxcovers\blank_covers\CPS1.png"
+        dst="wiiflow\boxcovers\blank_covers\CPS1.png"
+    />
+    <File
+        src="wii\wiiflow\cache\blank_covers\CPS1.wfc"
+        dst="wiiflow\cache\blank_covers\CPS1.wfc"
+    />
+    <Folder
+        src="wii\wiiflow\plugins"
+        dst="wiiflow\plugins"
+    />
+    <Folder
+        src="wii\wiiflow\plugins_data"
+        dst="wiiflow\plugins_data"
+    />
+    <File
+        src="wii\wiiflow\source_menu\CPS1.png"
+        dst="wiiflow\source_menu\CPS1.png"
+    />
+</Copy-List>
