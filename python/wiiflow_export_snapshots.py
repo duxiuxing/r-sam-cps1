@@ -7,7 +7,9 @@ from common.game_info import GameInfo
 from common.helper import Helper
 from common.local_configs import LocalConfigs
 
+from r_sam_roms import RSamRoms
 from ra_export_roms import RA_ExportFakeRoms
+from ra_export_thumbnails import RA_ExportThumbnails
 from wiiflow_plugins_data import WiiFlowPluginsData
 
 
@@ -20,6 +22,7 @@ class WiiFlow_ExportSnapshots:
             print("WiiFlow_ExportSnapshots 实例未指定 .export_roms")
             return
 
+        r_sam_roms = RSamRoms.instance()
         wiiflow_plugins_data = WiiFlowPluginsData.instance()
         plugin_name = ConsoleConfigs.wiiflow_plugin_name()
 
@@ -35,9 +38,17 @@ class WiiFlow_ExportSnapshots:
             if game_info is None:
                 continue
 
+            # 优先使用 wiiflow\\snapshots 文件夹里的截图
             src_path = WiiFlowPluginsData.compute_snapshot_file_path(game_info)
             if not os.path.exists(src_path):
-                print(f"无效的源文件：{src_path}")
+                # 使用 image\\snap 文件夹里的截图
+                src_path = RSamRoms.compute_image_path(
+                    r_sam_roms.query_rom_info(rom_crc32),
+                    RA_ExportThumbnails.src_snap_folder(),
+                )
+
+            if not os.path.exists(src_path):
+                print(f"【错误】无效的源文件 {src_path}")
                 continue
 
             rom_name = os.path.basename(dst_rom_path)

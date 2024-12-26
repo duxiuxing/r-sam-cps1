@@ -18,29 +18,27 @@ class RA_ExportThumbnails:
         return "boxart"
 
     @staticmethod
-    def default_src_snap_folder():
+    def src_snap_folder():
         return "snap"
 
     @staticmethod
-    def default_src_title_folder():
+    def src_title_folder():
         return "title"
 
     def __init__(self):
         self.export_roms = None
-        self.playlist_name = None        
+        self.playlist_name = None
         self.playlist_label_value = EnLabelValue()
         self.src_boxart_folder = RA_ExportThumbnails.default_src_boxart_folder()
-        self.src_snap_folder = RA_ExportThumbnails.default_src_snap_folder()
-        self.src_title_folder = RA_ExportThumbnails.default_src_title_folder()
 
     def run(self):
         if self.export_roms is None:
             print("RA_ExportThumbnails 实例未指定 .export_roms")
             return
-        
+
         if self.playlist_name is None:
             print("RA_ExportThumbnails 实例未指定 .playlist_name")
-            return       
+            return
 
         r_sam_roms = RSamRoms.instance()
 
@@ -67,7 +65,9 @@ class RA_ExportThumbnails:
             )
             Helper.copy_file(src_boxart_path, dst_boxart_path)
 
-            src_snap_path = RSamRoms.compute_image_path(rom_info, self.src_snap_folder)
+            src_snap_path = RSamRoms.compute_image_path(
+                rom_info, RA_ExportThumbnails.src_snap_folder()
+            )
             dst_snap_path = os.path.join(
                 LocalConfigs.export_root_folder_path(),
                 f"RetroArch\\thumbnails\\{self.playlist_name}\\Named_Snaps\\{image_name}.png",
@@ -75,7 +75,7 @@ class RA_ExportThumbnails:
             Helper.copy_file(src_snap_path, dst_snap_path)
 
             src_title_path = RSamRoms.compute_image_path(
-                rom_info, self.src_title_folder
+                rom_info, RA_ExportThumbnails.src_title_folder()
             )
             dst_title_path = os.path.join(
                 LocalConfigs.export_root_folder_path(),
