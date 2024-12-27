@@ -17,7 +17,7 @@ class WiiFlow_CreateCacheFiles:
         )
 
         if not os.path.exists(wfc_conv_exe_path):
-            print(f"无效的文件：{wfc_conv_exe_path}")
+            print(f"【错误】无效的文件 {wfc_conv_exe_path}")
             zip_file_path = os.path.join(
                 LocalConfigs.repository_folder_path(), "pc-tool\\WFC_conv_0-1.zip"
             )
@@ -28,8 +28,8 @@ class WiiFlow_CreateCacheFiles:
         foler_path = os.path.join(
             LocalConfigs.repository_folder_path(), "wii\\wiiflow\\cache"
         )
-        if not Helper.verify_folder_exist_ex(foler_path):
-            print(f"无效文件夹：{foler_path}")
+        if not Helper.verify_exist_folder_ex(foler_path):
+            print(f"【错误】无效的文件夹 {foler_path}")
             return
 
         foler_path = os.path.join(LocalConfigs.repository_folder_path(), "wii\\wiiflow")

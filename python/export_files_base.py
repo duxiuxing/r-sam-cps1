@@ -22,7 +22,7 @@ class ExportFilesBase:
         )
 
         if not os.path.exists(xml_file_path):
-            print(f"无效的文件：{xml_file_path}")
+            print(f"【警告】无效的文件 {xml_file_path}")
             return
 
         tree = ET.parse(xml_file_path)

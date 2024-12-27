@@ -39,12 +39,19 @@ class RA_ExportThumbnails:
         if self.playlist_name is None:
             print("RA_ExportThumbnails 实例未指定 .playlist_name")
             return
+        dst_playlist_folder_path = os.path.join(
+            LocalConfigs.export_root_folder_path(),
+            f"RetroArch\\thumbnails\\{self.playlist_name}",
+        )
+        if not Helper.verify_exist_folder_ex(dst_playlist_folder_path):
+            print(f"【错误】无效的目标文件夹 {dst_playlist_folder_path}")
+            return False
 
         r_sam_roms = RSamRoms.instance()
 
         xml_file_path = self.export_roms.config_file_path()
         if not os.path.exists(xml_file_path):
-            print(f"无效的文件：{xml_file_path}")
+            print(f"【错误】无效的文件 {xml_file_path}")
             return
 
         tree = ET.parse(xml_file_path)
@@ -60,8 +67,8 @@ class RA_ExportThumbnails:
                 rom_info, self.src_boxart_folder
             )
             dst_boxart_path = os.path.join(
-                LocalConfigs.export_root_folder_path(),
-                f"RetroArch\\thumbnails\\{self.playlist_name}\\Named_Boxarts\\{image_name}.png",
+                dst_playlist_folder_path,
+                f"Named_Boxarts\\{image_name}.png",
             )
             Helper.copy_file(src_boxart_path, dst_boxart_path)
 
@@ -69,8 +76,8 @@ class RA_ExportThumbnails:
                 rom_info, RA_ExportThumbnails.src_snap_folder()
             )
             dst_snap_path = os.path.join(
-                LocalConfigs.export_root_folder_path(),
-                f"RetroArch\\thumbnails\\{self.playlist_name}\\Named_Snaps\\{image_name}.png",
+                dst_playlist_folder_path,
+                f"Named_Snaps\\{image_name}.png",
             )
             Helper.copy_file(src_snap_path, dst_snap_path)
 
@@ -78,7 +85,7 @@ class RA_ExportThumbnails:
                 rom_info, RA_ExportThumbnails.src_title_folder()
             )
             dst_title_path = os.path.join(
-                LocalConfigs.export_root_folder_path(),
-                f"RetroArch\\thumbnails\\{self.playlist_name}\\Named_Titles\\{image_name}.png",
+                dst_playlist_folder_path,
+                f"Named_Titles\\{image_name}.png",
             )
             Helper.copy_file(src_title_path, dst_title_path)

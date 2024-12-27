@@ -29,8 +29,8 @@ class ImportRoms:
         import_folder_path = os.path.join(
             LocalConfigs.repository_folder_path(), "roms-import"
         )
-        if not os.path.exists(import_folder_path):
-            print(f"无效的文件夹：{import_folder_path}")
+        if not Helper.exist_folder(import_folder_path):
+            print(f"【错误】无效的文件夹 {import_folder_path}")
             return
 
         roms_new_count = 0
@@ -97,8 +97,8 @@ class ImportRoms:
 
             dst_rom_path = RSamRoms.compute_rom_path(rom_info)
             if os.path.exists(dst_rom_path):
-                print(f"新游戏 {src_rom_name} 已经存在，但不在 .xml 文件中")
-            elif Helper.verify_folder_exist_ex(os.path.dirname(dst_rom_path)):
+                print(f"【错误】新游戏 {src_rom_name} 已经存在，但不在 .xml 文件中")
+            elif Helper.verify_exist_folder_ex(os.path.dirname(dst_rom_path)):
                 os.rename(src_rom_path, dst_rom_path)
             roms_new_count = roms_new_count + 1
 

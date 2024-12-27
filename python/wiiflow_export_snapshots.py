@@ -29,7 +29,8 @@ class WiiFlow_ExportSnapshots:
         dst_folder_path = os.path.join(
             LocalConfigs.export_root_folder_path(), f"wiiflow\\snapshots\\{plugin_name}"
         )
-        if not Helper.verify_folder_exist_ex(dst_folder_path):
+        if not Helper.verify_exist_folder_ex(dst_folder_path):
+            print(f"【错误】无效的目标文件夹 {dst_folder_path}")
             return
 
         # 根据导出的 ROM 文件来拷贝对应的封面文件

@@ -71,7 +71,7 @@ class RA_ExportPlaylist:
 
         xml_file_path = self.export_roms.config_file_path()
         if not os.path.exists(xml_file_path):
-            print(f"无效的文件：{xml_file_path}")
+            print(f"【警告】无效的文件 {xml_file_path}")
             return
 
         lpl_file_path = os.path.join(
@@ -81,7 +81,8 @@ class RA_ExportPlaylist:
         if os.path.exists(lpl_file_path):
             os.remove(lpl_file_path)
 
-        if not Helper.verify_folder_exist_ex(os.path.dirname(lpl_file_path)):
+        if not Helper.verify_exist_folder_ex(os.path.dirname(lpl_file_path)):
+            print(f"【错误】无效的目标文件 {lpl_file_path}")
             return
 
         with open(lpl_file_path, "w", encoding="utf-8") as lpl_file:

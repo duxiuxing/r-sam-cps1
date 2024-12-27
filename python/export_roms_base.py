@@ -34,9 +34,19 @@ class ExportRomsBase:
         if self.config_file_name is None:
             print("ExportRomsBase 实例未指定 .config_file_name")
             return False
+
         if self.dst_folder_name is None:
             print("ExportRomsBase 实例未指定 .dst_folder_name")
             return False
+
+        dst_roms_folder_path = os.path.join(
+            LocalConfigs.export_root_folder_path(),
+            f"Games\\{self.dst_folder_name}",
+        )
+        if not Helper.verify_exist_folder_ex(dst_roms_folder_path):
+            print(f"【错误】无效的目标文件夹 {dst_roms_folder_path}")
+            return False
+
         self.__rom_crc32_to_dst_path = {}
 
         # 本函数执行的操作如下：
@@ -48,7 +58,7 @@ class ExportRomsBase:
 
         xml_file_path = self.config_file_path()
         if not os.path.exists(xml_file_path):
-            print(f"无效的文件：{xml_file_path}")
+            print(f"【错误】无效的文件 {xml_file_path}")
             return False
 
         tree = ET.parse(xml_file_path)
@@ -63,7 +73,7 @@ class ExportRomsBase:
 
             src_path = RSamRoms.compute_rom_path(rom_info)
             if not os.path.exists(src_path):
-                print(f"无效的源文件：{src_path}")
+                print(f"【错误】无效的源文件 {src_path}")
                 continue
 
             # 自定义标题在 self.roms_export_xml_file_name 文件中配置的
@@ -78,15 +88,12 @@ class ExportRomsBase:
                     print(f"rom_title_default = {rom_info.rom_title}")
                     print(f"rom_title_custom = {rom_title_custom}")
 
-            dst_path = os.path.join(
-                LocalConfigs.export_root_folder_path(),
-                f"Games\\{self.dst_folder_name}\\{rom_name}",
-            )
-
-            if Helper.verify_folder_exist_ex(os.path.dirname(dst_path)):
+            dst_path = os.path.join(dst_roms_folder_path, rom_name)
+            if Helper.verify_exist_folder_ex(os.path.dirname(dst_path)):
                 self.__rom_crc32_to_dst_path[rom_crc32] = dst_path
                 if self.export_fake_roms:
-                    open(dst_path, "w").close()
+                    if not os.path.exists(dst_path):
+                        open(dst_path, "w").close()
                 else:
                     Helper.copy_file_if_not_exist(src_path, dst_path)
 

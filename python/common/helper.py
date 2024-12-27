@@ -22,7 +22,7 @@ class Helper:
             return crc32.rjust(8, "0")
 
     @staticmethod
-    def folder_exist(folder_path):
+    def exist_folder(folder_path):
         # 判断指定文件夹是否存在
         # Args:
         #     folder_path (str): 待判断的文件夹路径
@@ -31,46 +31,39 @@ class Helper:
         if os.path.isdir(folder_path):
             return True
         else:
-            print(f"无效的文件夹：{folder_path}")
             return False
 
     @staticmethod
-    def verify_folder_exist(folder_path):
+    def verify_exist_folder(folder_path):
         # 判断指定文件夹是否存在，如果不存在则创建该文件夹
         # Args:
         #     folder_path (str): 待判断的文件夹路径，要求父文件夹必须是存在的
         # Returns:
         #     bool: 如果文件夹存在或创建成功，则返回 True，否则返回 False
-        if os.path.isdir(folder_path):
+        if Helper.exist_folder(folder_path):
             return True
         else:
             os.mkdir(folder_path)
-            if os.path.isdir(folder_path):
-                return True
-            else:
-                print(f"无效文件夹：{folder_path}")
-                return False
+            return Helper.exist_folder(folder_path)
 
     @staticmethod
-    def verify_folder_exist_ex(folder_full_path):
+    def verify_exist_folder_ex(folder_full_path):
         # 判断指定文件夹是否存在，如果不存在则逐级创建
         # Args:
         #     folder_path (str): 待判断的文件夹路径，如果父文件夹不存在会逐级创建
         # Returns:
         #     bool: 如果文件夹存在或创建成功，则返回 True，否则返回 False
-        folder_path = ""
+        folder_path = None
         for folder_name in folder_full_path.split("\\"):
-            if folder_path == "":
+            if folder_path is None:
                 folder_path = folder_name
-                if not os.path.isdir(folder_path):
+                if not Helper.exist_folder(folder_path):
                     return False
             else:
-                if not os.path.isdir(folder_path):
-                    return False
                 folder_path = f"{folder_path}\\{folder_name}"
-                if not os.path.isdir(folder_path):
-                    os.mkdir(folder_path)
-        return os.path.isdir(folder_full_path)
+                if not Helper.verify_exist_folder(folder_path):
+                    return False
+        return Helper.exist_folder(folder_full_path)
 
     @staticmethod
     def copy_folder(src, dst):
@@ -78,7 +71,8 @@ class Helper:
         # Args:
         #     src (str): 源文件夹路径
         #     dst (str): 目标文件夹路径
-        if not Helper.verify_folder_exist_ex(dst):
+        if not Helper.verify_exist_folder_ex(dst):
+            print(f"【错误】无效的目标文件夹 {dst}")
             return
         for item in os.listdir(src):
             s = os.path.join(src, item)
@@ -94,13 +88,14 @@ class Helper:
         # Args:
         #     src (str): 源文件路径
         #     dst (str): 目标文件路径，如果父文件夹不存在会逐级创建
-        if not Helper.verify_folder_exist_ex(os.path.dirname(dst)):
+        if not Helper.verify_exist_folder_ex(os.path.dirname(dst)):
+            print(f"【错误】无效的目标文件 {dst}")
             return
         if not os.path.exists(dst):
             if os.path.exists(src):
                 shutil.copy2(src, dst)
             else:
-                print(f"源文件缺失：{src}")
+                print(f"【错误】无效的源文件 {src}")
 
     @staticmethod
     def copy_file_if_not_exist(src_file_path, dst_file_path):
@@ -109,7 +104,7 @@ class Helper:
         #     src_file_path (str): 源文件路径
         #     dst_file_path (str): 目标文件路径
         if not os.path.exists(src_file_path):
-            print(f"源文件缺失：{src_file_path}")
+            print(f"【错误】无效的源文件 {src_file_path}")
         elif not os.path.exists(dst_file_path):
             shutil.copyfile(src_file_path, dst_file_path)
 

@@ -26,7 +26,8 @@ class WiiFlow_ExportWfcCovers:
         dst_folder_path = os.path.join(
             LocalConfigs.export_root_folder_path(), f"wiiflow\\cache\\{plugin_name}"
         )
-        if not Helper.verify_folder_exist_ex(dst_folder_path):
+        if not Helper.verify_exist_folder_ex(dst_folder_path):
+            print(f"【错误】无效的目标文件夹 {dst_folder_path}")
             return
 
         # 根据导出的 ROM 文件来拷贝对应的封面文件
@@ -37,7 +38,7 @@ class WiiFlow_ExportWfcCovers:
 
             src_path = WiiFlowPluginsData.compute_wfc_cover_file_path(game_info)
             if not os.path.exists(src_path):
-                print(f"无效的源文件：{src_path}")
+                print(f"【错误】无效的源文件 {src_path}")
                 continue
 
             rom_name = os.path.basename(dst_rom_path)

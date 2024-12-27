@@ -267,5 +267,5 @@ if __name__ == "__main__":
         LocalConfigs.export_root_folder_path(),
         f"roms\\{ConsoleConfigs.short_name()}",
     )
-    Helper.verify_folder_exist_ex(dst_folder_path)
-    plugins_data.export_all_fake_roms_to(dst_folder_path)
+    if Helper.verify_exist_folder_ex(dst_folder_path):
+        plugins_data.export_all_fake_roms_to(dst_folder_path)
