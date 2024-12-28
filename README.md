@@ -34,7 +34,7 @@ XML 格式的数据库文件，描述了 FinalBurn Neo 核心支持的街机 ROM
 ROM 管理工具，可以导入 .dat 格式的数据库文件。如果 Romcenter 首次运行报错，可以把缺失的两个 .dll 文件拷贝到 firebird32 文件夹里再重试。
 
 - 下载页面：<https://www.romcenter.com/downloadpage>
-- 缺失的 .dll 文件（本地路径）：third-party > Romcenter > firebird32
+- 缺失的 .dll 文件（本地路径）：pc-tool > Romcenter > firebird32
 - .dll 文件来源：<https://firebirdsql.org/en/firebird-3-0>
 
 
