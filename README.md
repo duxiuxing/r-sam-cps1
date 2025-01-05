@@ -47,6 +47,15 @@ RetroArch 使用的街机游戏数据库文件。运行全能模拟器，通过�
 - 远程路径：rdb > FBNeo - Arcade Games.rdb
 
 
+### playlist.png 和 playlist-content.png
+
+RetraArch 使用的 CPS1 街机游戏列表图标文件。运行全能模拟器，通过“菜单 > 在线更新 > 更新素材”，可以把图标文件下载到本地的 assets > xmb > monochrome > png 文件夹。
+
+- 本地路径：image > playlist
+- 项目网址：<https://github.com/libretro/retroarch-assets>
+- 远程路径：xmb > monochrome > png
+
+
 ### RDBEd
 
 .rdb 格式的数据库文件编辑器
