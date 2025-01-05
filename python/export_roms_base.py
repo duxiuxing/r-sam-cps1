@@ -63,6 +63,13 @@ class ExportRomsBase:
 
         tree = ET.parse(xml_file_path)
         root = tree.getroot()
+        one_folder_one_rom = False
+
+        if (
+            "one-folder-one-rom" in root.attrib
+            and root.get("one-folder-one-rom").lower() == "true"
+        ):
+            one_folder_one_rom = True
 
         for rom_elem in root.findall("Rom"):
             rom_crc32 = rom_elem.get("crc32").rjust(8, "0")
@@ -76,17 +83,11 @@ class ExportRomsBase:
                 print(f"【错误】无效的源文件 {src_path}")
                 continue
 
-            # 自定义标题在 self.roms_export_xml_file_name 文件中配置的
-            rom_title_custom = rom_elem.get("title")
-            rom_name = rom_title_custom + ConsoleConfigs.rom_extension()
-            if ConsoleConfigs.rom_support_custom_title() is False:
-                # 不支持 ROM 文件自定义命名的机种，导出时以 DB 中的命名为准
-                # 而且需要把 ROM 文件放在以游戏命名的文件夹里
-                rom_name = f"{rom_info.game_name}\\{rom_info.rom_title}{ConsoleConfigs.rom_extension()}"
-                if rom_info.rom_title != rom_title_custom:
-                    print("不支持 ROM 文件自定义命名")
-                    print(f"rom_title_default = {rom_info.rom_title}")
-                    print(f"rom_title_custom = {rom_title_custom}")
+            # 自定义标题在 self.config_file_name 文件中配置的
+            rom_name = rom_elem.get("title") + ConsoleConfigs.rom_extension()
+            if one_folder_one_rom:
+                # 把 ROM 文件放在以游戏命名的文件夹里
+                rom_name = f"{rom_info.game_name}\\{rom_name}"
 
             dst_path = os.path.join(dst_roms_folder_path, rom_name)
             if Helper.verify_exist_folder_ex(os.path.dirname(dst_path)):

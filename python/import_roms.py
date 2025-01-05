@@ -72,9 +72,8 @@ class ImportRoms:
                 en_title=en_title,
                 zhcn_title=zhcn_title,
             )
-            if ConsoleConfigs.rom_support_custom_title():
-                # 支持 ROM 文件自定义命名的机种，导入时以 DB 中的命名为准
-                rom_info.rom_title = game_info.rom_title
+            # 以 DB 中的命名为准
+            rom_info.rom_title = game_info.rom_title
             r_sam_roms.add_rom_info(src_rom_crc32, rom_info)
 
             attribs = {
@@ -89,10 +88,7 @@ class ImportRoms:
             ET.SubElement(game_elem, "Rom", attribs)
 
             print(f"新游戏入库 {src_rom_name}，crc32 = {src_rom_crc32}")
-            if (
-                ConsoleConfigs.rom_support_custom_title()
-                and src_rom_title != game_info.rom_title
-            ):
+            if src_rom_title != game_info.rom_title:
                 print(f"新游戏 {src_rom_name} 自动重命名为 {game_info.rom_title}")
 
             dst_rom_path = RSamRoms.compute_rom_path(rom_info)

@@ -10,9 +10,9 @@ class LocalConfigs:
     @staticmethod
     def export_root_folder_path():
         # 导出根目录路径
-        return "X:\\"
+        # return "X:\\"
         # 海豚模拟器虚拟 SD 卡路径
-        # return "C:\\Users\\duxiu\\AppData\\Roaming\\Dolphin Emulator\\Load\\WiiSDSync"
+        return "C:\\Users\\duxiu\\AppData\\Roaming\\Dolphin Emulator\\Load\\WiiSDSync"
 
     @staticmethod
     def seven_zip_exe_path():

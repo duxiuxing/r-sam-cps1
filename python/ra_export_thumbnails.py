@@ -63,14 +63,15 @@ class RA_ExportThumbnails:
 
             image_name = self.playlist_label_value.parse(rom_elem)
 
-            src_boxart_path = RSamRoms.compute_image_path(
-                rom_info, self.src_boxart_folder
-            )
-            dst_boxart_path = os.path.join(
-                dst_playlist_folder_path,
-                f"Named_Boxarts\\{image_name}.png",
-            )
-            Helper.copy_file(src_boxart_path, dst_boxart_path)
+            if self.src_boxart_folder is not None:
+                src_boxart_path = RSamRoms.compute_image_path(
+                    rom_info, self.src_boxart_folder
+                )
+                dst_boxart_path = os.path.join(
+                    dst_playlist_folder_path,
+                    f"Named_Boxarts\\{image_name}.png",
+                )
+                Helper.copy_file(src_boxart_path, dst_boxart_path)
 
             src_snap_path = RSamRoms.compute_image_path(
                 rom_info, RA_ExportThumbnails.src_snap_folder()

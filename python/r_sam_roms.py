@@ -100,7 +100,7 @@ class RSamRoms:
             for letter in "#ABCDEFGHIJKLMNOPQRSTUVWXYZ":
                 xml_file_path = os.path.join(
                     LocalConfigs.repository_folder_path(),
-                    "roms\\{letter}\\{letter}.xml",
+                    f"roms\\{letter}\\{letter}.xml",
                 )
                 self.__load_xml_file(xml_file_path)
         else:

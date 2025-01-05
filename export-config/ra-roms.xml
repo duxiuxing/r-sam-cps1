@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<Rom-List description="导出到 Arcade (FB Alpha 2012 CPS-1) 的游戏">
+<Rom-List description="导出到 Arcade (FB Alpha 2012 CPS-1) 的游戏" one-folder-one-rom="true">
     <Rom crc32="64E58DC3" bytes="1420289"
         title="1941"
         en="1941 - Counter Attack (900227 World)"

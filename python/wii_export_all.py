@@ -6,6 +6,7 @@ from common.console_configs import ConsoleConfigs
 from common.label_value import EnLabelValue
 from common.local_configs import LocalConfigs
 from common.path_value import WiiSdPathValue
+from common.playlist_header import WiiSdPlaylistHeader
 
 from ra_export_all import RA_ExportAll
 from ra_export_roms import RA_ExportFakeRoms
@@ -35,10 +36,13 @@ class Wii_ExportAll:
 
         # export to Wii SD in English
         ra_export_all = RA_ExportAll()
-        ra_export_all.playlist_name = ConsoleConfigs.ra_default_playlist_name_en()
         ra_export_all.export_roms = self.export_roms
+        ra_export_all.playlist_name = ConsoleConfigs.ra_default_playlist_name_en()
+        ra_export_all.playlist_image_folder = None
+        ra_export_all.playlist_header = WiiSdPlaylistHeader()
         ra_export_all.playlist_label_value = EnLabelValue()
         ra_export_all.playlist_path_value = WiiSdPathValue()
+        ra_export_all.src_boxart_folder = None
         if ra_export_all.run() is False:
             return False
 

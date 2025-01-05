@@ -9,52 +9,60 @@ from common.label_value import EnLabelValue
 from common.local_configs import LocalConfigs
 from common.rom_info import RomInfo
 from common.path_value import WinPathValue
+from common.playlist_header import BlankPlaylistHeader
 
 
 class RA_ExportPlaylist:
+    @staticmethod
+    def default_image_folder():
+        return "playlist"
+
+    @staticmethod
+    def default_header():
+        return BlankPlaylistHeader()
+
+    @staticmethod
+    def default_label_value():
+        return EnLabelValue()
+
+    @staticmethod
+    def default_path_value():
+        return WinPathValue()
+
     def __init__(self):
         self.export_roms = None
         self.playlist_name = None
-        self.playlist_label_value = EnLabelValue()
-        self.playlist_path_value = WinPathValue()
-
-    @staticmethod
-    def __write_header(lpl_file):
-        lpl_file.write("{\n")
-        lpl_file.write('  "version": "1.5",\n')
-        lpl_file.write('  "default_core_path": "",\n')
-        lpl_file.write('  "default_core_name": "",\n')
-        lpl_file.write('  "label_display_mode": 0,\n')
-        lpl_file.write('  "right_thumbnail_mode": 4,\n')
-        lpl_file.write('  "left_thumbnail_mode": 2,\n')
-        lpl_file.write('  "thumbnail_match_mode": 0,\n')
-        lpl_file.write('  "sort_mode": 0,\n')
-        lpl_file.write('  "items": [\n')
+        self.playlist_image_folder = RA_ExportPlaylist.default_image_folder()
+        self.playlist_header = RA_ExportPlaylist.default_header()
+        self.playlist_label_value = RA_ExportPlaylist.default_label_value()
+        self.playlist_path_value = RA_ExportPlaylist.default_path_value()
 
     @staticmethod
     def __write_footer(lpl_file):
         lpl_file.write("\n  ]\n")
         lpl_file.write("}")
 
-    @staticmethod
-    def __export_assets_xmb_monochrome_png(playlist_name):
+    def __export_assets_xmb_monochrome_png(self):
+        if self.playlist_image_folder is None:
+            return
+
         src_playlist = os.path.join(
             LocalConfigs.repository_folder_path(),
-            "image\\playlist\\playlist.png",
+            f"image\\{self.playlist_image_folder}\\playlist.png",
         )
         dst_playlist = os.path.join(
             LocalConfigs.export_root_folder_path(),
-            f"RetroArch\\assets\\xmb\\monochrome\\png\\{playlist_name}.png",
+            f"RetroArch\\assets\\xmb\\monochrome\\png\\{self.playlist_name}.png",
         )
         Helper.copy_file(src_playlist, dst_playlist)
 
         src_playlist_content = os.path.join(
             LocalConfigs.repository_folder_path(),
-            "image\\playlist\\playlist-content.png",
+            f"image\\{self.playlist_image_folder}\\playlist-content.png",
         )
         dst_playlist_content = os.path.join(
             LocalConfigs.export_root_folder_path(),
-            f"RetroArch\\assets\\xmb\\monochrome\\png\\{playlist_name}-content.png",
+            f"RetroArch\\assets\\xmb\\monochrome\\png\\{self.playlist_name}-content.png",
         )
         Helper.copy_file(src_playlist_content, dst_playlist_content)
 
@@ -67,7 +75,7 @@ class RA_ExportPlaylist:
             print("RA_ExportPlaylist 实例未指定 .playlist_name")
             return
 
-        RA_ExportPlaylist.__export_assets_xmb_monochrome_png(self.playlist_name)
+        self.__export_assets_xmb_monochrome_png()
 
         xml_file_path = self.export_roms.config_file_path()
         if not os.path.exists(xml_file_path):
@@ -89,7 +97,7 @@ class RA_ExportPlaylist:
             tree = ET.parse(xml_file_path)
             root = tree.getroot()
 
-            RA_ExportPlaylist.__write_header(lpl_file)
+            self.playlist_header.write(lpl_file)
 
             first_rom = True
 
