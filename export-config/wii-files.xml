@@ -1,12 +1,50 @@
 <?xml version='1.0' encoding='utf-8'?>
 <Copy-List description="导出到 Wii 的文件">
-    <File
-        src="wii\wiiflow\boxcovers\blank_covers\CPS1.png"
-        dst="wiiflow\boxcovers\blank_covers\CPS1.png"
+<!-- 以下为 fbalpha2012_cps1 -->
+    <Folder
+        src="wii\apps\fbalpha2012_cps1\info"
+        dst="apps\fbalpha2012_cps1\info"
+    />
+    <Folder
+        src="wii\apps\fbalpha2012_cps1\playlists"
+        dst="apps\fbalpha2012_cps1\playlists"
     />
     <File
-        src="wii\wiiflow\cache\blank_covers\CPS1.wfc"
-        dst="wiiflow\cache\blank_covers\CPS1.wfc"
+        src="wii\apps\fbalpha2012_cps1\fbalpha2012_cps1_libretro_wii.dol"
+        dst="apps\fbalpha2012_cps1\boot.dol"
+    />
+    <File
+        src="wii\apps\fbalpha2012_cps1\fbalpha2012_cps1_libretro_wii.dol"
+        dst="apps\fbalpha2012_cps1\fbalpha2012_cps1_libretro_wii.dol"
+    />
+    <File
+        src="wii\apps\ra-cps1\icon.png"
+        dst="apps\fbalpha2012_cps1\icon.png"
+    />
+    <File
+        src="wii\apps\fbalpha2012_cps1\meta.xml"
+        dst="apps\fbalpha2012_cps1\meta.xml"
+    />
+    <File
+        src="wii\apps\fbalpha2012_cps1\retroarch.cfg"
+        dst="apps\fbalpha2012_cps1\retroarch.cfg"
+    />
+    <!--File
+        src="wii\wad\fbalpha2012_cps1\CPS3 White [C3LR].zhtw.wad"
+        dst="wad\fbalpha2012_cps1\CPS3 White [C3LR].zhtw.wad"
+    />
+    <File
+        src="wii\wad\fbalpha2012_cps1\CPS3 Yellow [C3LR].zhtw.wad"
+        dst="wad\fbalpha2012_cps1\CPS3 Yellow [C3LR].zhtw.wad"
+    /-->
+    <!-- 以上为 fbalpha2012_cps1 -->
+    <Folder
+        src="wii\wiiflow\boxcovers\blank_covers"
+        dst="wiiflow\boxcovers\blank_covers"
+    />
+    <Folder
+        src="wii\wiiflow\cache\blank_covers"
+        dst="wiiflow\cache\blank_covers"
     />
     <Folder
         src="wii\wiiflow\plugins"
@@ -16,8 +54,8 @@
         src="wii\wiiflow\plugins_data"
         dst="wiiflow\plugins_data"
     />
-    <File
-        src="wii\wiiflow\source_menu\CPS1.png"
-        dst="wiiflow\source_menu\CPS1.png"
+    <Folder
+        src="wii\wiiflow\source_menu"
+        dst="wiiflow\source_menu"
     />
 </Copy-List>
