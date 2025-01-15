@@ -1,0 +1,13 @@
+
+
+ RA- Capcom CPS-1
+
+ This is a stand-alone Mod of SuperrSonic core. 
+ -----
+ BIOS files not needed
+ -----
+ I have left my .cfg files in case you want the emulator pre-configured. 
+ -----
+ 2 Player Input Settings are set to default...
+ 
+ ===========================================================
