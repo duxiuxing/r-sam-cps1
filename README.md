@@ -80,7 +80,7 @@ SS-Capcom CPS-1.zip 是 RunningSnakes 基于 RA-SS 制作的独立 CPS1 街机�
 - 模拟器名称：RA-SS CPS1
 - 最近更新时间：2024-11-17
 - APP 文件夹：wii > apps > ra-cps1
-- APP 数据文件夹：wii > private > C1MOD
+- APP 的数据文件夹：wii > private > C1MOD
 - 下载页面：<https://www.mediafire.com/folder/9h2hktvgyomdt/RA-SS_Modified>
 
 
@@ -89,7 +89,7 @@ SS-Capcom CPS-1.zip 是 RunningSnakes 基于 RA-SS 制作的独立 CPS1 街机�
 RunningSnakes 为 RA-SS CPS1 制作的频道，用于启动 apps > ra-cps1 文件夹里的模拟器。
 
 - 最近更新时间：2024-11-10
-- wad 文件夹：wii > wad > ra-cps1
+- 本地路径：wii > wad > ra-cps1
 - 下载页面：<https://www.mediafire.com/folder/kup4smqh4aw45/RunningSnakes_Forwarders>
 
 
