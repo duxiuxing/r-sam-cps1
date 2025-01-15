@@ -13,8 +13,7 @@
             title="cworld2j"
             en="Adventure Quiz Capcom World 2 (920611 Japan)"
             zhcn="卡普空世界冒险问答2 (920611 日版)"
-            apps-work=""
-            apps-not-work=""
+            apps-work="" apps-not-work=""
         />
     </Game>
     <Game name="Cadillacs and Dinosaurs">
@@ -22,8 +21,7 @@
             title="dino"
             en="Cadillacs and Dinosaurs (930201 World)"
             zhcn="恐龙快打 (930201 世界版)"
-            apps-work=""
-            apps-not-work=""
+            apps-work="" apps-not-work=""
         />
     </Game>
     <Game name="Captain Commando">
@@ -31,8 +29,7 @@
             title="captcomm"
             en="Captain Commando (911202 World)"
             zhcn="名将 (911202 世界版)"
-            apps-work=""
-            apps-not-work=""
+            apps-work="" apps-not-work=""
         />
     </Game>
     <Game name="Carrier Air Wing">
@@ -40,8 +37,7 @@
             title="cawing"
             en="Carrier Air Wing (U.S. navy 901012 etc)"
             zhcn="雌虎战机 (美国海军 901012 etc)"
-            apps-work=""
-            apps-not-work=""
+            apps-work="" apps-not-work=""
         />
     </Game>
     <Game name="Dynasty Wars">
@@ -49,8 +45,7 @@
             title="dynwar"
             en="Dynasty Wars (US set 1)"
             zhcn="吞食天地 王朝战争 (美版 set 1)"
-            apps-work=""
-            apps-not-work=""
+            apps-work="" apps-not-work=""
         />
     </Game>
     <Game name="Forgotten Worlds">
@@ -66,8 +61,7 @@
             title="ffight"
             en="Final Fight (World, set 1)"
             zhcn="快打旋风 (世界版, set 1)"
-            apps-work=""
-            apps-not-work=""
+            apps-work="" apps-not-work=""
         />
     </Game>
     <Game name="Ghouls'n Ghosts">
@@ -75,8 +69,7 @@
             title="ghouls"
             en="Ghouls'n Ghosts (World)"
             zhcn="大魔界村 (世界版)"
-            apps-work=""
-            apps-not-work=""
+            apps-work="" apps-not-work=""
         />
     </Game>
     <Game name="Knights of the Round">
@@ -100,8 +93,7 @@
             title="megaman"
             en="Mega Man - The Power Battle (951006 USA)"
             zhcn="洛克人 力量之战 (951006 美版)"
-            apps-work=""
-            apps-not-work=""
+            apps-work="" apps-not-work=""
         />
     </Game>
     <Game name="Mega Twins">
@@ -236,8 +228,7 @@
             title="3wonders"
             en="Three Wonders (wonder 3 910520 etc)"
             zhcn="三个奇迹 (wonder 3 910520 etc)"
-            apps-work=""
-            apps-not-work=""
+            apps-work="" apps-not-work=""
         />
     </Game>
     <Game name="U.N. Squadron">

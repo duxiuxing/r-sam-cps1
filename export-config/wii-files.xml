@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 <Copy-List description="导出到 Wii 的文件">
-<!-- 以下为 fbalpha2012_cps1 -->
+    <!-- 以下为 fbalpha2012_cps1 -->
     <Folder
         src="wii\apps\fbalpha2012_cps1\info"
         dst="apps\fbalpha2012_cps1\info"
