@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
-<Rom-List description="导出到 Arcade (FB Alpha 2012 CPS-1) 的游戏"
-    one-folder-one-rom="true">
+<Rom-List description="使用 FB Alpha 2012 CPS-1 核心加载的游戏"
+    dst-folder="Arcade (FB Alpha 2012 CPS-1)" one-folder-one-rom="true">
     <Rom crc32="64E58DC3" bytes="1420289"
         title="1941"
         en="1941 - Counter Attack (900227 World)"
@@ -9,7 +9,7 @@
     <Rom crc32="319BF022" bytes="1753871"
         title="cworld2j"
         en="Adventure Quiz Capcom World 2 (920611 Japan)"
-        zhcn="K - 卡普空世界冒险问答2 (920611 日版)"
+        zhcn="W - 问答冒险 卡普空世界2 (920611 日版)"
     />
     <Rom crc32="5214C514" bytes="4116096"
         title="dino"
@@ -24,7 +24,7 @@
     <Rom crc32="31B0791C" bytes="1440062"
         title="cawing"
         en="Carrier Air Wing (U.S. navy 901012 etc)"
-        zhcn="C - 雌虎战机 (美国海军 901012 etc)"
+        zhcn="F - 飞空之翼 (美国海军 901012 etc)"
     />
     <Rom crc32="13133F73" bytes="2193606"
         title="dynwar"

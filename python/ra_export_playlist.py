@@ -52,7 +52,7 @@ class RA_ExportPlaylist:
         )
         dst_playlist = os.path.join(
             LocalConfigs.export_root_folder_path(),
-            f"RetroArch\\assets\\xmb\\monochrome\\png\\{self.playlist_name}.png",
+            f"retroarch\\assets\\xmb\\monochrome\\png\\{self.playlist_name}.png",
         )
         Helper.copy_file(src_playlist, dst_playlist)
 
@@ -62,7 +62,7 @@ class RA_ExportPlaylist:
         )
         dst_playlist_content = os.path.join(
             LocalConfigs.export_root_folder_path(),
-            f"RetroArch\\assets\\xmb\\monochrome\\png\\{self.playlist_name}-content.png",
+            f"retroarch\\assets\\xmb\\monochrome\\png\\{self.playlist_name}-content.png",
         )
         Helper.copy_file(src_playlist_content, dst_playlist_content)
 
@@ -84,7 +84,7 @@ class RA_ExportPlaylist:
 
         lpl_file_path = os.path.join(
             LocalConfigs.export_root_folder_path(),
-            f"RetroArch\\playlists\\{self.playlist_name}.lpl",
+            f"retroarch\\playlists\\{self.playlist_name}.lpl",
         )
         if os.path.exists(lpl_file_path):
             os.remove(lpl_file_path)

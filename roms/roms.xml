@@ -12,7 +12,7 @@
         <Rom crc32="319BF022" bytes="1753871"
             title="cworld2j"
             en="Adventure Quiz Capcom World 2 (920611 Japan)"
-            zhcn="卡普空世界冒险问答2 (920611 日版)"
+            zhcn="问答冒险 卡普空世界2 (920611 日版)"
             apps-work="" apps-not-work=""
         />
     </Game>
@@ -36,7 +36,7 @@
         <Rom crc32="31B0791C" bytes="1440062"
             title="cawing"
             en="Carrier Air Wing (U.S. navy 901012 etc)"
-            zhcn="雌虎战机 (美国海军 901012 etc)"
+            zhcn="飞空之翼 (美国海军 901012 etc)"
             apps-work="" apps-not-work=""
         />
     </Game>

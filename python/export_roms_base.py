@@ -14,7 +14,6 @@ from r_sam_roms import RSamRoms
 class ExportRomsBase:
     def __init__(self):
         self.config_file_name = None
-        self.dst_folder_name = None
         self.export_fake_roms = True
         self.__rom_crc32_to_dst_path = {}
 
@@ -35,20 +34,6 @@ class ExportRomsBase:
             print("ExportRomsBase 实例未指定 .config_file_name")
             return False
 
-        if self.dst_folder_name is None:
-            print("ExportRomsBase 实例未指定 .dst_folder_name")
-            return False
-
-        dst_roms_folder_path = os.path.join(
-            LocalConfigs.export_root_folder_path(),
-            f"Games\\{self.dst_folder_name}",
-        )
-        if not Helper.verify_exist_folder_ex(dst_roms_folder_path):
-            print(f"【错误】无效的目标文件夹 {dst_roms_folder_path}")
-            return False
-
-        self.__rom_crc32_to_dst_path = {}
-
         # 本函数执行的操作如下：
         # 1. 读取 self.config_file_name，目前只需要根据 <Rom> 中的 crc32 和 title 就可以完成导出
         # 2. 根据 rom_crc32 在 RSamRoms 中查询对应的 rom_info
@@ -63,7 +48,19 @@ class ExportRomsBase:
 
         tree = ET.parse(xml_file_path)
         root = tree.getroot()
+        dst_roms_folder_path = os.path.join(
+            LocalConfigs.export_root_folder_path(), "Games"
+        )
         one_folder_one_rom = False
+
+        if "dst-folder" in root.attrib:
+            dst_roms_folder_path = os.path.join(
+                dst_roms_folder_path, root.get("dst-folder")
+            )
+
+        if not Helper.verify_exist_folder_ex(dst_roms_folder_path):
+            print(f"【错误】无效的目标文件夹 {dst_roms_folder_path}")
+            return False
 
         if (
             "one-folder-one-rom" in root.attrib
@@ -71,6 +68,7 @@ class ExportRomsBase:
         ):
             one_folder_one_rom = True
 
+        self.__rom_crc32_to_dst_path = {}
         for rom_elem in root.findall("Rom"):
             rom_crc32 = rom_elem.get("crc32").rjust(8, "0")
             rom_info = r_sam_roms.query_rom_info(rom_crc32)
@@ -99,8 +97,8 @@ class ExportRomsBase:
                     Helper.copy_file_if_not_exist(src_path, dst_path)
 
         if self.export_fake_roms:
-            print(f"导出空的 ROM 文件到 {self.dst_folder_name}")
+            print(f"导出空的 ROM 文件到 {dst_roms_folder_path}")
         else:
-            print(f"导出 ROM 文件到 {self.dst_folder_name}")
+            print(f"导出 ROM 文件到 {dst_roms_folder_path}")
 
         return True

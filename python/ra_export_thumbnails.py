@@ -41,7 +41,7 @@ class RA_ExportThumbnails:
             return
         dst_playlist_folder_path = os.path.join(
             LocalConfigs.export_root_folder_path(),
-            f"RetroArch\\thumbnails\\{self.playlist_name}",
+            f"retroarch\\thumbnails\\{self.playlist_name}",
         )
         if not Helper.verify_exist_folder_ex(dst_playlist_folder_path):
             print(f"【错误】无效的目标文件夹 {dst_playlist_folder_path}")
