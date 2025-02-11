@@ -29,15 +29,89 @@
         src="wii\apps\fbalpha2012_cps1\retroarch.cfg"
         dst="apps\fbalpha2012_cps1\retroarch.cfg"
     />
-    <!--File
-        src="wii\wad\fbalpha2012_cps1\CPS3 White [C3LR].zhtw.wad"
-        dst="wad\fbalpha2012_cps1\CPS3 White [C3LR].zhtw.wad"
+    <File
+        src="wii\wad\fbalpha2012_cps1\Capcom CPS-1 White [C1LR].wad"
+        dst="wad\fbalpha2012_cps1\Capcom CPS-1 White [C1LR].wad"
     />
     <File
-        src="wii\wad\fbalpha2012_cps1\CPS3 Yellow [C3LR].zhtw.wad"
-        dst="wad\fbalpha2012_cps1\CPS3 Yellow [C3LR].zhtw.wad"
-    /-->
+        src="wii\wad\fbalpha2012_cps1\Capcom CPS-1 Yellow [C1LR].wad"
+        dst="wad\fbalpha2012_cps1\Capcom CPS-1 Yellow [C1LR].wad"
+    />
     <!-- 以上为 fbalpha2012_cps1 -->
+    <!-- 以下为 ra-cps1 -->
+    <Folder
+        src="wii\apps\ra-cps1"
+        dst="apps\ra-cps1"
+    />
+    <Folder
+        src="wii\private\C1MOD"
+        dst="private\C1MOD"
+    />
+    <Folder
+        src="wii\wad\ra-cps1"
+        dst="wad\ra-cps1"
+    />
+    <!-- 以上为 ra-cps1 -->
+    <!-- 以下为 sf2 -->
+    <Folder
+        src="wii\apps\sf2"
+        dst="apps\sf2"
+    />
+    <File
+        src="wii\apps\ra-cps1\boot.dol"
+        dst="apps\sf2\boot.dol"
+    />
+    <File
+        src="wii\wad\sf2\Street Fighter 2 [SF21].wad"
+        dst="wad\sf2\Street Fighter 2 [SF21].wad"
+    />
+    <!-- 以上为 sf2 -->
+    <!-- 以下为 sf2ce -->
+    <Folder
+        src="wii\apps\sf2ce"
+        dst="apps\sf2ce"
+    />
+    <File
+        src="wii\apps\ra-cps1\boot.dol"
+        dst="apps\sf2ce\boot.dol"
+    />
+    <File
+        src="wii\wad\sf2ce\Street Fighter 2' CE [SF22].wad"
+        dst="wad\sf2ce\Street Fighter 2' CE [SF22].wad"
+    />
+    <!-- 以上为 sf2ce -->
+    <!-- 以下为 sf2hf -->
+    <Folder
+        src="wii\apps\sf2hf"
+        dst="apps\sf2hf"
+    />
+    <File
+        src="wii\apps\ra-cps1\boot.dol"
+        dst="apps\sf2hf\boot.dol"
+    />
+    <File
+        src="wii\wad\sf2hf\Street Fighter 2' HF Blanka [SF23].wad"
+        dst="wad\sf2hf\Street Fighter 2' HF Blanka [SF23].wad"
+    />
+    <File
+        src="wii\wad\sf2hf\Street Fighter 2' HF Honda [SF23].wad"
+        dst="wad\sf2hf\Street Fighter 2' HF Honda [SF23].wad"
+    />
+    <!-- 以上为 sf2hf -->
+    <!-- 以下为 sfzch -->
+    <Folder
+        src="wii\apps\sfzch"
+        dst="apps\sfzch"
+    />
+    <File
+        src="wii\apps\ra-cps1\boot.dol"
+        dst="apps\sfzch\boot.dol"
+    />
+    <File
+        src="wii\wad\sfzch\Street Fighter Zero [SF00].wad"
+        dst="wad\sfzch\Street Fighter Zero [SF00].wad"
+    />
+    <!-- 以上为 sfzch -->
     <Folder
         src="wii\wiiflow\boxcovers\blank_covers"
         dst="wiiflow\boxcovers\blank_covers"
