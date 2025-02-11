@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<app version="1">
+  <name>Street Fighter 2' HF</name>
+  <author>R-Sam based on RA-Hexaeco</author>
+  <version>1.0</version>
+  <release_date>2025-02-01</release_date>
+  <short_description>Capcom Play System 1 Emulator</short_description> 
+  <long_description>One-click run Street Fighter II' - Hyper Fighting.
+
+Channel Forwarders are stored in wad/sf2ce.
+
+Website: https://github.com/R-Sam-1980/cps1
+
+- GameID: 37378A
+- Developer &amp; Publisher: Capcom
+- Genre: Fight / Versus
+- Released: 1992
+- Players: 2</long_description>
+  <no_ios_reload/>
+  <ahb_access/>
+  <arguments>
+    <arg>sd:/Games/Arcade (FB Alpha 2012 CPS-1)/Street Fighter II' - Hyper Fighting</arg>
+    <arg>sf2hf.zip</arg>
+    <arg>sd:/private/C1MOD/main.cfg</arg>
+  </arguments>
+</app>
