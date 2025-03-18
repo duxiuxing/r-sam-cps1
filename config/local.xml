@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='utf-8'?>
+<LocalConfigs
+    seven_zip_exe_path="C:\Program Files\7-Zip\7z.exe"
+    root_directory_export_to_index="0"
+    root_directory_export_to_0="C:\Users\duxiu\AppData\Roaming\Dolphin Emulator\Load\WiiSDSync"
+    root_directory_export_to_1="F:\"
+    root_directory_export_to_2="G:\"
+    root_directory_export_to_3="X:\"
+    root_directory_export_to_4="D:\workspace\github\R-Sam-1980\cps1\wii-sd"
+    root_directory_export_to_5="D:\workspace\github\R-Sam-1980\cps1\wii-usb"
+/>

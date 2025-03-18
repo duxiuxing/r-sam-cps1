@@ -1,0 +1,6 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ConsoleConfigs
+    ra_configs_file="retroarch.xml"
+    rom_extension=".zip"
+    wiiflow_plugin_name="CPS1"
+/>

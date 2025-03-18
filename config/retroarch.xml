@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='utf-8'?>
+<RA_Configs
+    version="1.20.0"
+    release_date="2025/01/04"
+    short_description="Capcom Play System 1 Emulator"
+    core_name="Arcade (FB Alpha 2012 CPS-1)"
+    playlist_name_en="R-Sam - CPS1 Arcade"
+    playlist_name_zhcn="认真玩 - CPS1 街机"
+    core_file_wii="fbalpha2012_cps1_libretro_wii.dol"
+    ra_ss_core_file_wii="Arcade CPS1.dol"
+    ra_ss_data_folder_wii="C1MOD"
+    assets_directory_wii="apps\fbalpha2012_cps1\assets"
+    playlist_directory_wii="apps\fbalpha2012_cps1\playlists"
+    remapping_directory_wii="remaps\FB Alpha 2012 CPS-1"
+    thumbnails_directory_wii="retroarch\thumbnails"
+    thumbnails_filter_wii="snap|title"
+    core_file_win="fbalpha2012_cps1_libretro.dll"
+    assets_directory_win="RetroArch-Win64\assets"
+    playlist_directory_win="RetroArch-Win64\playlists"
+    thumbnails_directory_win="RetroArch-Win64\thumbnails"
+    thumbnails_filter_win="boxart|logo|snap"
+/>

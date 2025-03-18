@@ -37,7 +37,8 @@
             title="cawing"
             en="Carrier Air Wing (U.S. navy 901012 etc)"
             zhcn="飞空之翼 (美国海军 901012 etc)"
-            apps-work="" apps-not-work=""
+            apps-work="RetroArch-Wii (FinalBurn Neo)|RetroArch-Win (FinalBurn Neo)"
+            apps-not-work="RetroArch-Wii (FB Alpha 2012 CPS-1)|RetroArch-Win (FB Alpha 2012 CPS-1)"
         />
     </Game>
     <Game name="Dynasty Wars">

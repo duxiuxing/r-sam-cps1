@@ -1,0 +1,273 @@
+<?xml version='1.0' encoding='utf-8'?>
+<WiiFileExporter description="导出到 Wii SD 卡的文件">
+    <WiiRA_App name="FB Alpha 2012 CPS-1" folder="fbalpha2012_cps1"
+        content_show_favorites="true" content_show_history="true">
+        <File src="wii\remaps\2p2b.rmp" dst="remaps\FB Alpha 2012 CPS-1\3wonders.rmp" />
+        <File src="wii\remaps\1941.rmp" dst="remaps\FB Alpha 2012 CPS-1\1941.rmp" />
+        <File src="wii\remaps\2p2b.rmp" dst="remaps\FB Alpha 2012 CPS-1\cawing.rmp" />
+        <File
+            src="wii\wad\fbalpha2012_cps1\Capcom CPS-1 White [CPS1].wad"
+            dst="wad\FB Alpha 2012 CPS-1\Capcom CPS-1 White [CPS1].wad"
+        />
+        <File
+            src="wii\wad\fbalpha2012_cps1\Capcom CPS-1 Yellow [CPS1].wad"
+            dst="wad\FB Alpha 2012 CPS-1\Capcom CPS-1 Yellow [CPS1].wad"
+        />
+    </WiiRA_App>
+    <WiiRA_SS_App name="RA-SS CPS1" folder="ra-cps1">
+        <File
+            src="wii\wad\ra-cps1\Capcom CPS-1 - RunningSnakes (C1LR) - (ra-cps1) Dark.wad"
+            dst="wad\RA-SS CPS1\Capcom CPS-1 - RunningSnakes (C1LR) - (ra-cps1) Dark.wad"
+        />
+        <File
+            src="wii\wad\ra-cps1\Capcom CPS-1 - RunningSnakes (C1LR) - (ra-cps1) Gold.wad"
+            dst="wad\RA-SS CPS1\Capcom CPS-1 - RunningSnakes (C1LR) - (ra-cps1) Gold.wad"
+        />
+        <File
+            src="wii\wad\ra-cps1\Capcom CPS-1 - RunningSnakes (C1LR) - (ra-cps1) White.wad"
+            dst="wad\RA-SS CPS1\Capcom CPS-1 - RunningSnakes (C1LR) - (ra-cps1) White.wad"
+        />
+        <File
+            src="wii\wad\ra-cps1\Capcom CPS-1 - RunningSnakes (C1LR) - (ra-cps1) Yellow.wad"
+            dst="wad\RA-SS CPS1\Capcom CPS-1 - RunningSnakes (C1LR) - (ra-cps1) Yellow.wad"
+        />
+    </WiiRA_SS_App>
+    <WiiRA_App name="1941 - Counter Attack" folder="1941" rom_title="1941" remap="1941">
+        <File
+            src="wii\wad\1941\1941 Counter Attack [8T2Y]-S.wad"
+            dst="wad\1941 - Counter Attack\1941 Counter Attack [8T2Y]-S.wad"
+        />
+        <File
+            src="wii\wad\1941\1941 Counter Attack [8T2Y]-W.wad"
+            dst="wad\1941 - Counter Attack\1941 Counter Attack [8T2Y]-W.wad"
+        />
+    </WiiRA_App>
+    <WiiRA_SS_App name="1941 - Counter Attack" folder="ra-1941" rom_title="1941" remap="1941">
+        <File
+            src="wii\wad\1941\1941 Counter Attack [8T2Y]-S.wad"
+            dst="wad\1941 - Counter Attack\1941 Counter Attack [8T2Y]-S.wad"
+        />
+        <File
+            src="wii\wad\1941\1941 Counter Attack [8T2Y]-W.wad"
+            dst="wad\1941 - Counter Attack\1941 Counter Attack [8T2Y]-W.wad"
+        />
+    </WiiRA_SS_App>
+    <WiiRA_App name="Cadillacs and Dinosaurs" folder="dino" rom_title="dino" remap="3p2b">
+        <File
+            src="wii\wad\dino\Cadillacs and Dinosaurs [5JWQ]-S.wad"
+            dst="wad\Cadillacs and Dinosaurs\Cadillacs and Dinosaurs [5JWQ]-S.wad"
+        />
+        <File
+            src="wii\wad\dino\Cadillacs and Dinosaurs [5JWQ]-W.wad"
+            dst="wad\Cadillacs and Dinosaurs\Cadillacs and Dinosaurs [5JWQ]-W.wad"
+        />
+    </WiiRA_App>
+    <WiiRA_SS_App name="Cadillacs and Dinosaurs" folder="ra-dino" rom_title="dino" remap="3p2b">
+        <File
+            src="wii\wad\dino\Cadillacs and Dinosaurs [5JWQ]-S.wad"
+            dst="wad\Cadillacs and Dinosaurs\Cadillacs and Dinosaurs [5JWQ]-S.wad"
+        />
+        <File
+            src="wii\wad\dino\Cadillacs and Dinosaurs [5JWQ]-W.wad"
+            dst="wad\Cadillacs and Dinosaurs\Cadillacs and Dinosaurs [5JWQ]-W.wad"
+        />
+    </WiiRA_SS_App>
+    <WiiRA_App name="Captain Commando" folder="captcomm" rom_title="captcomm" remap="2p2b">
+        <File
+            src="wii\wad\captcomm\Captain Commando [5JT6]-S.wad"
+            dst="wad\Captain Commando\Captain Commando [5JT6]-S.wad"
+        />
+        <File
+            src="wii\wad\captcomm\Captain Commando [5JT6]-W.wad"
+            dst="wad\Captain Commando\Captain Commando [5JT6]-W.wad"
+        />
+    </WiiRA_App>
+    <WiiRA_SS_App name="Captain Commando" folder="ra-captcomm" rom_title="captcomm" remap="2p2b">
+        <File
+            src="wii\wad\captcomm\Captain Commando [5JT6]-S.wad"
+            dst="wad\Captain Commando\Captain Commando [5JT6]-S.wad"
+        />
+        <File
+            src="wii\wad\captcomm\Captain Commando [5JT6]-W.wad"
+            dst="wad\Captain Commando\Captain Commando [5JT6]-W.wad"
+        />
+    </WiiRA_SS_App>
+    <WiiRA_App name="Final Fight" folder="ffight" rom_title="ffight" remap="2p2b">
+        <File
+            src="wii\wad\ffight\Final Fight [5JXM]-S1.wad"
+            dst="wad\Final Fight\Final Fight [5JXM]-S1.wad"
+        />
+        <File
+            src="wii\wad\ffight\Final Fight [5JXM]-S2.wad"
+            dst="wad\Final Fight\Final Fight [5JXM]-S2.wad"
+        />
+        <File
+            src="wii\wad\ffight\Final Fight [5JXM]-W.wad"
+            dst="wad\Final Fight\Final Fight [5JXM]-W.wad"
+        />
+    </WiiRA_App>
+    <WiiRA_SS_App name="Final Fight" folder="ra-ffight" rom_title="ffight" remap="2p2b">
+        <File
+            src="wii\wad\ffight\Final Fight [5JXM]-S.wad"
+            dst="wad\Final Fight\Final Fight [5JXM]-S.wad"
+        />
+        <File
+            src="wii\wad\ffight\Final Fight [5JXM]-W.wad"
+            dst="wad\Final Fight\Final Fight [5JXM]-W.wad"
+        />
+    </WiiRA_SS_App>
+    <WiiRA_App name="The Punisher" folder="punisher" rom_title="punisher" remap="2p2b">
+        <File
+            src="wii\wad\punisher\The Punisher [5K62]-S.wad"
+            dst="wad\The Punisher\The Punisher [5K62]-S.wad"
+        />
+        <File
+            src="wii\wad\punisher\The Punisher [5K62]-W.wad"
+            dst="wad\The Punisher\The Punisher [5K62]-W.wad"
+        />
+    </WiiRA_App>
+    <WiiRA_SS_App name="The Punisher" folder="ra-punisher" rom_title="punisher" remap="2p2b">
+        <File
+            src="wii\wad\punisher\The Punisher [5K62]-S.wad"
+            dst="wad\The Punisher\The Punisher [5K62]-S.wad"
+        />
+        <File
+            src="wii\wad\punisher\The Punisher [5K62]-W.wad"
+            dst="wad\The Punisher\The Punisher [5K62]-W.wad"
+        />
+    </WiiRA_SS_App>
+    <WiiRA_App name="Three Wonders" folder="3wonders" rom_title="3wonders" remap="2p2b">
+        <File
+            src="wii\wad\3wonders\Three Wonders [5JSQ]-S.wad"
+            dst="wad\Three Wonders\Three Wonders [5JSQ]-S.wad"
+        />
+        <File
+            src="wii\wad\3wonders\Three Wonders [5JSQ]-W.wad"
+            dst="wad\Three Wonders\Three Wonders [5JSQ]-W.wad"
+        />
+    </WiiRA_App>
+    <WiiRA_SS_App name="Three Wonders" folder="ra-3wonders" rom_title="3wonders" remap="2p2b">
+        <File
+            src="wii\wad\3wonders\Three Wonders [5JSQ]-S.wad"
+            dst="wad\Three Wonders\Three Wonders [5JSQ]-S.wad"
+        />
+        <File
+            src="wii\wad\3wonders\Three Wonders [5JSQ]-W.wad"
+            dst="wad\Three Wonders\Three Wonders [5JSQ]-W.wad"
+        />
+    </WiiRA_SS_App>
+    <WiiRA_App name="JoJo's Venture 2" folder="jojoba" rom_title="jojoba">
+        <File
+            src="wii\retroarch\system\cache\RomGame_D_jojoba"
+            dst="retroarch\system\cache\RomGame_D_jojoba"
+        />
+        <File
+            src="wii\retroarch\system\cache\RomGame_jojoba"
+            dst="retroarch\system\cache\RomGame_jojoba"
+        />
+        <File
+            src="wii\retroarch\system\cache\RomUser_jojoba"
+            dst="retroarch\system\cache\RomUser_jojoba"
+        />
+        <File
+            src="wii\wad\jojoba\JoJo's Venture 2 [ZU2S]-S.wad"
+            dst="wad\jojoba\JoJo's Venture 2 [ZU2S]-S.wad"
+        />
+        <File
+            src="wii\wad\jojoba\JoJo's Venture 2 [ZU2S]-W.wad"
+            dst="wad\jojoba\JoJo's Venture 2 [ZU2S]-W.wad"
+        />
+    </WiiRA_App>
+    <WiiRA_App name="Street Fighter 3" folder="sfiii" rom_title="sfiii">
+        <File
+            src="wii\retroarch\system\cache\RomGame_D_sfiii"
+            dst="retroarch\system\cache\RomGame_D_sfiii"
+        />
+        <File
+            src="wii\retroarch\system\cache\RomGame_sfiii"
+            dst="retroarch\system\cache\RomGame_sfiii"
+        />
+        <File
+            src="wii\retroarch\system\cache\RomUser_sfiii"
+            dst="retroarch\system\cache\RomUser_sfiii"
+        />
+        <File
+            src="wii\wad\sfiii\Street Fighter 3 [ZU2U]-S.wad"
+            dst="wad\sfiii\Street Fighter 3 [ZU2U]-S.wad"
+        />
+        <File
+            src="wii\wad\sfiii\Street Fighter 3 [ZU2U]-W.wad"
+            dst="wad\sfiii\Street Fighter 3 [ZU2U]-W.wad"
+        />
+    </WiiRA_App>
+    <WiiRA_App name="Street Fighter 3.2" folder="sfiii2" rom_title="sfiii2">
+        <File
+            src="wii\retroarch\system\cache\RomGame_D_sfiii2"
+            dst="retroarch\system\cache\RomGame_D_sfiii2"
+        />
+        <File
+            src="wii\retroarch\system\cache\RomGame_sfiii2"
+            dst="retroarch\system\cache\RomGame_sfiii2"
+        />
+        <File
+            src="wii\retroarch\system\cache\RomUser_sfiii2"
+            dst="retroarch\system\cache\RomUser_sfiii2"
+        />
+        <File
+            src="wii\wad\sfiii2\Street Fighter 3.2 [ZU2V]-S.wad"
+            dst="wad\sfiii2\Street Fighter 3.2 [ZU2V]-S.wad"
+        />
+        <File
+            src="wii\wad\sfiii2\Street Fighter 3.2 [ZU2V]-W.wad"
+            dst="wad\sfiii2\Street Fighter 3.2 [ZU2V]-W.wad"
+        />
+    </WiiRA_App>
+    <WiiRA_App name="Street Fighter 3.3" folder="sfiii3" rom_title="sfiii3">
+        <File
+            src="wii\retroarch\system\cache\RomGame_D_sfiii3"
+            dst="retroarch\system\cache\RomGame_D_sfiii3"
+        />
+        <File
+            src="wii\retroarch\system\cache\RomGame_sfiii3"
+            dst="retroarch\system\cache\RomGame_sfiii3"
+        />
+        <File
+            src="wii\retroarch\system\cache\RomUser_sfiii3"
+            dst="retroarch\system\cache\RomUser_sfiii3"
+        />
+        <File
+            src="wii\wad\sfiii3\Street Fighter 3.3 [ZU2W].wad"
+            dst="wad\sfiii3\Street Fighter 3.3 [ZU2W].wad"
+        />
+        <File
+            src="wii\wad\sfiii3\Street Fighter 3.3 [ZU2W]-S.wad"
+            dst="wad\sfiii3\Street Fighter 3.3 [ZU2W]-S.wad"
+        />
+        <File
+            src="wii\wad\sfiii3\Street Fighter 3.3 [ZU2W]-W.wad"
+            dst="wad\sfiii3\Street Fighter 3.3 [ZU2W]-W.wad"
+        />
+    </WiiRA_App>
+    <!--
+    <Folder
+        src="wii\wiiflow\boxcovers\blank_covers"
+        dst="wiiflow\boxcovers\blank_covers"
+    />
+    <Folder
+        src="wii\wiiflow\cache\blank_covers"
+        dst="wiiflow\cache\blank_covers"
+    />
+    <Folder
+        src="wii\wiiflow\plugins"
+        dst="wiiflow\plugins"
+    />
+    <Folder
+        src="wii\wiiflow\plugins_data"
+        dst="wiiflow\plugins_data"
+    />
+    <Folder
+        src="wii\wiiflow\source_menu"
+        dst="wiiflow\source_menu"
+    />
+    -->
+</WiiFileExporter>
