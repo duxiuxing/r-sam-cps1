@@ -2,8 +2,8 @@
 
 import os
 
-from common.console_configs import ConsoleConfigs
-from common.local_configs import LocalConfigs
+from console_configs import ConsoleConfigs
+from local_configs import LocalConfigs
 
 
 class WiiFlow_DeleteGameTdbOffsetBin:
@@ -11,7 +11,7 @@ class WiiFlow_DeleteGameTdbOffsetBin:
         # gametdb_offsets.bin 是 WiiFlow 生成的缓存文件，删掉才会重新生成
         plugin_name = ConsoleConfigs.wiiflow_plugin_name()
         gametdb_offsets_bin_path = os.path.join(
-            LocalConfigs.export_root_folder_path(),
+            LocalConfigs.root_directory_export_to(),
             f"wiiflow\\plugins_data\\{plugin_name}\\gametdb_offsets.bin",
         )
 

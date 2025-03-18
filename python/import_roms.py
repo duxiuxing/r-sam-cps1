@@ -3,13 +3,12 @@
 import os
 import xml.etree.ElementTree as ET
 
-from common.console_configs import ConsoleConfigs
-from common.game_info import GameInfo
-from common.helper import Helper
-from common.local_configs import LocalConfigs
-from common.rom_info import RomInfo
-
+from console_configs import ConsoleConfigs
+from game_info import GameInfo
+from helper import Helper
+from local_configs import LocalConfigs
 from r_sam_roms import RSamRoms
+from rom_info import RomInfo
 from wiiflow_plugins_data import WiiFlowPluginsData
 
 
@@ -26,19 +25,19 @@ class ImportRoms:
         exist_rom_crc32_to_name = {}
         roms_new_xml_root = ET.Element("Game-List")
 
-        import_folder_path = os.path.join(
-            LocalConfigs.repository_folder_path(), "roms-import"
+        import_dir_path = os.path.join(
+            LocalConfigs.repository_directory(), "roms-import"
         )
-        if not Helper.exist_folder(import_folder_path):
-            print(f"【错误】无效的文件夹 {import_folder_path}")
+        if not Helper.exist_directory(import_dir_path):
+            print(f"【错误】无效的文件夹 {import_dir_path}")
             return
 
         roms_new_count = 0
-        for src_rom_name in os.listdir(import_folder_path):
+        for src_rom_name in os.listdir(import_dir_path):
             if not ConsoleConfigs.rom_extension_match(src_rom_name):
                 continue
 
-            src_rom_path = os.path.join(import_folder_path, src_rom_name)
+            src_rom_path = os.path.join(import_dir_path, src_rom_name)
             src_rom_crc32 = Helper.compute_crc32(src_rom_path)
             if r_sam_roms.rom_exist(src_rom_crc32):
                 exist_rom_crc32_to_name[src_rom_crc32] = src_rom_name
@@ -94,12 +93,12 @@ class ImportRoms:
             dst_rom_path = RSamRoms.compute_rom_path(rom_info)
             if os.path.exists(dst_rom_path):
                 print(f"【错误】新游戏 {src_rom_name} 已经存在，但不在 .xml 文件中")
-            elif Helper.verify_exist_folder_ex(os.path.dirname(dst_rom_path)):
+            elif Helper.verify_exist_directory_ex(os.path.dirname(dst_rom_path)):
                 os.rename(src_rom_path, dst_rom_path)
             roms_new_count = roms_new_count + 1
 
         roms_exist_xml_path = os.path.join(
-            LocalConfigs.repository_folder_path(), "roms\\roms-exist.xml"
+            LocalConfigs.repository_directory(), "roms\\roms-exist.xml"
         )
         if os.path.exists(roms_exist_xml_path):
             os.remove(roms_exist_xml_path)
@@ -126,7 +125,7 @@ class ImportRoms:
             )
 
         roms_new_xml_path = os.path.join(
-            LocalConfigs.repository_folder_path(), "roms\\roms-new.xml"
+            LocalConfigs.repository_directory(), "roms\\roms-new.xml"
         )
         if os.path.exists(roms_new_xml_path):
             os.remove(roms_new_xml_path)

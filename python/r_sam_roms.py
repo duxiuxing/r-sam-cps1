@@ -3,10 +3,10 @@
 import os
 import xml.etree.ElementTree as ET
 
-from common.console_configs import ConsoleConfigs
-from common.helper import Helper
-from common.local_configs import LocalConfigs
-from common.rom_info import RomInfo
+from console_configs import ConsoleConfigs
+from helper import Helper
+from local_configs import LocalConfigs
+from rom_info import RomInfo
 
 
 class RSamRoms:
@@ -27,30 +27,30 @@ class RSamRoms:
             if letter not in "ABCDEFGHIJKLMNOPQRSTUVWXYZ":
                 letter = "#"
             return os.path.join(
-                LocalConfigs.repository_folder_path(),
+                LocalConfigs.repository_directory(),
                 f"roms\\{letter}\\{rom_info.game_name}\\{rom_info.rom_crc32}{ConsoleConfigs.rom_extension()}",
             )
         else:
             return os.path.join(
-                LocalConfigs.repository_folder_path(),
+                LocalConfigs.repository_directory(),
                 f"roms\\{rom_info.game_name}\\{rom_info.rom_crc32}{ConsoleConfigs.rom_extension()}",
             )
 
     @staticmethod
-    def compute_image_path(rom_info, sub_folder):
-        # 根据 rom_info 和 sub_folder 拼接图片文件的路径
+    def compute_image_path(game_name, sub_folder):
+        # 根据 game_name 和 sub_folder 拼接图片文件的路径
         if Helper.files_in_letter_folder():
-            letter = rom_info.game_name.upper()[0]
+            letter = game_name.upper()[0]
             if letter not in "ABCDEFGHIJKLMNOPQRSTUVWXYZ":
                 letter = "#"
             return os.path.join(
-                LocalConfigs.repository_folder_path(),
-                f"image\\{sub_folder}\\{letter}\\{rom_info.game_name}.png",
+                LocalConfigs.repository_directory(),
+                f"image\\{sub_folder}\\{letter}\\{game_name}.png",
             )
         else:
             return os.path.join(
-                LocalConfigs.repository_folder_path(),
-                f"image\\{sub_folder}\\{rom_info.game_name}.png",
+                LocalConfigs.repository_directory(),
+                f"image\\{sub_folder}\\{game_name}.png",
             )
 
     def __init__(self):
@@ -99,13 +99,13 @@ class RSamRoms:
         if Helper.files_in_letter_folder():
             for letter in "#ABCDEFGHIJKLMNOPQRSTUVWXYZ":
                 xml_file_path = os.path.join(
-                    LocalConfigs.repository_folder_path(),
+                    LocalConfigs.repository_directory(),
                     f"roms\\{letter}\\{letter}.xml",
                 )
                 self.__load_xml_file(xml_file_path)
         else:
             xml_file_path = os.path.join(
-                LocalConfigs.repository_folder_path(), "roms\\roms.xml"
+                LocalConfigs.repository_directory(), "roms\\roms.xml"
             )
             self.__load_xml_file(xml_file_path)
 
