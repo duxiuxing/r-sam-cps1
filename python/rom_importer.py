@@ -12,7 +12,7 @@ from rom_info import RomInfo
 from wiiflow_plugins_data import WiiFlowPluginsData
 
 
-class ImportRoms:
+class RomImporter:
     def run(self):
         # 本函数用于导入 roms-import 文件夹里的 ROM 文件
         # 1. 新的 ROM 文件会被转移到 roms 文件夹，对应的 RomInfo 会
@@ -140,4 +140,4 @@ class ImportRoms:
 
 
 if __name__ == "__main__":
-    ImportRoms().run()
+    RomImporter().run()

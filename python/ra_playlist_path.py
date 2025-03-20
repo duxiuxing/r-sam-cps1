@@ -40,7 +40,7 @@ class Wii_PlaylistPath(RA_PlaylistPath):
         root_old = LocalConfigs.root_directory_export_to()
         root_new = f"{ConsoleConfigs.storage_device_code()}:"
         if root_old[-1] == "\\":
-            root_new = f"{ConsoleConfigs.storage_device_code()}:\\"
+            root_new = f"{root_new}\\"
         value = path.replace(root_old, root_new)
         return value.replace("\\", "/")
 
@@ -48,16 +48,20 @@ class Wii_PlaylistPath(RA_PlaylistPath):
 # RetraArch 要求 Windows 路径使用双反斜杠
 class Win_PlaylistPath(RA_PlaylistPath):
     def parse(self, path):
-        value = path.replace(
-            os.path.join(LocalConfigs.root_directory_export_to(), "Games"), "..\\Games"
-        )
+        root_old = LocalConfigs.root_directory_export_to()
+        root_new = "X:"
+        if root_old[-1] == "\\":
+            root_new = f"{root_new}\\"
+        value = path.replace(root_old, root_new)
         return value.replace("\\", "\\\\")
 
 
 # 把 Windows 路径转成 XBOX 路径
 class XBox_PlaylistPath(RA_PlaylistPath):
     def parse(self, path):
-        value = path.replace(
-            os.path.join(LocalConfigs.root_directory_export_to(), "Games"), "E:\\Games"
-        )
+        root_old = LocalConfigs.root_directory_export_to()
+        root_new = "E:"
+        if root_old[-1] == "\\":
+            root_new = f"{root_new}\\"
+        value = path.replace(root_old, root_new)
         return value.replace("\\", "\\\\")
