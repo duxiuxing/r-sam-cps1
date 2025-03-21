@@ -31,7 +31,7 @@ if __name__ == "__main__":
         game_logo_size=(0, 0),
         game_logo_left_top=(0, 0),
         capcom_logo_left_top=S_BannerInfo.CAPCOM_LOGO_ALIGN_RIGHT_BOTTOM,
-    )    
+    )
 
     # S2
     cawing_banner_info2 = S_BannerInfo(
@@ -39,7 +39,7 @@ if __name__ == "__main__":
         game_logo_size=(240, 104),
         game_logo_left_top=(330, 4),
         capcom_logo_left_top=S_BannerInfo.CAPCOM_LOGO_ALIGN_LEFT_BOTTOM,
-    )   
+    )
 
     dino_banner_info = S_BannerInfo(
         "dino",
@@ -64,10 +64,27 @@ if __name__ == "__main__":
         capcom_logo_left_top=S_BannerInfo.CAPCOM_LOGO_ALIGN_LEFT_BOTTOM,
     )
 
-    punisher_banner_info = S_BannerInfo(
+    # S1
+    punisher_banner_info1 = S_BannerInfo(
         "punisher",
         game_logo_size=(180, 75),
         game_logo_left_top=(404, 250),
+        capcom_logo_left_top=S_BannerInfo.CAPCOM_LOGO_ALIGN_LEFT_TOP,
+    )
+
+    # S2
+    punisher_banner_info2 = S_BannerInfo(
+        "punisher",
+        game_logo_size=(240, 100),
+        game_logo_left_top=(S_BannerInfo.CAPCOM_LOGO_OFFSET_X_BOTTOM, 226),
+        capcom_logo_left_top=S_BannerInfo.CAPCOM_LOGO_ALIGN_RIGHT_TOP,
+    )
+
+    # S3
+    punisher_banner_info3 = S_BannerInfo(
+        "punisher",
+        game_logo_size=(270, 112),
+        game_logo_left_top=(40, 128),
         capcom_logo_left_top=S_BannerInfo.CAPCOM_LOGO_ALIGN_LEFT_TOP,
     )
 
@@ -112,5 +129,5 @@ if __name__ == "__main__":
         game_logo_left_top=(0, 0),
         capcom_logo_left_top=S_BannerInfo.CAPCOM_LOGO_ALIGN_RIGHT_TOP,
     )
-    
-    Wii_MakeStandardBanner(cawing_banner_info2).run()
+
+    Wii_MakeStandardBanner(punisher_banner_info3).run()

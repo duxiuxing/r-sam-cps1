@@ -139,6 +139,13 @@ class WiiRA_SS_AppExporter:
             file_name = os.path.basename(rom_export_info.dst_path)
             xml_file.write(f"    <arg>{file_name}</arg>\n")
 
+            cfg_path = os.path.join(
+                LocalConfigs.root_directory_export_to(),
+                f"private\\{ra_configs.ra_ss_data_folder()}\\{app_configs.rom_title}.cfg",
+            )
+            cfg_path = Wii_PlaylistPath().parse(cfg_path)
+            xml_file.write(f"    <arg>{cfg_path}</arg>\n")
+
             xml_file.write("  </arguments>\n</app>\n")
             xml_file.close()
 
