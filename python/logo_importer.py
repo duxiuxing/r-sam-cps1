@@ -1,5 +1,6 @@
 # -- coding: UTF-8 --
 
+import fnmatch
 import os
 
 from console_configs import ConsoleConfigs
@@ -10,12 +11,7 @@ from PIL import Image
 from wiiflow_plugins_data import WiiFlowPluginsData
 
 
-class Wii_MakeIcon:
-    def __init__(self, rom_title):
-        self._game_info = WiiFlowPluginsData.instance().query_game_info(
-            rom_title=rom_title
-        )
-
+class LogoExporter:
     @staticmethod
     def check_logo_left(logo, pixel_test):
         for x in range(logo.width):
@@ -48,18 +44,15 @@ class Wii_MakeIcon:
                     return logo.height - y_offset
         return logo.height - 1
 
-    def load_logo(self):
-        logo_path = os.path.join(
-            LocalConfigs.repository_directory(),
-            f"image\\logo\\{self._game_info.name}.png",
-        )
-        logo = Image.open(logo_path)
+    @staticmethod
+    def crop_logo(png_path):
+        logo = Image.open(png_path)
         pixel_test = logo.getpixel((0, 0))
 
-        left = Wii_MakeIcon.check_logo_left(logo, pixel_test)
-        top = Wii_MakeIcon.check_logo_top(logo, pixel_test)
-        right = Wii_MakeIcon.check_logo_right(logo, pixel_test)
-        bottom = Wii_MakeIcon.check_logo_bottom(logo, pixel_test)
+        left = LogoExporter.check_logo_left(logo, pixel_test)
+        top = LogoExporter.check_logo_top(logo, pixel_test)
+        right = LogoExporter.check_logo_right(logo, pixel_test)
+        bottom = LogoExporter.check_logo_bottom(logo, pixel_test)
 
         if (
             left == 0
@@ -69,20 +62,35 @@ class Wii_MakeIcon:
         ):
             return logo
 
-        new_logo = logo.crop((left, top, right, bottom))
-        new_logo_path = os.path.join(
-            LocalConfigs.repository_directory(),
-            f"wii\\wad\\{self._game_info.rom_title}\\res\\IconImage-org.png",
-        )
-        if Helper.verify_exist_directory_ex(os.path.dirname(new_logo_path)):
-            new_logo.save(new_logo_path)
-        return new_logo
+        return logo.crop((left, top, right + 1, bottom + 1))
 
     def run(self):
-        logo = self.load_logo()
+        import_dir_path = os.path.join(
+            LocalConfigs.repository_directory(), "image\\logo-import"
+        )
+        if not Helper.exist_directory(import_dir_path):
+            print(f"【错误】无效的文件夹 {import_dir_path}")
+            return
+
+        for src_png_name in os.listdir(import_dir_path):
+            if not fnmatch.fnmatch(src_png_name, "*.png"):
+                continue
+
+            src_png_path = os.path.join(import_dir_path, src_png_name)
+            src_png = LogoExporter.crop_logo(src_png_path)
+            new_height = 300
+            top = 0
+            new_width = int(src_png.width * new_height / src_png.height)
+            dst_png = src_png.resize((new_width, new_height))
+            if new_width < 600:
+                new_png = Image.new("RGBA", (600, 300), (0, 0, 0, 0))
+                left = int((600 - new_width) / 2)
+                new_png.paste(dst_png, (left, top), mask=dst_png)
+                dst_png = new_png
+
+            dst_png_path = os.path.join(import_dir_path, f"new_{src_png_name}")
+            dst_png.save(dst_png_path)
 
 
 if __name__ == "__main__":
-    Wii_MakeIcon("sfiii").run()
-    Wii_MakeIcon("sfiii2").run()
-    Wii_MakeIcon("sfiii3").run()
+    LogoExporter().run()

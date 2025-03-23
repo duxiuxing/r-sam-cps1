@@ -160,3 +160,16 @@ class Helper:
             return False
         else:
             return True
+
+    @staticmethod
+    def game_id_to_channel_id(game_id):
+        dec_num = int(f"0x{game_id}", 16)
+        digits = "0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+        if dec_num == 0:
+            return "0000"
+        channel_id = ""
+        while dec_num > 0:
+            remainder = dec_num % 36
+            channel_id = digits[remainder] + channel_id
+            dec_num //= 36
+        return channel_id.rjust(4, "0")

@@ -5,12 +5,11 @@ import os
 from console_configs import ConsoleConfigs
 from helper import Helper
 from local_configs import LocalConfigs
-from PIL import Image
-from r_sam_roms import RSamRoms
 from ra_all_exporter import RA_AllExporter
 from ra_configs import RA_Configs
 from ra_playlist_path import Wii_PlaylistPath
 from rom_export_configs import RomExportConfigs
+from wii_app_icon_exporter import Wii_AppIconExporter
 from wii_ra_app_configs import WiiRA_AppConfigs
 from wii_ra_cfg_exporter import WiiRA_CfgExporter
 from wiiflow_plugins_data import WiiFlowPluginsData
@@ -48,29 +47,6 @@ class WiiRA_AppExporter:
             f"apps\\{app_configs.folder}\\boot.dol",
         )
         Helper.copy_file(src_file_path, dst_file_path)
-
-    def _export_icon_png(self):
-        app_configs = ConsoleConfigs.wii_ra_app_configs()
-
-        src_path = os.path.join(
-            LocalConfigs.repository_directory(),
-            f"wii\\apps\\{app_configs.folder}\\icon.png",
-        )
-        dst_path = os.path.join(
-            LocalConfigs.root_directory_export_to(),
-            f"apps\\{app_configs.folder}\\icon.png",
-        )
-        if os.path.exists(dst_path):
-            os.remove(dst_path)
-        if os.path.exists(src_path):
-            Helper.copy_file(src_path, dst_path)
-            return
-
-        game_info = WiiFlowPluginsData.instance().query_game_info(
-            rom_title=app_configs.rom_title
-        )
-        logo_path = RSamRoms.compute_image_path(game_info.name, "logo")
-        Image.open(logo_path).resize((128, 48)).save(dst_path)
 
     def _export_meta_xml(self):
         app_configs = ConsoleConfigs.wii_ra_app_configs()
@@ -178,7 +154,7 @@ class WiiRA_AppExporter:
         ra_all_exporter.run()
 
         self._copy_ra_core_files()
-        self._export_icon_png()
+        Wii_AppIconExporter().run()
         self._export_meta_xml()
         WiiRA_CfgExporter().run()
 
