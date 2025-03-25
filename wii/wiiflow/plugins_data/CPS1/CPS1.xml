@@ -979,10 +979,11 @@ Il faudra donc agencer vos Pnickies de manière à les détruire. Pour ce faire,
 	</locale>
 	<locale lang="ZHCN">
 		<title>惩罚者</title>
+		<genre>清版动作</genre>
 	</locale>
 		<developer>Capcom</developer>
 		<publisher>Capcom</publisher>
-		<date year="1993" month="" day=""/>
+		<date year="1993" month="04" day="22"/>
 		<rating type="NOTE" value="17">
 		</rating>
 		<input players="2">
@@ -1263,7 +1264,7 @@ Un jeu indispensable, qui est toujours, depuis sa sortie en 1991, l'archétype d
 	<title>Street Fighter Zero</title>
 	</locale>
 	<locale lang="ZHCN">
-		<title>少年街霸1</title>
+		<title>少年街霸</title>
 	</locale>
 		<developer>Capcom</developer>
 		<publisher>Capcom</publisher>

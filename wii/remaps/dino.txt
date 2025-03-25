@@ -1,0 +1,5 @@
+input_turbo_default_button = "1"
+input_turbo_mode = "0"
+input_player1_turbo_btn = "3"
+input_player2_turbo_btn = "3"
+input_player3_turbo_btn = "3"

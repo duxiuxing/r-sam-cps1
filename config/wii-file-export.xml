@@ -2,9 +2,8 @@
 <WiiFileExporter description="导出到 Wii SD 卡的文件">
     <WiiRA_App name="FB Alpha 2012 CPS-1" folder="fbalpha2012_cps1"
         content_show_favorites="true" content_show_history="true">
-        <File src="wii\remaps\2p2b.rmp" dst="remaps\FB Alpha 2012 CPS-1\3wonders.rmp" />
+        <File src="wii\remaps\3wonders.rmp" dst="remaps\FB Alpha 2012 CPS-1\3wonders.rmp" />
         <File src="wii\remaps\1941.rmp" dst="remaps\FB Alpha 2012 CPS-1\1941.rmp" />
-        <File src="wii\remaps\2p2b.rmp" dst="remaps\FB Alpha 2012 CPS-1\cawing.rmp" />
         <File
             src="wii\wad\fbalpha2012_cps1\Capcom CPS-1 White [CPS1].wad"
             dst="wad\FB Alpha 2012 CPS-1\Capcom CPS-1 White [CPS1].wad"
@@ -52,7 +51,7 @@
             dst="wad\1941 - Counter Attack\1941 Counter Attack [8T2Y]-W.wad"
         />
     </WiiRA_SS_App>
-    <WiiRA_App name="Cadillacs and Dinosaurs" folder="dino" rom_title="dino" remap="3p2b">
+    <WiiRA_App name="Cadillacs and Dinosaurs" folder="dino" rom_title="dino" remap="dino">
         <File
             src="wii\wad\dino\Cadillacs and Dinosaurs [5JWQ]-S.wad"
             dst="wad\Cadillacs and Dinosaurs\Cadillacs and Dinosaurs [5JWQ]-S.wad"
@@ -62,7 +61,7 @@
             dst="wad\Cadillacs and Dinosaurs\Cadillacs and Dinosaurs [5JWQ]-W.wad"
         />
     </WiiRA_App>
-    <WiiRA_SS_App name="Cadillacs and Dinosaurs" folder="ra-dino" rom_title="dino" remap="3p2b">
+    <WiiRA_SS_App name="Cadillacs and Dinosaurs" folder="ra-dino" rom_title="dino" remap="dino">
         <File
             src="wii\wad\dino\Cadillacs and Dinosaurs [5JWQ]-S.wad"
             dst="wad\Cadillacs and Dinosaurs\Cadillacs and Dinosaurs [5JWQ]-S.wad"
@@ -72,7 +71,7 @@
             dst="wad\Cadillacs and Dinosaurs\Cadillacs and Dinosaurs [5JWQ]-W.wad"
         />
     </WiiRA_SS_App>
-    <WiiRA_App name="Captain Commando" folder="captcomm" rom_title="captcomm" remap="2p2b">
+    <WiiRA_App name="Captain Commando" folder="captcomm" rom_title="captcomm" remap="3wonders">
         <File
             src="wii\wad\captcomm\Captain Commando [5JT6]-S.wad"
             dst="wad\Captain Commando\Captain Commando [5JT6]-S.wad"
@@ -82,7 +81,7 @@
             dst="wad\Captain Commando\Captain Commando [5JT6]-W.wad"
         />
     </WiiRA_App>
-    <WiiRA_SS_App name="Captain Commando" folder="ra-captcomm" rom_title="captcomm" remap="2p2b">
+    <WiiRA_SS_App name="Captain Commando" folder="ra-captcomm" rom_title="captcomm" remap="3wonders">
         <File
             src="wii\wad\captcomm\Captain Commando [5JT6]-S.wad"
             dst="wad\Captain Commando\Captain Commando [5JT6]-S.wad"
@@ -92,7 +91,7 @@
             dst="wad\Captain Commando\Captain Commando [5JT6]-W.wad"
         />
     </WiiRA_SS_App>
-    <WiiRA_App name="Final Fight" folder="ffight" rom_title="ffight" remap="2p2b">
+    <WiiRA_App name="Final Fight" folder="ffight" rom_title="ffight" remap="3wonders">
         <File
             src="wii\wad\ffight\Final Fight [5JXM]-S1.wad"
             dst="wad\Final Fight\Final Fight [5JXM]-S1.wad"
@@ -106,37 +105,65 @@
             dst="wad\Final Fight\Final Fight [5JXM]-W.wad"
         />
     </WiiRA_App>
-    <WiiRA_SS_App name="Final Fight" folder="ra-ffight" rom_title="ffight" remap="2p2b">
+    <WiiRA_SS_App name="Final Fight" folder="ra-ffight" rom_title="ffight" remap="3wonders">
         <File
-            src="wii\wad\ffight\Final Fight [5JXM]-S.wad"
-            dst="wad\Final Fight\Final Fight [5JXM]-S.wad"
+            src="wii\wad\ffight\Final Fight [5JXM]-S1.wad"
+            dst="wad\Final Fight\Final Fight [5JXM]-S1.wad"
+        />
+        <File
+            src="wii\wad\ffight\Final Fight [5JXM]-S2.wad"
+            dst="wad\Final Fight\Final Fight [5JXM]-S2.wad"
         />
         <File
             src="wii\wad\ffight\Final Fight [5JXM]-W.wad"
             dst="wad\Final Fight\Final Fight [5JXM]-W.wad"
         />
     </WiiRA_SS_App>
-    <WiiRA_App name="The Punisher" folder="punisher" rom_title="punisher" remap="2p2b">
+    <WiiRA_App name="The Punisher" folder="punisher" rom_title="punisher" remap="3wonders">
         <File
-            src="wii\wad\punisher\The Punisher [5K62]-S.wad"
-            dst="wad\The Punisher\The Punisher [5K62]-S.wad"
+            src="wii\wad\punisher\The Punisher [5K62]-S1.wad"
+            dst="wad\The Punisher\The Punisher [5K62]-S1.wad"
         />
         <File
-            src="wii\wad\punisher\The Punisher [5K62]-W.wad"
-            dst="wad\The Punisher\The Punisher [5K62]-W.wad"
+            src="wii\wad\punisher\The Punisher [5K62]-S2.wad"
+            dst="wad\The Punisher\The Punisher [5K62]-S2.wad"
+        />
+        <File
+            src="wii\wad\punisher\The Punisher [5K62]-S3.wad"
+            dst="wad\The Punisher\The Punisher [5K62]-S3.wad"
+        />
+        <File
+            src="wii\wad\punisher\The Punisher [5K62]-W1.wad"
+            dst="wad\The Punisher\The Punisher [5K62]-W1.wad"
+        />
+        <File
+            src="wii\wad\punisher\The Punisher [5K62]-W2.wad"
+            dst="wad\The Punisher\The Punisher [5K62]-W2.wad"
         />
     </WiiRA_App>
-    <WiiRA_SS_App name="The Punisher" folder="ra-punisher" rom_title="punisher" remap="2p2b">
+    <WiiRA_SS_App name="The Punisher" folder="ra-punisher" rom_title="punisher" remap="3wonders">
         <File
-            src="wii\wad\punisher\The Punisher [5K62]-S.wad"
-            dst="wad\The Punisher\The Punisher [5K62]-S.wad"
+            src="wii\wad\punisher\The Punisher [5K62]-S1.wad"
+            dst="wad\The Punisher\The Punisher [5K62]-S1.wad"
         />
         <File
-            src="wii\wad\punisher\The Punisher [5K62]-W.wad"
-            dst="wad\The Punisher\The Punisher [5K62]-W.wad"
+            src="wii\wad\punisher\The Punisher [5K62]-S2.wad"
+            dst="wad\The Punisher\The Punisher [5K62]-S2.wad"
+        />
+        <File
+            src="wii\wad\punisher\The Punisher [5K62]-S3.wad"
+            dst="wad\The Punisher\The Punisher [5K62]-S3.wad"
+        />
+        <File
+            src="wii\wad\punisher\The Punisher [5K62]-W1.wad"
+            dst="wad\The Punisher\The Punisher [5K62]-W1.wad"
+        />
+        <File
+            src="wii\wad\punisher\The Punisher [5K62]-W2.wad"
+            dst="wad\The Punisher\The Punisher [5K62]-W2.wad"
         />
     </WiiRA_SS_App>
-    <WiiRA_App name="Three Wonders" folder="3wonders" rom_title="3wonders" remap="2p2b">
+    <WiiRA_App name="Three Wonders" folder="3wonders" rom_title="3wonders" remap="3wonders">
         <File
             src="wii\wad\3wonders\Three Wonders [5JSQ]-S.wad"
             dst="wad\Three Wonders\Three Wonders [5JSQ]-S.wad"
@@ -146,7 +173,7 @@
             dst="wad\Three Wonders\Three Wonders [5JSQ]-W.wad"
         />
     </WiiRA_App>
-    <WiiRA_SS_App name="Three Wonders" folder="ra-3wonders" rom_title="3wonders" remap="2p2b">
+    <WiiRA_SS_App name="Three Wonders" folder="ra-3wonders" rom_title="3wonders" remap="3wonders">
         <File
             src="wii\wad\3wonders\Three Wonders [5JSQ]-S.wad"
             dst="wad\Three Wonders\Three Wonders [5JSQ]-S.wad"
