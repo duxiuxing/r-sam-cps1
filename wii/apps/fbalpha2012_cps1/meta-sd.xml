@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<app version="1">
+  <name>FB Alpha 2012 CPS-1</name>
+  <author>Libretro Team &amp; R-Sam</author>
+  <version>1.20.0 SD</version>
+  <release_date>2025/01/04</release_date>
+  <short_description>Capcom Play System 1 Emulator</short_description>
+  <long_description>- Emulator for CPS-1 games based on RetroArch.
+- Based on a snapshot of the FB Alpha codebase from 2012.
+- Compatible with FB Alpha v0.2.97.29 ROM sets.
+
+Wii Channel : sd:/wad/FB Alpha 2012 CPS-1
+Website : https://github.com/R-Sam-1980/cps1</long_description>
+  <no_ios_reload/>
+  <ahb_access/>
+</app>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<app version="1">
+  <name>RA-SS CPS1</name>
+  <author>RunningSnakes &amp; R-Sam</author>
+  <version>SD</version>
+  <release_date>2024/08/15</release_date>
+  <short_description>Capcom Play System 1 Emulator</short_description> 
+  <long_description>- Emulator for CPS-1 games based on RA-HEXAECO.
+- An improved version of RA-Wii with extra features.
+
+Wii Channel : sd:/wad/RA-SS CPS1</long_description>
+  <no_ios_reload/>
+  <ahb_access/>
+</app>
