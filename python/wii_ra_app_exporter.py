@@ -103,8 +103,9 @@ class WiiRA_AppExporter:
             xml_file.write(
                 f"Wii Channel : {ConsoleConfigs.storage_device_code()}:/wad/{app_configs.name}\n"
             )
+            repository_name = ConsoleConfigs.wiiflow_plugin_name().lower()
             xml_file.write(
-                "Website : https://github.com/R-Sam-1980/cps3</long_description>\n"
+                f"Website : https://github.com/R-Sam-1980/{repository_name}</long_description>\n"
             )
             xml_file.write("  <no_ios_reload/>\n")
             xml_file.write("  <ahb_access/>\n")

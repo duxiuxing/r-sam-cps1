@@ -53,7 +53,7 @@ class WiiRA_SS_CfgExporter:
         with open(remap_file_path, "r", encoding="utf-8") as remap_file:
             line = remap_file.readline()
             while line:
-                if line.startswith("input_player"):
+                if line.startswith("input_"):
                     list_ret.append(line.rstrip())
                 line = remap_file.readline()
 

@@ -78,16 +78,25 @@ class LogoExporter:
 
             src_png_path = os.path.join(import_dir_path, src_png_name)
             src_png = LogoExporter.crop_logo(src_png_path)
-            new_height = 300
-            top = 0
-            new_width = int(src_png.width * new_height / src_png.height)
-            dst_png = src_png.resize((new_width, new_height))
-            if new_width < 600:
-                new_png = Image.new("RGBA", (600, 300), (0, 0, 0, 0))
-                left = int((600 - new_width) / 2)
-                new_png.paste(dst_png, (left, top), mask=dst_png)
-                dst_png = new_png
-
+            if src_png.height > 300:
+                new_height = 300
+                new_width = int(src_png.width * new_height / src_png.height)
+                dst_png = src_png.resize((new_width, new_height))
+                if new_width < 600:
+                    new_png = Image.new("RGBA", (600, 300), (0, 0, 0, 0))
+                    left = int((600 - new_width) / 2)
+                    new_png.paste(dst_png, (left, 0), mask=dst_png)
+                    dst_png = new_png
+            else:
+                dst_png = src_png
+                if dst_png.width < (dst_png.height * 2):
+                    new_width = dst_png.height * 2
+                    new_png = Image.new(
+                        "RGBA", (new_width, dst_png.height), (0, 0, 0, 0)
+                    )
+                    left = int((new_width - dst_png.width) / 2)
+                    new_png.paste(dst_png, (left, 0), mask=dst_png)
+                    dst_png = new_png
             dst_png_path = os.path.join(import_dir_path, f"new_{src_png_name}")
             dst_png.save(dst_png_path)
 
