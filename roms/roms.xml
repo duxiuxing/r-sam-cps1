@@ -8,10 +8,10 @@
             apps-work="" apps-not-work=""
         />
     </Game>
-    <Game name="Adventure Quiz Capcom World 2">
+    <Game name="Adventure Quiz - Capcom World 2">
         <Rom crc32="319BF022" bytes="1753871"
             title="cworld2j"
-            en="Adventure Quiz Capcom World 2 (920611 Japan)"
+            en="Adventure Quiz - Capcom World 2 (920611 Japan)"
             zhcn="问答冒险 卡普空世界2 (920611 日版)"
             apps-work="" apps-not-work=""
         />
@@ -45,7 +45,7 @@
         <Rom crc32="13133F73" bytes="2193606"
             title="dynwar"
             en="Dynasty Wars (US set 1)"
-            zhcn="吞食天地 王朝战争 (美版 set 1)"
+            zhcn="吞食天地1 王朝战争 (美版 set 1)"
             apps-work="" apps-not-work=""
         />
     </Game>
@@ -117,7 +117,7 @@
         <Rom crc32="7E214FC4" bytes="6510038"
             title="mbombrd"
             en="Muscle Bomber Duo - Ultimate Team Battle (931206 World)"
-            zhcn="摔角霸王 最终之战 (931206 世界版)"
+            zhcn="摔角霸王1 最终之战 (931206 世界版)"
             apps-work="" apps-not-work=""
         />
     </Game>
@@ -164,7 +164,7 @@
         <Rom crc32="26EB81A2" bytes="6589085"
             title="slammast"
             en="Saturday Night Slam Masters (Slam Masters 930713 World)"
-            zhcn="摔角霸王 (摔角霸王 930713 世界版)"
+            zhcn="摔角霸王1 (摔角霸王1 930713 世界版)"
             apps-work="" apps-not-work=""
         />
     </Game>

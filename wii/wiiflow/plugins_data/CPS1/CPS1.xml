@@ -56,10 +56,10 @@ Foi o primeiro shoot 'em up para adicionar +1 ao placar quando um continue é us
 			<control type="gamecube" required="false"/>
 		</input>
 	</game>
-	<game name="Adventure Quiz Capcom World 2">
+	<game name="Adventure Quiz - Capcom World 2">
 		<id>40781A</id>
 	<locale lang="EN">
-	<title>Adventure Quiz Capcom World 2</title>
+	<title>Adventure Quiz - Capcom World 2</title>
 	<synopsis>Capcom World 2 - Adventure Quiz is a Japanese quiz game.</synopsis>
 	<genre>Quiz,Quiz / Japanese</genre>
 	</locale>
@@ -280,7 +280,7 @@ Au premier coup d'?il, cette suite de U.N Squadron / Area 88 a l'aspect d'un sho
 	<title>Tenchi wo Kurau</title>
 	</locale>
 	<locale lang="ZHCN">
-		<title>吞食天地 王朝战争</title>
+		<title>吞食天地1 王朝战争</title>
 		<genre>清版动作</genre>
 	</locale>
 		<developer>Capcom</developer>
@@ -501,18 +501,18 @@ Você percorrerá perigosamente o Local de Execução, a Aldeia de Decadência, 
 	<synopsis>The King of Dragons is a 1991 side-scrolling hack and slash video game by Capcom that allows players to choose from five characters (Elf, Wizard, Fighter, Cleric, and Dwarf) in order to travel through the kingdom of Malus and defeat the monsters that have taken over, as well as their leader, the red dragon Gildiss. Like Capcom's Knights of the Round, it features a level advancement system, allowing character attributes to be upgraded as players progress through the game. The setting is very similar to that of Dungeons &amp; Dragons and other medieval fantasy worlds, with familiar monsters such as Orcs, Gnolls, Harpies, Wyverns, Cyclopes, and Minotaurs.
 
 The game was ported to the Super NES and released in 1994. An emulated version of the game was released as part of Capcom Classics Collection Vol. 2 and Capcom Classics Collection: Reloaded.</synopsis>
-	<genre>Beat'em Up,Fight / 2.5D,Fight</genre>
+	<genre>Beat'em Up</genre>
 	</locale>
 	<locale lang="ES">
 	<synopsis>The King of Dragons es un juego de 1991 que permite a los jugadores elegir entre cinco personajes (Elfo, Mago, Luchador, Clérigo y Enano) para viajar por el reino de Malus y derrotar a los monstruos que han asumido el control, así como su líder, el dragón rojo Gildiss. Al igual que Knights of the Round de Capcom, cuenta con un sistema de avance de nivel, permitiendo que los atributos de los personajes sean actualizados a medida que los jugadores avanzan a través del juego. El escenario es muy similar al de Dungeons &amp; Dragons y otros mundos de fantasía medieval, con monstruos familiares como Orcos, Gnomos, Arpías, Wyverns, Cíclopes y Minotauros. El juego fue portado a Super NES y lanzado en 1994. Una versión emulada del juego fue lanzada como parte de Capcom Classics Collection Vol. 2 y Capcom Classics Colección: Reloaded.</synopsis>
-	<genre>Beat'em Up,Combate / 2.5D,Combate</genre>
+	<genre>Beat'em Up</genre>
 	</locale>
 	<locale lang="FR">
 	<synopsis>The King of Dragons est un beat'em all original qui reprend les éléments classiques de l'heroic fantasy. Le Grand Royaume est en très mauvaise posture : Gildiss, un dragon rouge, ancien et très maléfique, a décidé de l'envahir. Heureusement, une équipe de 5 héros se décide à l'affronter : le rapide elfe et son arc magique, le puissant mage et ses sortilèges, le chevalier tout en force, le prête-guerrier qui progresse vite en puissance et enfin le nain rapide muni de sa fidèle hache. The King of Dragons rappelle fortement Golden Axe ! Il faut dire que le thème du jeu (l'heroic fantasy) et la vue de trois quarts y sont pour beaucoup. Pour changer, les tableaux de The King of Dragons ne sont pas très longs, mais cela est compensé par la difficulté posée par les habituels monstres de fin de niveau. Ces derniers ne sont d'ailleurs pas loin d'être plus nombreux que les monstres que l'on rencontre durant le jeu ! Rappelons qu'il y a 16 niveaux, donc 16 gros monstres !</synopsis>
-	<genre>Beat'em All,Combat / 2.5D,Combat</genre>
+	<genre>Beat'em Up</genre>
 	</locale>
 	<locale lang="DE">
-	<genre>Beat'em Up,Kampf / 2.5D,Kampf</genre>
+	<genre>Beat'em Up</genre>
 	</locale>
 	<locale lang="PT">
 	<synopsis>The King of Dragons é um jogo de 1991, que permite aos jogadores escolher entre cinco personagens (Elfo, Mago, Lutador, Clérigo e Anão) para viajar pelo reino de Malus e derrotar os monstros que assumiram, assim como seu líder, o dragão vermelho Gildiss. Como os Cavaleiros da Távola da Capcom, ele possui um sistema de avanço de nível, permitindo que os atributos de caráter sejam atualizados à medida que os jogadores progridem no jogo. A configuração é muito semelhante à de Dungeons &amp; Dragons e outros mundos de fantasia medieval, com monstros familiares como Orcs, Gnolls, Harpies, Wyverns, Cyclopes e Minotaurs.
@@ -521,10 +521,11 @@ O jogo foi portado para o Super NES e lançado em 1994. Uma versão emulada do j
 	</locale>
 	<locale lang="ZHCN">
 		<title>龙王战士</title>
+		<genre>清版动作</genre>
 	</locale>
 		<developer>Capcom</developer>
 		<publisher>Capcom</publisher>
-		<date year="1991" month="" day=""/>
+		<date year="1991" month="08" day="05"/>
 		<rating type="NOTE" value="12">
 		</rating>
 		<input players="3">
@@ -784,7 +785,7 @@ Silent Assassins (Scorpion and Jumbo)</synopsis>
 	<title>Muscle Bomber Duo: Heat Up Warriors</title>
 	</locale>
 	<locale lang="ZHCN">
-		<title>摔角霸王 最终之战</title>
+		<title>摔角霸王1 最终之战</title>
 	</locale>
 		<developer>Capcom</developer>
 		<publisher>Capcom</publisher>
@@ -1074,30 +1075,31 @@ Le joueur choisit un des quatre aventuriers entre le guerrier, le ninja, l'amazo
 	<locale lang="EN">
 	<title>Saturday Night Slam Masters</title>
 	<synopsis>A 1-on-1 fighting game in which players choose from 10 different wrestlers and take to the ring to try and defeat their larger-than-life opponents. Each wrestler has an assortment of moves, including his own special 'super slam'. The object of the game is to win and defend the championship by pinning or putting a submission hold on your opponent.</synopsis>
-	<genre>Sports,Sports / Wrestling</genre>
+	<genre>Sports / Wrestling</genre>
 	</locale>
 	<locale lang="ES">
 	<synopsis>Un juego de lucha 1 a 1 en el que los jugadores eligen entre 10 luchadores diferentes y van al ring para tratar de derrotar a sus oponentes más poderosos. Cada luchador tiene una variedad de movimientos, incluyendo su propio "super slam" especial. El objetivo del juego es ganar y defender el campeonato colocando un bloqueo de sumisión en tu oponente.</synopsis>
-	<genre>Deportes,Deportes / Lucha libre</genre>
+	<genre>Deportes / Lucha libre</genre>
 	</locale>
 	<locale lang="FR">
 	<synopsis> Saturday Night Slam Masters est un jeu de combat se déroulant dans le monde du catch. Dix lutteurs peuvent être sélectionnés, chacun avec son style bien à lui et différentes combinaisons de boutons permettent d'amocher son adversaire. Il est possible de quitter le ring un court instant et de se servir d'éléments du décor comme armes. Un mode Death Match est également présent où tous les coups sont permis.</synopsis>
-	<genre>Sport,Sport / Lutte</genre>
+	<genre>Sport / Lutte</genre>
 	</locale>
 	<locale lang="DE">
-	<genre>Sport,Sport / Wrestling</genre>
+	<genre>Sport / Wrestling</genre>
 	</locale>
 	<locale lang="PT">
 	<synopsis>Saturday Night Slam Masters - Lançado em 13 de Julho de 1993 nos Arcades, é um jogo de wrestling profissional com personagens fictícios criados pelo mangaká Tetsuo Hara, famoso pela série Hokuto no Ken. Ele também desenhou todas as artworks do jogo.
 O jogo foi seguido de um upgrade chamado "Muscle Bomber Duo: Ultimate Team Battle" em Dezembro de 1993.</synopsis>
-	<genre>Esporte,Esporte / Luta Livre</genre>
+	<genre>Esporte / Luta Livre</genre>
 	</locale>
 	<locale lang="ZHCN">
-		<title>摔角霸王</title>
+		<title>摔角霸王1</title>
+		<genre>运动 / 摔角</genre>
 	</locale>	
 		<developer>Capcom</developer>
 		<publisher>Capcom</publisher>
-		<date year="1993" month="" day=""/>
+		<date year="1993" month="07" day="13"/>
 		<rating type="NOTE" value="18">
 		</rating>
 		<input players="4">
@@ -1117,7 +1119,7 @@ More special moves (ie. Chun Li's fireball, Dhalsim's Yoga Teleport) are added f
 New color schemes are added for each character (but the color schemes for the stage backgrounds are still the same as they were for Champion Edition). 
 The addition of mid-air special moves for Chun Li, Ryu and Ken are introduced. 
 Platform graphics (resembling the medal ceremonies in the Olympics) are added to each character's ending, featuring the character you completed the game with at the first-place platform, M. Bison at the second-place platform, and Sagat at the third-place platform. The musical setting for this display is the music from the home stage of the character standing on the 1st-place platform (If you completed the game with Sagat or M. Bison, the one you used stands on the 1st-place platform, the other one on the 2nd-place platform, and Vega occupies the 3rd-place platform).</synopsis>
-	<genre>Fight,Fight / Versus</genre>
+	<genre>Fight / Versus</genre>
 	</locale>
 	<locale lang="ES">
 	<synopsis>Street Fighter II': Hyper Fighting es la segunda mejora de la serie Street Fighter II después de Street Fighter II': Champion Edition. Esta es una simple modificación del juego realizada por Capcom USA (James Goddard) para tratar de contrarrestar la proliferación de muchos hacks no oficiales disponibles en ese momento, e incorporar en el juego oficial algunas de las mejoras más populares aportadas por ellos, incluyendo la velocidad de ataque y nuevas opciones en algunos ganchos.</synopsis>
@@ -1142,10 +1144,11 @@ Hyper Fighting é o ultimo jogo da série a utilizar o hardware original do CP S
 	</locale>
 	<locale lang="ZHCN">
 		<title>街头霸王2 究极格斗</title>
+		<genre>格斗 / 对战</genre>
 	</locale>
 		<developer>Capcom</developer>
 		<publisher>Capcom</publisher>
-		<date year="1992" month="12" day="01"/>
+		<date year="1992" month="12" day="10"/>
 		<rating type="NOTE" value="17">
 		</rating>
 		<input players="2">
@@ -1164,7 +1167,7 @@ Hyper Fighting é o ultimo jogo da série a utilizar o hardware original do CP S
 From across the globe comes eight of the wildest fighters the world has ever known. Choose your champion, gather your courage and prepare to battle your opponents in a bare knuckle brawl. Face Ken and his devastating "Dragon Punch"! Watch the temperature rise as Dhalsim incinerates you with his mystical Yoga Flame! Hear your spine crack as Zangief smashes you to the pavement with his spinning pile driver! Cover your ears as Guile breaks the sound barrier with the awesome power of the Sonic Boom!
 
 Annihilate your competition and claim the right to test your skills against the bone-crushing power of the Grand Masters! Can you survive? Can Anyone?</synopsis>
-	<genre>Fight,Fight / Versus</genre>
+	<genre>Fight / Versus</genre>
 	</locale>
 	<locale lang="ES">
 	<synopsis>Street Fighter II: The World Warrior es un videojuego de lucha competitiva, lanzado originalmente para las máquinas arcade en 1991. Es el segundo juego de la serie Street Fighter y la secuela del juego original, lanzado en 1987. Fue el decimocuarto título de Capcom, utilizar un hardware de sistema de CP. Street Fighter II ha mejorado muchos de los conceptos introducidos en el primer juego, incluyendo el uso de movimientos especiales basados ??en comandos, una configuración de seis botones, al tiempo que ofrecía a los jugadores una selección múltiple de personajes jugables, cada uno con su propio estilo de juego luchar. Street Fighter II también introdujo el sistema de combos? y el combate "frente a frente" entre dos jugadores.</synopsis>
@@ -1187,10 +1190,11 @@ Un jeu indispensable, qui est toujours, depuis sa sortie en 1991, l'archétype d
 	</locale>
 	<locale lang="ZHCN">
 		<title>街头霸王2 天下斗士</title>
+		<genre>格斗 / 对战</genre>
 	</locale>
 		<developer>Capcom</developer>
 		<publisher>Capcom</publisher>
-		<date year="1991" month="" day=""/>
+		<date year="1991" month="02" day="05"/>
 		<rating type="NOTE" value="17">
 		</rating>
 		<input players="2">
@@ -1228,7 +1232,7 @@ Un jeu indispensable, qui est toujours, depuis sa sortie en 1991, l'archétype d
 	</locale>
 		<developer>Capcom</developer>
 		<publisher>Capcom</publisher>
-		<date year="1992" month="03" day="01"/>
+		<date year="1992" month="03" day="18"/>
 		<rating type="NOTE" value="18">
 		</rating>
 		<input players="2">
@@ -1243,7 +1247,7 @@ Un jeu indispensable, qui est toujours, depuis sa sortie en 1991, l'archétype d
 	<locale lang="EN">
 	<title>Street Fighter Zero</title>
 	<synopsis>The game introduces several new features, expanding on the Super Combo system previously featured in Super Street Fighter II Turbo, with graphics drawn in the same cartoonish style Capcom employed in Darkstalkers and X-Men: Children of the Atom.[2][3] The plot of Street Fighter Alpha is set after the original Street Fighter but before Street Fighter II and thus the game features younger versions of established characters, as well as characters from the original Street Fighter and Final Fight, and a few who are new to the series.</synopsis>
-	<genre>Fight,Fight / 2D</genre>
+	<genre>Fight / Versus</genre>
 	</locale>
 	<locale lang="ES">
 	<synopsis>El juego presenta varias características nuevas, ampliando en el sistema Super Combo anteriormente presentado en Super Street Fighter II Turbo, con gráficos dibujados en el mismo estilo caricaturesco de Capcom empleado en Darkstalkers y X-Men: Children of the Atom. La trama de Street Fighter Alpha se desarrolla después del Street Fighter original pero antes de Street Fighter II y, por lo tanto, el juego incluye versiones más jóvenes de personajes establecidos, así como personajes del Street Fighter original y Final Fight, y algunos que son nuevos en la serie.</synopsis>
@@ -1265,10 +1269,11 @@ Un jeu indispensable, qui est toujours, depuis sa sortie en 1991, l'archétype d
 	</locale>
 	<locale lang="ZHCN">
 		<title>少年街霸</title>
+		<genre>格斗 / 对战</genre>
 	</locale>
 		<developer>Capcom</developer>
 		<publisher>Capcom</publisher>
-		<date year="1995" month="" day=""/>
+		<date year="1995" month="01" day="20"/>
 		<rating type="NOTE" value="18">
 		</rating>
 		<input players="2">
@@ -1285,33 +1290,34 @@ Un jeu indispensable, qui est toujours, depuis sa sortie en 1991, l'archétype d
 	<synopsis>Strider is a multi-directional scrolling platform beat-em-up in which the player takes control of 'Strider Hiryu', a ninja-style warrior who must defeat a legendary being known as 'Grandmaster Meio'. 
 
 Set in a dystopian future in the year 2048, Meio has been watching Earth from his own distant galaxy and has created a space station (known as 'The Third Moon') between Earth and its moon in order to rule over the Human race. </synopsis>
-	<genre>Platform,Plateform / Fighter Scrolling</genre>
+	<genre>Platform / Beat'em Up</genre>
 	</locale>
 	<locale lang="ES">
 	<synopsis>En 2048, un Hiryu Strider llamado Hiryu viaja por el mundo en busca del misterioso Meio, que reina en la Tierra desde su base lunar, y controla a Hiryu, armado con su espada Falchion, a través de cinco niveles que van desde la Unión Soviética hasta la selva tropical. Hiryu tiene la particularidad de ser capaz de colgarse en las paredes gracias a un gancho de metal, y también puede ser ayudado por dos animales robóticos (un halcón y un tigre).</synopsis>
-	<genre>Plataforma,Plataforma / Combate con desplazamiento</genre>
+	<genre>Plataforma / Beat'em Up</genre>
 	</locale>
 	<locale lang="FR">
 	<synopsis>En 2048, un Strider nommé Hiryu parcourt le monde à la recherche du mystérieux Meio, qui règne sur la Terre depuis sa base lunaire.Le joueur contrôle Hiryu, armé de son sabre Falchion, à travers cinq niveaux allant de l'Union Soviétique à la forêt vierge. Hiryu a la particularité de pouvoir s'accrocher aux parois grâce à un crochet métallique, et peut également se faire aider de deux animaux robotiques (un faucon et un tigre) appelés Options.</synopsis>
-	<genre>Plateforme,Plateforme / Fighter Scrolling</genre>
+	<genre>Plateforme / Beat'em Up</genre>
 	</locale>
 	<locale lang="DE">
-	<genre>Plattform,Plattform / Kampf Scrolling</genre>
+	<genre>Plattform / Beat'em Up</genre>
 	</locale>
 	<locale lang="PT">
 	<synopsis>Strider é um jogo de videogame da Capcom, lançado em 1989 o enredo do jogo é este: Em 2048, a Terra está sob ameaça de Grandmaster Meio, um ser de outra galáxia, que intenciona dominar o nosso planeta. Para tanto, Meio construirá uma estação estelar, localizada entre a Terra e a Lua, denominada de "Third Moon" (trad: Terceira Lua).
 Todavia, Hiryu, um valente guerreiro Strider, armado com sua poderosa espada cypher, decide opor-se a Meio, combatendo suas forças invasoras. Sozinho nesta luta, Hiryu receberá apenas a ajuda dos "Options" (pequenos robôs, ou ainda animais mecânicos, como uma águia e uma pantera) que ele, eventualmente, venha a encontrar pelo seu caminho.</synopsis>
-	<genre>Plataforma,Plataforma / Combate com rolagem</genre>
+	<genre>Plataforma / Beat'em Up</genre>
 	</locale>
 	<locale lang="JA">
 	<title>Strider Hiryu</title>
 	</locale>
 	<locale lang="ZHCN">
 		<title>出击飞龙</title>
+		<title>平台 / 清版动作</title>
 	</locale>
 		<developer>Capcom</developer>
 		<publisher>Capcom</publisher>
-		<date year="1989" month="" day=""/>
+		<date year="1989" month="03" day="07"/>
 		<rating type="NOTE" value="17">
 		</rating>
 		<input players="1">
@@ -1351,6 +1357,7 @@ Sympa.</synopsis>
 	</locale>
 	<locale lang="ZHCN">
 		<title>吞食天地2 赤壁之战</title>
+		<genre>清版动作</genre>
 	</locale>
 		<developer>Capcom</developer>
 		<publisher>Capcom</publisher>
@@ -1412,18 +1419,18 @@ Don't Pull- Um jogo de quebra-cabeça semelhante a jogos como a série Eggerland
 	<locale lang="EN">
 	<title>U.N. Squadron</title>
 	<synopsis>U.N. Squadron / Area 88 is a horizontally-scrolling shoot-em-up and is based on the Manga series of the same name. The game features characters from the original Manga and their mission is to battle their way through enemy-packed levels to stop a terrorist group known as 'Project 4'.</synopsis>
-	<genre>Shoot'em Up,Shoot'em up / Horizontal</genre>
+	<genre>Shoot'em Up / Horizontal</genre>
 	</locale>
 	<locale lang="ES">
 	<synopsis>U.N. escuadrón es shoot'em up. Puedes jugar como uno de los tres pilotos disponibles: Shin Kazama, Micky Schymon o Greg Gates. Tu misión es repeler al enemigo desde el espacio aéreo del área 88. El jugador comienza con un F8E Crusader, el avión más débil del juego, pero a medida que las misiones progresan, ganará suficiente dinero para mejorar su equipo.</synopsis>
-	<genre>Shoot'em Up,Shoot'em Up / Horizontal</genre>
+	<genre>Shoot'em Up / Horizontal</genre>
 	</locale>
 	<locale lang="FR">
 	<synopsis>U.N. Squadron est un shoot'em up. Le joueur peut incarner au choix l'un des trois pilotes disponibles : Shin Kazama, Micky Schymon ou Greg Gates. Votre mission est de repousser l'ennemi de l'espace aérien de la Zone 88. Le joueur débute avec un F8E Crusader, l'avion le plus faible du jeu, mais au fur et à mesure des missions, il gagnera assez d'argent pour améliorer son équipement.</synopsis>
-	<genre>Shoot'em Up,Shoot'em up / Horizontal</genre>
+	<genre>Shoot'em Up / Horizontal</genre>
 	</locale>
 	<locale lang="DE">
-	<genre>Shoot'em Up,Shoot'em Up / Horizontal</genre>
+	<genre>Shoot'em Up / Horizontal</genre>
 	</locale>
 	<locale lang="PT">
 	<synopsis>O jogador pode escolher entre três pilotos mercenários: Shin Kazama, Mickey Simon e Greg Gates. Cada piloto voa um avião específico e tem capacidades ligeiramente diferentes.
@@ -1438,10 +1445,11 @@ Greg Gates: Greg voa um A-10 Thunderbolt; Este avião tem menor poder de fogo pa
 	</locale>
 	<locale lang="ZHCN">
 		<title>战区88</title>
+		<genre>横版射击</genre>
 	</locale>
 		<developer>Capcom</developer>
 		<publisher>Capcom</publisher>
-		<date year="1989" month="" day=""/>
+		<date year="1989" month="08" day="01"/>
 		<rating type="NOTE" value="14">
 		</rating>
 		<input players="2">
@@ -1456,29 +1464,30 @@ Greg Gates: Greg voa um A-10 Thunderbolt; Este avião tem menor poder de fogo pa
 	<locale lang="EN">
 	<title>Varth - Operation Thunderstorm</title>
 	<synopsis>Varth: Operation Thunderstorm is an arcade game in the vertical scrolling shooter genre, published in 1992. The game did not see a console port following its initial release, but 14 years later Digital Eclipse Software would port the game onto the PlayStation 2, PSP and Xbox as part of the Capcom Classics Collection Vol. 2.</synopsis>
-	<genre>Shoot'em up / Vertical,Shoot'em Up</genre>
+	<genre>Shoot'em Up / Vertical</genre>
 	</locale>
 	<locale lang="ES">
 	<synopsis>La historia se desarrolla en el planeta Varth, perdido en el culo del universo. Allí, los seres vivos viven bajo la férula del superordenador Delta-7 que gobierna sus vidas y piensa por ellos. Todo estaría bien en el mejor de todos los mundos si no fuera por DUD, un programa malicioso que parasita el ordenador y lo controla. A partir de entonces, es un desastre: el Delta-7 ordena a la humanidad que se destroce entre sí, provocando que el 60% de la población desaparezca, y luego lanza una armada de vehículos de guerra para reprimir a los supervivientes. Afortunadamente, dos viejas naves, Saber y Scimitar, no responden a la llamada. En su lugar, sus pilotos liderarán el asalto a las máquinas locas: así es como comienza la Operación Tormenta Eléctrica.</synopsis>
-	<genre>Shoot'em Up / Vertical,Shoot'em Up</genre>
+	<genre>Shoot'em Up / Vertical</genre>
 	</locale>
 	<locale lang="FR">
 	<synopsis>L'histoire se déroule sur la planète Varth, perdue au fin fond du trou du cul de l'univers. Là, les êtres vivants vivent sous la férule du super-calculateur Delta-7 qui régit leur vie et pense pour eux. Tout irait pour le mieux dans le meilleur des mondes (si tant est que la vie en tant que mouton soit un bien) si ce n'était DUD, un programme malveillant qui va parasiter l'ordinateur et en prendre le contrôle. À partir de là, c'est le bordel : Delta-7 intime l'ordre à l'humanité de s'entre-déchirer, causant la disparition de 60% de la population, puis lance une armada de véhicules de guerre pour supprimer les survivants. Heureusement, deux vieux coucous d'ancienne génération, Saber et Scimitar, ne répondent pas à l'appel. Au lieu de cela, leurs pilotes vont mener l'assaut contre les machines devenues folles : c'est ainsi que débute l'opération Thunderstorm.</synopsis>
-	<genre>Shoot'em up / Vertical,Shoot'em Up</genre>
+	<genre>Shoot'em Up / Vertical</genre>
 	</locale>
 	<locale lang="DE">
-	<genre>Shoot'em Up / Vertikal,Shoot'em Up</genre>
+	<genre>Shoot'em Up / Vertikal</genre>
 	</locale>
 	<locale lang="PT">
 	<synopsis>Varth: Operation Thunderstorm é um jogo de arcade no gênero de tiro com rolagem vertical, publicado em 1992. O jogo não viu um port para consoles após seu lançamento inicial, mas 14 anos depois o Digital Eclipse Software colocaria o jogo no PlayStation 2, PSP e Xbox como parte da coleção Capcom Classics Vol. 2</synopsis>
-	<genre>Shoot'em Up / Vertical,Shoot'em Up</genre>
+	<genre>Shoot'em Up / Vertical</genre>
 	</locale>
 	<locale lang="ZHCN">
 		<title>威虎战机 雷暴行动</title>
+		<genre>竖版射击</genre>
 	</locale>
 		<developer>Capcom</developer>
 		<publisher>Capcom</publisher>
-		<date year="1992" month="" day=""/>
+		<date year="1992" month="07" day="01"/>
 		<rating type="NOTE" value="14">
 		</rating>
 		<input players="2">
@@ -1495,7 +1504,7 @@ Greg Gates: Greg voa um A-10 Thunderbolt; Este avião tem menor poder de fogo pa
 	<synopsis>Willow is a sideways scrolling platform shoot-em-up game loosely based upon the movie of the same name. Players take on the role of one of two characters: Willow Ufgood or Madmartigan. The hero's mission is to rescue the baby Elora Danan from the evil Queen Bavmorda and bring her back safely. If the quest fails, the Queen will plunge the world into darkness and chaos.
 
 The game consists of 6 levels, each representing a scene from the movie. Defeated enemies drop gold coins that can be collected by the player. In addition, each level is littered with locked treasure chests that can be shot open and the treasure within collected. The gold can be used to purchase a number of weapons and character power-ups from a nearby shop (represented on screen by a wise old man). All power-ups will stay with the player until all lives are lost and the game is over.</synopsis>
-	<genre>Platform,Plateform / Shooter Scrolling</genre>
+	<genre>Shooter Scrolling</genre>
 	</locale>
 	<locale lang="ES">
 	<synopsis>Willow es un juego de disparos de plataforma de desplazamiento lateral basado en la película del mismo nombre. Los jugadores asumen el papel de uno de los dos personajes: Willow Ufgood o Madmartigan. La misión del héroe es rescatar a la bebé Elora Danan de la malvada reina Bavmorda y traerla de vuelta sana y salva. Si la búsqueda fracasa, la Reina hundirá al mundo en la oscuridad y el caos. 
@@ -1522,10 +1531,11 @@ A bruxa malvada rainha Bavmorda está atrás do bebê santo das terras, Elora Da
 	</locale>
 	<locale lang="ZHCN">
 		<title>威洛之旅</title>
+		<genre>横版射击</genre>
 	</locale>
 		<developer>Capcom</developer>
 		<publisher>Lucasfilm</publisher>
-		<date year="1989" month="" day=""/>
+		<date year="1989" month="06" day="01"/>
 		<rating type="NOTE" value="16">
 		</rating>
 		<input players="2">
