@@ -455,7 +455,7 @@ The game concept is pretty simple: 2 Frogs who have to eat as much insects as po
 	<locale lang="EN">
 	<title>Ghouls'n Ghosts</title>
 	<synopsis>Three years have passed since the events of "Makaimura" and Arthur the knight once again finds himself battling against the hideous creatures of Demon World. The demons have now seized the kingdom and Arthur returns home to witness the castle's lone survivor, his beloved Gunievere, murdered by the king of the demons, Lucifer. Arthur once again embarks on a one-man quest to destroy the demonic invaders and save Gunievere's mortal soul. </synopsis>
-	<genre>Platform,Plateform / Fighter Scrolling</genre>
+	<genre>Platform / Fighter Scrolling</genre>
 	</locale>
 	<locale lang="ES">
 	<synopsis>Han pasado tres años desde los acontecimientos de "Makaimura" y Arthur el caballero una vez más se encuentra luchando contra las horribles criaturas de Demon World. Los demonios ahora se apoderaron del reino y Arthur vuelve a casa para presenciar al único superviviente del castillo, su amado Gunievere, asesinado por el rey de los demonios, Lucifer. Arthur una vez más se embarca en una misión de un solo hombre para destruir a los invasores demoníacos y salvar el alma mortal de Gunievere.</synopsis>
@@ -480,7 +480,7 @@ Você percorrerá perigosamente o Local de Execução, a Aldeia de Decadência, 
 	</locale>
 	<locale lang="ZHCN">
 		<title>大魔界村</title>
-		<genre>平台动作游戏</genre>
+		<genre>平台 / 动作</genre>
 	</locale>
 		<developer>Capcom</developer>
 		<publisher>Capcom</publisher>
@@ -1401,6 +1401,7 @@ Don't Pull- Um jogo de quebra-cabeça semelhante a jogos como a série Eggerland
 	</locale>
 	<locale lang="ZHCN">
 		<title>奇迹三世界</title>
+		<genre>平台合集</genre>
 	</locale>
 		<developer>Capcom</developer>
 		<publisher>Capcom</publisher>

@@ -2,5 +2,6 @@
 <ConsoleConfigs
     ra_configs_file="retroarch.xml"
     rom_extension=".zip"
+    website="https://github.com/R-Sam-1980/cps1"
     wiiflow_plugin_name="CPS1"
 />

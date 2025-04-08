@@ -9,6 +9,7 @@
     core_file_wii="fbalpha2012_cps1_libretro_wii.dol"
     ra_ss_core_file_wii="Arcade CPS1.dol"
     ra_ss_data_folder_wii="C1MOD"
+    ra_ss_libretro_directory_wii="ra-cps1"
     assets_directory_wii="apps\fbalpha2012_cps1\assets"
     playlist_directory_wii="apps\fbalpha2012_cps1\playlists"
     remapping_directory_wii="remaps\FB Alpha 2012 CPS-1"
