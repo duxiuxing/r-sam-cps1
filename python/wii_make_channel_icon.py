@@ -51,13 +51,10 @@ class Wii_MakeChannelIcon:
     def load_logo(self):
         logo_path = os.path.join(
             LocalConfigs.repository_directory(),
-            f"wii\\wad\\{self._game_info.rom_title}\\res\\logo.png",
+            f"wii\\wad\\{self._game_info.rom_title}\\res\\Icon.png",
         )
         if not os.path.exists(logo_path):
-            logo_path = os.path.join(
-                LocalConfigs.repository_directory(),
-                f"image\\logo\\{self._game_info.name}.png",
-            )
+            logo_path = Helper.compute_image_path(self._game_info.name, "logo")
         logo = Image.open(logo_path)
         pixel_test = logo.getpixel((0, 0))
 

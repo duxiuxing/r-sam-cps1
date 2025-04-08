@@ -36,23 +36,6 @@ class RSamRoms:
                 f"roms\\{rom_info.game_name}\\{rom_info.rom_crc32}{ConsoleConfigs.rom_extension()}",
             )
 
-    @staticmethod
-    def compute_image_path(game_name, sub_folder):
-        # 根据 game_name 和 sub_folder 拼接图片文件的路径
-        if Helper.files_in_letter_folder():
-            letter = game_name.upper()[0]
-            if letter not in "ABCDEFGHIJKLMNOPQRSTUVWXYZ":
-                letter = "#"
-            return os.path.join(
-                LocalConfigs.repository_directory(),
-                f"image\\{sub_folder}\\{letter}\\{game_name}.png",
-            )
-        else:
-            return os.path.join(
-                LocalConfigs.repository_directory(),
-                f"image\\{sub_folder}\\{game_name}.png",
-            )
-
     def __init__(self):
         if RSamRoms.__instance is not None:
             raise Exception("请使用 RSamRoms.instance() 获取实例")

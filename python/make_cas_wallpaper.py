@@ -87,16 +87,10 @@ class MakeCAS_Wallpaper:
         bg.save(wallpaper_path)
 
 if __name__ == "__main__":
-    cawing_boxart_info = WallpaperInfo(
-        "cawing",
-        "01",
-        bg_index=WallpaperInfo.BG_01,
-    )
-
-    ffight_boxart_info = WallpaperInfo(
-        "ffight",
-        "10",
+    boxart_info = WallpaperInfo(
+        "wof",
+        "08",
         bg_index=WallpaperInfo.BG_02,
     )
-
-    MakeCAS_Wallpaper(cawing_boxart_info).run3()
+    
+    MakeCAS_Wallpaper(boxart_info).run2()

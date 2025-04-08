@@ -4,7 +4,8 @@ from helper import Helper
 
 
 if __name__ == "__main__":
-    print(Helper.game_id_to_channel_id("800703"))
+    print("3wonders = " + Helper.game_id_to_channel_id("37357A"))
+    print("1941 = " + Helper.game_id_to_channel_id("39873A"))
 
     print("sf2 = " + Helper.game_id_to_channel_id("42982A"))
     print("sf2ce = " + Helper.game_id_to_channel_id("37377A"))
@@ -15,6 +16,7 @@ if __name__ == "__main__":
     print("captcomm = " + Helper.game_id_to_channel_id("37358A"))
     print("dynwar = " + Helper.game_id_to_channel_id("41078A"))
     print("ffight = " + Helper.game_id_to_channel_id("37362A"))
-    print("3wonders = " + Helper.game_id_to_channel_id("37357A"))
+    
+    print("dynwar = " + Helper.game_id_to_channel_id("41078A"))
     print("wof = " + Helper.game_id_to_channel_id("44111A"))
-    print("1941 = " + Helper.game_id_to_channel_id("39873A"))
+    

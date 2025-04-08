@@ -16,22 +16,21 @@ class Wii_AppIconExporter:
     def run(self):
         app_configs = ConsoleConfigs.wii_ra_app_configs()
 
-        src_path = os.path.join(
-            LocalConfigs.repository_directory(),
-            f"wii\\apps\\{app_configs.folder}\\icon.png",
-        )
         dst_path = os.path.join(
             LocalConfigs.root_directory_export_to(),
             f"apps\\{app_configs.folder}\\icon.png",
         )
         if os.path.exists(dst_path):
             os.remove(dst_path)
-        if os.path.exists(src_path):
-            Helper.copy_file(src_path, dst_path)
-            return
 
         game_info = WiiFlowPluginsData.instance().query_game_info(
             rom_title=app_configs.rom_title
         )
-        logo_path = RSamRoms.compute_image_path(game_info.name, "logo")
+        logo_path = Helper.compute_image_path(game_info.name, "logo")
+
+        if app_configs.icon is not None:
+            logo_path = os.path.join(
+                LocalConfigs.repository_directory(),
+                f"image\\logo\\{app_configs.icon}",
+            )
         Image.open(logo_path).resize((128, 48)).save(dst_path)

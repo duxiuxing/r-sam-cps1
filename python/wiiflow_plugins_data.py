@@ -150,7 +150,9 @@ class WiiFlowPluginsData:
                             print("【警告】英文名不一致")
                             print(f"\tname     = {game_name}")
                             print(f"\tEN title = {en_title}")
-                        genre = elem.find("genre").text
+                        genre_elem = elem.find("genre")
+                        if genre_elem is not None:
+                            genre = genre_elem.text
                     elif lang == "ZHCN":
                         zhcn_title = elem.find("title").text
                 elif elem.tag == "developer":
@@ -158,7 +160,15 @@ class WiiFlowPluginsData:
                 elif elem.tag == "publisher":
                     publisher = elem.text
                 elif elem.tag == "date":
-                    date = f'{elem.attrib["year"]}/{elem.attrib["month"]}/{elem.attrib["day"]}'
+                    year = elem.attrib["year"]
+                    if len(year) > 0:
+                        date = year
+                        month = elem.attrib["month"]
+                        if len(month) > 0:
+                            date = f"{year}/{month}"
+                            day = elem.attrib["day"]
+                            if len(day) > 0:
+                                date = f"{year}/{month}/{day}"
                 elif elem.tag == "input":
                     players = elem.attrib["players"]
 

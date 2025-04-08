@@ -16,7 +16,7 @@ class RA_ThumbnailsExporter:
     def copy_image(
         rom_export_info: RomExportInfo, src_image_folder: str, dst_image_folder: str
     ):
-        src_image_path = RSamRoms.compute_image_path(
+        src_image_path = Helper.compute_image_path(
             rom_export_info.game_name, src_image_folder
         )
 

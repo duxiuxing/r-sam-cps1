@@ -35,9 +35,9 @@ class WiiRA_CfgExporter:
             'input_player7_analog_dpad_mode = "1"',
             'input_player8_analog_dpad_mode = "1"',
             # 快捷键相关的设置
+            'input_menu_toggle_axis = "+2"',
             'input_menu_toggle_gamepad_combo = "4"',
             'input_load_state_axis = "-2"',
-            'input_save_state_axis = "+2"',
             'input_state_slot_decrease_axis = "-3"',
             'input_state_slot_increase_axis = "+3"',
             # 精简 MAIN MENU 界面
@@ -137,7 +137,7 @@ class WiiRA_CfgExporter:
     @staticmethod
     def export_remap_file():
         app_configs = ConsoleConfigs.wii_ra_app_configs()
-        if app_configs.remap is None:
+        if app_configs.rom_title is None:
             return
 
         ra_configs = ConsoleConfigs.ra_configs()

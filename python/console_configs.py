@@ -28,8 +28,13 @@ class ConsoleConfigs:
         else:
             tree = ET.parse(xml_file_path)
             root = tree.getroot()
+
+            self.bios_file = None
+            if "bios_file" in root.attrib:
+                self.bios_file = root.get("bios_file")
             self.ra_configs = RA_Configs(root.attrib["ra_configs_file"])
             self.rom_extension = root.attrib["rom_extension"]
+            self.website = root.attrib["website"]
             self.wiiflow_plugin_name = root.attrib["wiiflow_plugin_name"]
             self.wii_ra_app_configs = None
             self.storage_device_code = ConsoleConfigs.STORAGE_SD
@@ -60,6 +65,10 @@ class ConsoleConfigs:
         ret = ConsoleConfigs._instance().ra_configs
         ConsoleConfigs._instance().ra_configs = ra_configs
         return ret
+
+    @staticmethod
+    def website():
+        return ConsoleConfigs._instance().website
 
     @staticmethod
     def wiiflow_plugin_name():
@@ -97,6 +106,10 @@ class ConsoleConfigs:
         ret = ConsoleConfigs._instance().storage_device_code
         ConsoleConfigs._instance().storage_device_code = storage_device_code
         return ret
+
+    @staticmethod
+    def bios_file():
+        return ConsoleConfigs._instance().bios_file
 
 
 if __name__ == "__main__":

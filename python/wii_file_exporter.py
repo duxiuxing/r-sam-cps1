@@ -38,6 +38,13 @@ class WiiFileExporter:
             dst_path = os.path.join(dst_root, elem.get("dst"))
             Helper.copy_file(src_path, dst_path)
 
+        for elem in app_elem.findall("Wad"):
+            src_path = os.path.join(src_root, elem.get("src"))
+            dst_path = os.path.join(
+                dst_root, f'wad\\{app_elem.get("name")}\\{os.path.basename(src_path)}'
+            )
+            Helper.copy_file(src_path, dst_path)
+
     def export_wii_ra_app(self, app_elem):
         if (
             self._app_name_filter is not None
@@ -63,6 +70,8 @@ class WiiFileExporter:
             and app_elem.get("content_show_history").lower() == "true"
         ):
             app_configs.content_show_history = True
+        if "icon" in app_elem.attrib:
+            app_configs.icon = app_elem.get("icon")
         if "remap" in app_elem.attrib:
             app_configs.remap = app_elem.get("remap")
         app_exporter.app_configs = app_configs
@@ -84,6 +93,8 @@ class WiiFileExporter:
         app_configs.folder = app_elem.get("folder")
         if "rom_title" in app_elem.attrib:
             app_configs.rom_title = app_elem.get("rom_title")
+        if "icon" in app_elem.attrib:
+            app_configs.icon = app_elem.get("icon")
         if "remap" in app_elem.attrib:
             app_configs.remap = app_elem.get("remap")
         app_exporter.app_configs = app_configs

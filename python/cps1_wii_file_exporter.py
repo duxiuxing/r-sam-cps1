@@ -10,17 +10,17 @@ if __name__ == "__main__":
     )
     app_type_filter = WiiFileExporter.WiiRA_App
     app_type_filter = WiiFileExporter.WiiRA_SS_App
-    app_type_filter = None
+    # app_type_filter = None
     # WiiFileExporter("FB Alpha 2012 CPS-1").run()
     # WiiFileExporter("RA-SS CPS1").run()
 
-    WiiFileExporter("1941 - Counter Attack", app_type_filter).run()
+    # WiiFileExporter("1941 - Counter Attack", app_type_filter).run()
     # WiiFileExporter("Cadillacs and Dinosaurs", app_type_filter).run()
     # WiiFileExporter("Captain Commando", app_type_filter).run()
     # WiiFileExporter("Dynasty Wars", app_type_filter).run()
     # WiiFileExporter("JoJo's Venture").run()
     # WiiFileExporter("JoJo's Venture 2").run()
-    # WiiFileExporter("Street Fighter 3").run()
+    WiiFileExporter("Street Fighter 2' CE").run()
     # WiiFileExporter("Street Fighter 3.2").run()
     # WiiFileExporter("Street Fighter 3.3").run()
 

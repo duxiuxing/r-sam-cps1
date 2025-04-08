@@ -74,6 +74,9 @@ class RA_Configs:
     def ra_ss_data_folder(self):
         return self._get_value(f"ra_ss_data_folder_wii")
 
+    def ra_ss_libretro_directory(self):
+        return self._get_value(f"ra_ss_libretro_directory_wii")
+
     def assets_directory(self):
         return os.path.join(
             LocalConfigs.root_directory_export_to(),

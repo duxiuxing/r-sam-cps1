@@ -12,6 +12,9 @@ from wiiflow_plugins_data import WiiFlowPluginsData
 
 
 class LogoExporter:
+    WIDTH = 400
+    HEIGHT = 200
+
     @staticmethod
     def check_logo_left(logo, pixel_test):
         for x in range(logo.width):
@@ -78,13 +81,15 @@ class LogoExporter:
 
             src_png_path = os.path.join(import_dir_path, src_png_name)
             src_png = LogoExporter.crop_logo(src_png_path)
-            if src_png.height > 300:
-                new_height = 300
+            if src_png.height > LogoExporter.HEIGHT:
+                new_height = LogoExporter.HEIGHT
                 new_width = int(src_png.width * new_height / src_png.height)
                 dst_png = src_png.resize((new_width, new_height))
-                if new_width < 600:
-                    new_png = Image.new("RGBA", (600, 300), (0, 0, 0, 0))
-                    left = int((600 - new_width) / 2)
+                if new_width < LogoExporter.WIDTH:
+                    new_png = Image.new(
+                        "RGBA", (LogoExporter.WIDTH, LogoExporter.HEIGHT), (0, 0, 0, 0)
+                    )
+                    left = int((LogoExporter.WIDTH - new_width) / 2)
                     new_png.paste(dst_png, (left, 0), mask=dst_png)
                     dst_png = new_png
             else:

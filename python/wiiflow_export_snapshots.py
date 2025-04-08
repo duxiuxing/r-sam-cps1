@@ -43,7 +43,7 @@ class WiiFlow_ExportSnapshots:
             src_path = WiiFlowPluginsData.compute_snapshot_file_path(game_info)
             if not os.path.exists(src_path):
                 # 使用 image\\snap 文件夹里的截图
-                src_path = RSamRoms.compute_image_path(
+                src_path = Helper.compute_image_path(
                     r_sam_roms.query_rom_info(rom_crc32).game_name,
                     RA_ExportThumbnails.src_snap_folder(),
                 )

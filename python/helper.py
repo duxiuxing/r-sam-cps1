@@ -173,3 +173,34 @@ class Helper:
             channel_id = digits[remainder] + channel_id
             dec_num //= 36
         return channel_id.rjust(4, "0")
+
+    @staticmethod
+    def compute_image_path(game_name, sub_folder, image_extension=".png"):
+        # 根据 game_name 和 sub_folder 拼接图片文件的路径
+        if Helper.files_in_letter_folder():
+            letter = game_name.upper()[0]
+            if letter not in "ABCDEFGHIJKLMNOPQRSTUVWXYZ":
+                letter = "#"
+            image_path = os.path.join(
+                LocalConfigs.repository_directory(),
+                f"image\\{sub_folder}\\{letter}\\{game_name}{image_extension}",
+            )
+            if os.path.exists(image_path):
+                return image_path
+            else:
+                return os.path.join(
+                    LocalConfigs.repository_directory(),
+                    f"image\\{sub_folder}\\{letter}\\{game_name}\\01{image_extension}",
+                )
+        else:
+            image_path = os.path.join(
+                LocalConfigs.repository_directory(),
+                f"image\\{sub_folder}\\{game_name}{image_extension}",
+            )
+            if os.path.exists(image_path):
+                return image_path
+            else:
+                return os.path.join(
+                    LocalConfigs.repository_directory(),
+                    f"image\\{sub_folder}\\{game_name}\\01{image_extension}",
+                )
