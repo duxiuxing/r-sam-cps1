@@ -23,14 +23,21 @@ class Wii_AppIconExporter:
         if os.path.exists(dst_path):
             os.remove(dst_path)
 
-        game_info = WiiFlowPluginsData.instance().query_game_info(
-            rom_title=app_configs.rom_title
+        logo_path = os.path.join(
+            LocalConfigs.repository_directory(),
+            f"wii\\apps\\{app_configs.folder}\\icon.png",
         )
-        logo_path = Helper.compute_image_path(game_info.name, "logo")
-
-        if app_configs.icon is not None:
-            logo_path = os.path.join(
-                LocalConfigs.repository_directory(),
-                f"image\\logo\\{app_configs.icon}",
+        if os.path.exists(logo_path):
+            Helper.copy_file(logo_path, dst_path)
+        else:
+            game_info = WiiFlowPluginsData.instance().query_game_info(
+                rom_title=app_configs.rom_title
             )
-        Image.open(logo_path).resize((128, 48)).save(dst_path)
+            logo_path = Helper.compute_image_path(game_info.name, "logo")
+
+            if app_configs.icon is not None:
+                logo_path = os.path.join(
+                    LocalConfigs.repository_directory(),
+                    f"image\\logo\\{app_configs.icon}",
+                )
+            Image.open(logo_path).resize((128, 48)).save(dst_path)
