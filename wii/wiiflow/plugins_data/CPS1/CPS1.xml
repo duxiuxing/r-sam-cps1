@@ -10,7 +10,7 @@
 The game consists of six levels.
 
 It was the first shoot 'em up to add +1 to the score when a continue is used.[1]</synopsis>
-	<genre>Vertically scrolling shooters</genre>
+	<genre>Shooting / Vertical</genre>
 	</locale>	
 	<locale lang="ZHCN">
 		<title>1941 反击战</title>
@@ -23,7 +23,7 @@ It was the first shoot 'em up to add +1 to the score when a continue is used.[1]
 游 戏 的 蓄 力 系 统 和 宝 物 Power 等 的 设 计 跟《1942》和《1943》差 不 多，但 是 趣 味 性 和 难 度 有 所 提 升。玩 家 控 制 的 飞 机 也 很 有 个 性，可 以 沿 着 崖 壁 的 边 缘，象 个 风 车 一 样 旋 转 前 进。
 
 关 卡 中 的 机 关 设 计 很 是 巧 妙，比 如 能 反 射 激 光 的 镜 子。Boss 团 里 的 战 斗 机、坦 克、装 甲 车，一 个 二 个 都 是 卡 普 空 STG 关 卡 的 招 牌 Boss，足 以 看 出 这 款 作 品 有 多 硬 核。</synopsis>
-	<genre>纵向卷轴射击</genre>
+		<genre>射击 / 纵向</genre>
 	</locale>
 		<developer>Capcom</developer>
 		<publisher>Capcom</publisher>
@@ -42,7 +42,7 @@ It was the first shoot 'em up to add +1 to the score when a continue is used.[1]
 	<locale lang="EN">
 	<title>Adventure Quiz - Capcom World 2</title>
 	<synopsis>Capcom World 2 - Adventure Quiz is a Japanese quiz game.</synopsis>
-	<genre>Japanese Quiz</genre>
+	<genre>Quiz / Japanese</genre>
 	</locale>	
 	<locale lang="ZHCN">
 		<title>问答冒险 卡普空世界2</title>
@@ -51,7 +51,7 @@ It was the first shoot 'em up to add +1 to the score when a continue is used.[1]
 游 戏 以 大 富 翁 走 格 子 的 方 式 进 行，目 的 要 打 倒 终 极 大 魔 王。不 过 由 于 这 是 一 款 问 答 游 戏，并 且 只 有 日 文 版 本，这 使 得 游 戏 的 受 众 非 常 有 限。
 
 虽 然 游 戏 设 计 得 相 当 巧 妙，但 是 不 懂 日 文 就 无 福 消 受 了，推 荐 日 文 水 平 出 色 的 玩 家 尝 试。</synopsis>
-		<genre>日语问答</genre>
+		<genre>问答 / 日语</genre>
 	</locale>
 		<developer>Capcom</developer>
 		<publisher>Capcom</publisher>
@@ -89,7 +89,7 @@ It was the first shoot 'em up to add +1 to the score when a continue is used.[1]
 2513 年，针 对 恐 龙 的 盗 猎 活 动 突 然 猛 增，Jack 和 他 的 朋 友 们 决 定 一 查 到 底，发 现 其 中 有 远 比 投 机 买 卖 更 大 的 阴 谋。原 来，疯 狂 科 学 家 Fessenden 博 士 想 通 过 基 因 工 程，研 究 恐 龙 以 获 得 征 服 世 界 的 力 量。他 通 过 黑 市 交 易 购 买 恐 龙 就 是 为 了 获 取 实 验 样 品。他 不 仅 制 造、控 制 恐 龙，而 且 还 研 究 如 何 将 人 和 恐 龙 合 体，创 造 攻 击 力 超 强 的 变 异 怪 物。
 
 游 戏 的 四 个 主 角 得 知 了 博 士 的 计 划 后，开 着 凯 迪 拉 克 轿 车，一 路 奋 战，打 败 了 博 士 众 多 的 手 下，杀 死 已 变 异 的 邪 恶 博 士，并 触 发 了 位 于 纽 约 地 下，由 原 Vault 避 难 所 改 造 而 成 的 博 士 实 验 室 自 毁。</synopsis>
-		<genre>清版动作</genre>
+		<genre>动作</genre>
 	</locale>
 		<developer>Capcom</developer>
 		<publisher>Capcom</publisher>
@@ -121,7 +121,7 @@ It was the first shoot 'em up to add +1 to the score when a continue is used.[1]
 在 游 戏 过 程 中，主 角 可 以 坐 上 巨 大 的 步 行 机 与 敌 人 作 战，步 行 机 虽 然 威 力 巨 大，但 是 由 于 体 积 巨 大，而 且 行 动 迟 缓，被 攻 击 的 可 能 性 也 大 大 增 加，这 种“坐 骑”的 设 计 概 念 被 以 后 很 多 作 品 所 借 鉴。
 
 除 了 游 戏 画 面 和 操 作 手 感 上 的 巨 大 进 步，《名 将》还 将《快 打 旋 风》开 创 的“摆 拳”玩 法 进 一 步 发 扬 光 大，无 论 什 么 Boss，都 可 以 用 一 套 摆 拳 直 接 连 死。</synopsis>
-		<genre>清版动作</genre>
+		<genre>动作</genre>
 	</locale>
 		<developer>Capcom</developer>
 		<publisher>Capcom</publisher>
@@ -142,14 +142,14 @@ It was the first shoot 'em up to add +1 to the score when a continue is used.[1]
 	<synopsis>Carrier Air Wing / U.S. Navy is a horizontally-scrolling shoot-em-up for one or two players set in the 1990s, a decade of great change marked by growing friendships between old enemies and never before seen levels of co-operation between powerful nations of the world. However, in 1997, using new weapons designed in secrecy, the Middle Eastern country of 'Rabu' threatens to destroy this new and fragile peace. 
 
 Players chose to pilot any one of three different jet fighters and must battle their way through ten enemy-packed stages. Each fighter has a fuel bar which is full at the start of each stage but gradually decreases, additional fuel is lost each time the fighter takes damage from an enemy.</synopsis>
-	<genre>Horizontally scrolling shooters</genre>
+	<genre>Shooting / Horizontal</genre>
 	</locale>	
 	<locale lang="ZHCN">
 		<title>飞空之翼</title>
 		<synopsis>在本作诞生之前，卡普空原本是想制作一款《战区88》的续编作品，但由于未能取得相关版权，制作人只好修改计划，制作成内容独立的原创作品。
 《雌虎战机》沿袭了《战区88》的佣兵制系统，每一关消灭Boss后获得的金钱，可以用来购买和升级各种武器装备，还是可以用来购买加长生命的血槽。
 游戏剧情中，X国的兵器大体上以苏联兵器为主题，也使用了一部分诸如隐形战斗机、早期警戒机等美国兵器。</synopsis>
-		<genre>横向卷轴射击</genre>
+		<genre>射击 / 横向</genre>
 	</locale>
 		<developer>Capcom</developer>
 		<publisher>Capcom</publisher>
@@ -172,7 +172,7 @@ Players chose to pilot any one of three different jet fighters and must battle t
 	</locale>
 	<locale lang="ZHCN">
 		<title>吞食天地1 王朝战争</title>
-		<genre>清版动作</genre>
+		<genre>动作</genre>
 	</locale>
 		<developer>Capcom</developer>
 		<publisher>Capcom</publisher>
@@ -195,7 +195,7 @@ Players chose to pilot any one of three different jet fighters and must battle t
 	</locale>	
 	<locale lang="ZHCN">
 		<title>快打旋风</title>
-		<genre>清版动作</genre>
+		<genre>动作</genre>
 	</locale>
 		<developer>Capcom</developer>
 		<publisher>Capcom</publisher>
@@ -214,11 +214,11 @@ Players chose to pilot any one of three different jet fighters and must battle t
 	<locale lang="EN">
 	<title>Forgotten Worlds</title>
 	<synopsis>The planet used to be beautiful, with gorgeous cities and gleaming countrysides. Until the Aliens attacked! With fire, bombs, and napalm they devastated the world! They made the planet so abominable that it became an outcast in the universe - the Forgotten World. Until you, the Nameless One, appear. You're a Super Warrior of incredible power and energy. You make it your business to reclaim the panet for its rightful owners - the Human Beings!</synopsis>
-	<genre>Horizontally scrolling shooters</genre>
+	<genre>Shooting / Horizontal</genre>
 	</locale>	
 	<locale lang="ZHCN">
 		<title>失落的世界</title>
-		<genre>横向卷轴射击</genre>
+		<genre>射击 / 横向</genre>
 	</locale>
 		<developer>Capcom</developer>
 		<publisher>Capcom</publisher>
@@ -264,25 +264,9 @@ Players chose to pilot any one of three different jet fighters and must battle t
 The game was ported to the Super NES and released in 1994. An emulated version of the game was released as part of Capcom Classics Collection Vol. 2 and Capcom Classics Collection: Reloaded.</synopsis>
 	<genre>Beat 'em up</genre>
 	</locale>
-	<locale lang="ES">
-	<synopsis>The King of Dragons es un juego de 1991 que permite a los jugadores elegir entre cinco personajes (Elfo, Mago, Luchador, Clérigo y Enano) para viajar por el reino de Malus y derrotar a los monstruos que han asumido el control, así como su líder, el dragón rojo Gildiss. Al igual que Knights of the Round de Capcom, cuenta con un sistema de avance de nivel, permitiendo que los atributos de los personajes sean actualizados a medida que los jugadores avanzan a través del juego. El escenario es muy similar al de Dungeons &amp; Dragons y otros mundos de fantasía medieval, con monstruos familiares como Orcos, Gnomos, Arpías, Wyverns, Cíclopes y Minotauros. El juego fue portado a Super NES y lanzado en 1994. Una versión emulada del juego fue lanzada como parte de Capcom Classics Collection Vol. 2 y Capcom Classics Colección: Reloaded.</synopsis>
-	<genre>Beat 'em up</genre>
-	</locale>
-	<locale lang="FR">
-	<synopsis>The King of Dragons est un beat'em all original qui reprend les éléments classiques de l'heroic fantasy. Le Grand Royaume est en très mauvaise posture : Gildiss, un dragon rouge, ancien et très maléfique, a décidé de l'envahir. Heureusement, une équipe de 5 héros se décide à l'affronter : le rapide elfe et son arc magique, le puissant mage et ses sortilèges, le chevalier tout en force, le prête-guerrier qui progresse vite en puissance et enfin le nain rapide muni de sa fidèle hache. The King of Dragons rappelle fortement Golden Axe ! Il faut dire que le thème du jeu (l'heroic fantasy) et la vue de trois quarts y sont pour beaucoup. Pour changer, les tableaux de The King of Dragons ne sont pas très longs, mais cela est compensé par la difficulté posée par les habituels monstres de fin de niveau. Ces derniers ne sont d'ailleurs pas loin d'être plus nombreux que les monstres que l'on rencontre durant le jeu ! Rappelons qu'il y a 16 niveaux, donc 16 gros monstres !</synopsis>
-	<genre>Beat 'em up</genre>
-	</locale>
-	<locale lang="DE">
-	<genre>Beat 'em up</genre>
-	</locale>
-	<locale lang="PT">
-	<synopsis>The King of Dragons é um jogo de 1991, que permite aos jogadores escolher entre cinco personagens (Elfo, Mago, Lutador, Clérigo e Anão) para viajar pelo reino de Malus e derrotar os monstros que assumiram, assim como seu líder, o dragão vermelho Gildiss. Como os Cavaleiros da Távola da Capcom, ele possui um sistema de avanço de nível, permitindo que os atributos de caráter sejam atualizados à medida que os jogadores progridem no jogo. A configuração é muito semelhante à de Dungeons &amp; Dragons e outros mundos de fantasia medieval, com monstros familiares como Orcs, Gnolls, Harpies, Wyverns, Cyclopes e Minotaurs.
-O jogo foi portado para o Super NES e lançado em 1994. Uma versão emulada do jogo foi lançado como parte da Capcom Classics Collection Vol. 2 e Capcom Classics Coleção: Reloaded.</synopsis>
-	<genre>Briga de rua,Luta / 2.5D,Luta</genre>
-	</locale>
 	<locale lang="ZHCN">
 		<title>龙王战士</title>
-		<genre>清版动作</genre>
+		<genre>动作</genre>
 	</locale>
 		<developer>Capcom</developer>
 		<publisher>Capcom</publisher>
@@ -303,23 +287,9 @@ O jogo foi portado para o Super NES e lançado em 1994. Uma versão emulada do j
 	<synopsis>Knights of the Round is an arcade game released by Capcom in 1991. A side-scrolling beat 'em up based loosely on the legend of King Arthur and the Knights of the Round Table, the game features an role-playing video game-like level advancement system, with fighters getting new weapons and armour as they advance through the game, however the player can not choose how to upgrade his/her character - the level up system is static.</synopsis>
 	<genre>Beat 'em up</genre>
 	</locale>
-	<locale lang="ES">
-	<synopsis>Knights of the Round es un juego de arcade lanzado por Capcom en 1991. Un beat 'em up de desplazamiento lateral basado libremente en la leyenda del Rey Arturo y los Caballeros de la Mesa Redonda, el juego presenta un nivel similar al de un videojuego de rol. sistema de avance, con luchadores que obtienen nuevas armas y armaduras a medida que avanzan en el juego; sin embargo, el jugador no puede elegir cómo actualizar su personaje: el sistema de subir de nivel es estático.</synopsis>
-	<genre>Beat 'em up</genre>
-	</locale>
-	<locale lang="FR">
-	<synopsis>Dans ce beat'em up médiéval, vous pouvez incarner Lancelot, Arthur ou Perceval (jusqu'à trois players simultanés). Nos trois chevaliers devront parcourir plusieurs niveaux d'une beauté rare remplis d'ennemis aussi laids que bien faits. La jouabilité est de mise dans ce jeu, et vous risquez de rester longtemps devant votre écran rien que pour le plaisir des yeux.
-A ne pas manquer !!!</synopsis>
-	<genre>Beat'em All</genre>
-	</locale>
-	<locale lang="DE">
-	<genre>Beat 'em up</genre>
-	</locale>
-	<locale lang="PT">
-	<synopsis>Knights of the Round é um jogo de arcade lançado pela Capcom em 1991. Um side-scrolling beat 'em up baseado livremente sobre a lenda do Rei Arthur e os Cavaleiros da Tábula Redonda, o jogo apresenta um sistema avançado de melhorias no estilo RPG, com os lutadores obtendo novas armas e armaduras confome avançam através do jogo, no entanto, o jogador não pode escolher como atualizar seu personagem - sistema de melhorias é estático.</synopsis>
-	</locale>
 	<locale lang="ZHCN">
 		<title>圆桌骑士</title>
+		<genre>动作</genre>
 	</locale>
 		<developer>Capcom</developer>
 		<publisher>Capcom</publisher>
@@ -407,7 +377,7 @@ A ne pas manquer !!!</synopsis>
 	<locale lang="EN">
 	<title>Mercs</title>
 	<synopsis>The US faces a grave crisis! The former president has been kidnapped by a group of revolutionaries while on a trip on Central Africa meant to promote world peace. Take control of three highly skilled anti-terrorist soldiers and venture through enemy lines to save the former president &amp; annihilate the rebel army in the process. Features solid graphics &amp; sound, plenty of weapons &amp; vehicles to use and hulking bosses to defeat.</synopsis>
-	<genre>Shooter</genre>
+	<genre>Shooting</genre>
 	</locale>
 	<locale lang="ZHCN">
 		<title>战场之狼2</title>
@@ -487,7 +457,7 @@ Nemo is a colourful and abstract platform shoot-em-up set in the dream world of 
 	<synopsis>Pang! 3 is the second sequel to the superb 1989 original, Pang! 3 retains the same gameplay of its predecessors but adds vastly improved graphics and a choice of three difficulty levels; Beginner, Normal and Panic. On both the 'Normal' and 'Panic' skill levels, players can choose from 4 different playable characters; each possessing different strengths and weaknesses, such as a double harpoon or quick shots. On the beginner level, players can only use the Mexican character.
 
 Another notable difference is in the game's use of backdrops: instead of the world landmarks of the first two games, Pang! 3 features classical works of art in the form of paintings and sculptures.</synopsis>
-	<genre>Shooter</genre>
+	<genre>Shooting</genre>
 	</locale>
 	<locale lang="ZHCN">
 		<title>魔鬼气泡3</title>
@@ -535,23 +505,9 @@ Another notable difference is in the game's use of backdrops: instead of the wor
 	<synopsis>A Capcom arcade beat-em-up game similar to games like Double Dragon featuring the Marvel character The Punisher. Nick Fury is also a playable character in this game.</synopsis>
 	<genre>Beat 'em up</genre>
 	</locale>
-	<locale lang="ES">
-	<synopsis>Un juego de arcade de Capcom, similar a juegos como Double Dragon con el personaje de Marvel The Punisher. Nick Fury es también un personaje que se puede jugar en este juego.</synopsis>
-	<genre>Beat 'em up</genre>
-	</locale>
-	<locale lang="FR">
-	<synopsis>The punisher est un beat them all très beau graphiquement avec de nombreux coups de nombreuses armes ( batte de base ball ; pistolet ; lance flamme ; etc... ) avec un décor déstructible un nombre important d'ennemis ce jeu sert a se défouler à coup de poing ,de grenades et j'en passe, donc ce jeu est à telecharger pour les amateurs du genre les fans de "the punisher" où les personnages sont très bien modélisé est à ceux qui ont les nerfs et qui aimeré ce lacher un peu sur un jeu.</synopsis>
-	<genre>Beat'em All</genre>
-	</locale>
-	<locale lang="DE">
-	<genre>Beat 'em up</genre>
-	</locale>
-	<locale lang="PT">
-	<synopsis>The Punisher é um jogo arcade, beat 'em up,desenvolvido e lançado pela Capcom em 1993. Ele estrela o anti-herói da Marvel Comics o Punisher e co-estrela da S.H.I.E.L.D., o Agente Nick Fury, como o personagem do segundo jogador juntos embarcam em uma missão para matar o senhor do crime o Kingpin e derrubar sua organização. Apesar de seguir a mesma fórmula geral que o anterior beat 'em ups da Capcom, o jogo tem uma gama de armas utilizáveis ??e uma apresentação em estilo de quadrinhos</synopsis>
-	</locale>
 	<locale lang="ZHCN">
 		<title>惩罚者</title>
-		<genre>清版动作</genre>
+		<genre>动作</genre>
 	</locale>
 		<developer>Capcom</developer>
 		<publisher>Capcom</publisher>
@@ -570,11 +526,11 @@ Another notable difference is in the game's use of backdrops: instead of the wor
 	<locale lang="EN">
 	<title>Quiz &amp; Dragons</title>
 	<synopsis>The game plays similar to a board game, where the player is given a predetermined dice roll that moves the player up to six spaces on the board; however, if the player is so given the choice, he can move to a space of his choosing if there is a fork in the road. After landing on a space, the player is given a series of questions (the amount of questions needed to be answered increase as the game progresses) in order to proceed back to the board for another dice roll. The player is given a time limit to answer the question, with points given that vary based on how fast the player answered the question correctly. If the player is successful in answering a question, one of the orbs above the enemy's portrait will light up, indicating a correct answer. If the player answers a question incorrectly, he will lose a life point. if the player loses all life points, the player must continue within the time limit or else the game is over.</synopsis>
-	<genre>English Quiz</genre>
+	<genre>Quiz / English</genre>
 	</locale>	
 	<locale lang="ZHCN">
 		<title>龙之迷题</title>
-		<genre>英语问答</genre>
+		<genre>问答 / 英语</genre>
 	</locale>
 		<developer>Capcom</developer>
 		<publisher>Capcom</publisher>
@@ -593,11 +549,11 @@ Another notable difference is in the game's use of backdrops: instead of the wor
 	<locale lang="EN">
 	<title>Quiz Tonosama no Yabou 2 - Zenkoku-ban</title>
 	<synopsis>Quiz Tonosama no Yabou 2 - Zenkoku-ban is a feudal Japanese quiz game from Capcom.</synopsis>
-	<genre>Japanese Quiz</genre>
+	<genre>Quiz / Japanese</genre>
 	</locale>
 	<locale lang="ZHCN">
 		<title>城主的野心问答2 全国版</title>
-		<genre>日语问答</genre>
+		<genre>问答 / 日语</genre>
 	</locale>
 		<developer>Capcom</developer>
 		<publisher>Capcom</publisher>
@@ -744,28 +700,9 @@ Annihilate your competition and claim the right to test your skills against the 
 Set in a dystopian future in the year 2048, Meio has been watching Earth from his own distant galaxy and has created a space station (known as 'The Third Moon') between Earth and its moon in order to rule over the Human race. </synopsis>
 	<genre>Platform</genre>
 	</locale>
-	<locale lang="ES">
-	<synopsis>En 2048, un Hiryu Strider llamado Hiryu viaja por el mundo en busca del misterioso Meio, que reina en la Tierra desde su base lunar, y controla a Hiryu, armado con su espada Falchion, a través de cinco niveles que van desde la Unión Soviética hasta la selva tropical. Hiryu tiene la particularidad de ser capaz de colgarse en las paredes gracias a un gancho de metal, y también puede ser ayudado por dos animales robóticos (un halcón y un tigre).</synopsis>
-	<genre>Plataforma / Beat'em Up</genre>
-	</locale>
-	<locale lang="FR">
-	<synopsis>En 2048, un Strider nommé Hiryu parcourt le monde à la recherche du mystérieux Meio, qui règne sur la Terre depuis sa base lunaire.Le joueur contrôle Hiryu, armé de son sabre Falchion, à travers cinq niveaux allant de l'Union Soviétique à la forêt vierge. Hiryu a la particularité de pouvoir s'accrocher aux parois grâce à un crochet métallique, et peut également se faire aider de deux animaux robotiques (un faucon et un tigre) appelés Options.</synopsis>
-	<genre>Plateforme / Beat'em Up</genre>
-	</locale>
-	<locale lang="DE">
-	<genre>Plattform / Beat'em Up</genre>
-	</locale>
-	<locale lang="PT">
-	<synopsis>Strider é um jogo de videogame da Capcom, lançado em 1989 o enredo do jogo é este: Em 2048, a Terra está sob ameaça de Grandmaster Meio, um ser de outra galáxia, que intenciona dominar o nosso planeta. Para tanto, Meio construirá uma estação estelar, localizada entre a Terra e a Lua, denominada de "Third Moon" (trad: Terceira Lua).
-Todavia, Hiryu, um valente guerreiro Strider, armado com sua poderosa espada cypher, decide opor-se a Meio, combatendo suas forças invasoras. Sozinho nesta luta, Hiryu receberá apenas a ajuda dos "Options" (pequenos robôs, ou ainda animais mecânicos, como uma águia e uma pantera) que ele, eventualmente, venha a encontrar pelo seu caminho.</synopsis>
-	<genre>Plataforma / Beat'em Up</genre>
-	</locale>
-	<locale lang="JA">
-	<title>Strider Hiryu</title>
-	</locale>
 	<locale lang="ZHCN">
 		<title>出击飞龙</title>
-		<title>平台</title>
+		<genre>平台</genre>
 	</locale>
 		<developer>Capcom</developer>
 		<publisher>Capcom</publisher>
@@ -788,7 +725,7 @@ Todavia, Hiryu, um valente guerreiro Strider, armado com sua poderosa espada cyp
 	</locale>
 	<locale lang="ZHCN">
 		<title>吞食天地2 赤壁之战</title>
-		<genre>清版动作</genre>
+		<genre>动作</genre>
 	</locale>
 		<developer>Capcom</developer>
 		<publisher>Capcom</publisher>
@@ -832,11 +769,11 @@ Lou's Companion Siva, has a character based on him as a tribute, featuring on Ca
 	<locale lang="EN">
 	<title>U.N. Squadron</title>
 	<synopsis>U.N. Squadron / Area 88 is a horizontally-scrolling shoot-em-up and is based on the Manga series of the same name. The game features characters from the original Manga and their mission is to battle their way through enemy-packed levels to stop a terrorist group known as 'Project 4'.</synopsis>
-	<genre>Horizontally scrolling shooters</genre>
+	<genre>Shooting / Horizontal</genre>
 	</locale>	
 	<locale lang="ZHCN">
 		<title>战区88</title>
-		<genre>横向卷轴射击</genre>
+		<genre>射击 / 横向</genre>
 	</locale>
 		<developer>Capcom</developer>
 		<publisher>Capcom</publisher>
@@ -855,11 +792,11 @@ Lou's Companion Siva, has a character based on him as a tribute, featuring on Ca
 	<locale lang="EN">
 	<title>Varth - Operation Thunderstorm</title>
 	<synopsis>Varth: Operation Thunderstorm is an arcade game in the vertical scrolling shooter genre, published in 1992. The game did not see a console port following its initial release, but 14 years later Digital Eclipse Software would port the game onto the PlayStation 2, PSP and Xbox as part of the Capcom Classics Collection Vol. 2.</synopsis>
-	<genre>Vertically scrolling shooters</genre>
+	<genre>Shooting / Vertical</genre>
 	</locale>	
 	<locale lang="ZHCN">
 		<title>威虎战机 雷暴行动</title>
-		<genre>纵向卷轴射击</genre>
+		<genre>射击 / 纵向</genre>
 	</locale>
 		<developer>Capcom</developer>
 		<publisher>Capcom</publisher>
