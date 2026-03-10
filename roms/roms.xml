@@ -3,7 +3,7 @@
     hfsplay="https://db.hfsplay.fr/systems/29475">
     <Game id="39873A"
         en_title="1941 - Counter Attack"
-        zhcn_title="1941 反击战"
+        zhcn_title="# - 1941 反击战"
         hfsplay="https://db.hfsplay.fr/games/29476-1941-counter-attack"
         launchbox="https://gamesdb.launchbox-app.com/games/details/2307-1941-counter-attack">
         <Rom crc32="64E58DC3" bytes="1420289"
@@ -15,7 +15,7 @@
     </Game>
     <Game id="37357A"
         en_title="Three Wonders"
-        zhcn_title="奇迹三世界"
+        zhcn_title="Q - 奇迹三世界"
         hfsplay="https://db.hfsplay.fr/games/81225-three-wonders"
         launchbox="">
         <Rom crc32="C1A3CC0C" bytes="2479888"
@@ -27,7 +27,7 @@
     </Game>
     <Game id="37358A"
         en_title="Captain Commando"
-        zhcn_title="名将"
+        zhcn_title="M - 名将"
         hfsplay="https://db.hfsplay.fr/games/29478-captain-commando"
         launchbox="">
         <Rom crc32="903715AE" bytes="2542116"
@@ -39,7 +39,7 @@
     </Game>
     <Game id="37359A"
         en_title="Carrier Air Wing"
-        zhcn_title="飞空之翼"
+        zhcn_title="F - 飞空之翼"
         hfsplay="https://db.hfsplay.fr/games/29479-carrier-air-wing"
         launchbox="">
         <Rom crc32="31B0791C" bytes="1440062"
@@ -52,7 +52,7 @@
     </Game>
     <Game id="40781A"
         en_title="Adventure Quiz - Capcom World 2"
-        zhcn_title="问答冒险 卡普空世界2"
+        zhcn_title="W - 问答冒险 卡普空世界2"
         hfsplay="https://db.hfsplay.fr/games/74017-adventure-quiz-capcom-world-2"
         launchbox="https://gamesdb.launchbox-app.com/games/details/34902-adventure-quiz:-capcom-world-2">
         <Rom crc32="319BF022" bytes="1753871"
@@ -64,7 +64,7 @@
     </Game>
     <Game id="37360A"
         en_title="Cadillacs and Dinosaurs"
-        zhcn_title="恐龙快打"
+        zhcn_title="K - 恐龙快打"
         hfsplay="https://db.hfsplay.fr/games/29477-cadillacs-and-dinosaurs"
         launchbox="">
         <Rom crc32="5214C514" bytes="4116096"
@@ -76,7 +76,7 @@
     </Game>
     <Game id="41078A"
         en_title="Dynasty Wars"
-        zhcn_title="吞食天地1 王朝战争"
+        zhcn_title="T - 吞食天地1 王朝战争"
         hfsplay="https://db.hfsplay.fr/games/29480-dynasty-wars"
         launchbox="https://gamesdb.launchbox-app.com/games/details/11750-dynasty-wars">
         <Rom crc32="13133F73" bytes="2193606"
@@ -88,7 +88,7 @@
     </Game>
     <Game id="37362A"
         en_title="Final Fight"
-        zhcn_title="快打旋风"
+        zhcn_title="K - 快打旋风"
         hfsplay="https://db.hfsplay.fr/games/29481-final-fight"
         launchbox="">
         <Rom crc32="E5524363" bytes="1429616"
@@ -100,7 +100,7 @@
     </Game>
     <Game id="37363A"
         en_title="Forgotten Worlds"
-        zhcn_title="失落的世界"
+        zhcn_title="S - 失落的世界"
         hfsplay="https://db.hfsplay.fr/games/29482-forgotten-worlds"
         launchbox="">
         <Rom crc32="0C6F70CB" bytes="1952681"
@@ -119,7 +119,7 @@
     </Game>
     <Game id="41441A"
         en_title="Ghouls'n Ghosts"
-        zhcn_title="大魔界村"
+        zhcn_title="D - 大魔界村"
         hfsplay="https://db.hfsplay.fr/games/29483-ghouls-n-ghosts"
         launchbox="https://gamesdb.launchbox-app.com/games/details/8403-ghouls'n-ghosts">
         <Rom crc32="B5E40BEF" bytes="1608233"
@@ -131,7 +131,7 @@
     </Game>
     <Game id="42020A"
         en_title="Knights of the Round"
-        zhcn_title="圆桌骑士"
+        zhcn_title="Y - 圆桌骑士"
         hfsplay="https://db.hfsplay.fr/games/29484-knights-of-the-round"
         launchbox="">
         <Rom crc32="29BC394F" bytes="2355202"
@@ -143,7 +143,7 @@
     </Game>
     <Game id="37366A"
         en_title="The King of Dragons"
-        zhcn_title="龙王战士"
+        zhcn_title="L - 龙王战士"
         hfsplay="https://db.hfsplay.fr/games/29499-the-king-of-dragons"
         launchbox="">
         <Rom crc32="4F51657C" bytes="2361501"
@@ -155,7 +155,7 @@
     </Game>
     <Game id="37367A"
         en_title="Muscle Bomber Duo - Ultimate Team Battle"
-        zhcn_title="摔角霸王1 最终之战"
+        zhcn_title="S - 摔角霸王1 最终之战"
         hfsplay="https://db.hfsplay.fr/games/29489-muscle-bomber-duo-ultimate-team-battle"
         launchbox="https://gamesdb.launchbox-app.com/games/details/7953-muscle-bomber-duo:-ultimate-team-battle">
         <Rom crc32="7E214FC4" bytes="6510038"
@@ -167,7 +167,7 @@
     </Game>
     <Game id="78892A"
         en_title="Mega Man - The Power Battle"
-        zhcn_title="洛克人1 力量之战"
+        zhcn_title="L - 洛克人1 力量之战 CPS-1版"
         hfsplay="https://db.hfsplay.fr/games/29487-megaman-the-power-battle"
         launchbox="https://gamesdb.launchbox-app.com/games/details/24328-mega-man:-the-power-battle">
         <Rom crc32="779C1CE7" bytes="3301557"
@@ -179,7 +179,7 @@
     </Game>
     <Game id="78903A"
         en_title="Mercs"
-        zhcn_title="战场之狼2"
+        zhcn_title="Z - 战场之狼2"
         hfsplay="https://db.hfsplay.fr/games/29488-mercs"
         launchbox="https://gamesdb.launchbox-app.com/games/details/23103-mercs">
         <Rom crc32="DD86F423" bytes="1754056"
@@ -191,7 +191,7 @@
     </Game>
     <Game id="57920A"
         en_title="Magic Sword - Heroic Fantasy"
-        zhcn_title="魔法剑 英雄的幻想"
+        zhcn_title="M - 魔法剑 英雄的幻想"
         hfsplay="https://db.hfsplay.fr/games/29485-magic-sword-heroic-fantasy"
         launchbox="https://gamesdb.launchbox-app.com/games/details/24015-magic-sword">
         <Rom crc32="CF246210" bytes="1440358"
@@ -203,7 +203,7 @@
     </Game>
     <Game id="37371A"
         en_title="Mega Twins"
-        zhcn_title="双麒儿"
+        zhcn_title="S - 双麒儿"
         hfsplay="https://db.hfsplay.fr/games/29486-mega-twins"
         launchbox="">
         <Rom crc32="37C648BE" bytes="1435432"
@@ -215,7 +215,7 @@
     </Game>
     <Game id="37372A"
         en_title="Nemo"
-        zhcn_title="梦幻冒险"
+        zhcn_title="M - 梦幻冒险"
         hfsplay="https://db.hfsplay.fr/games/29490-nemo"
         launchbox="https://gamesdb.launchbox-app.com/games/details/2316-nemo">
         <Rom crc32="2DE12145" bytes="1340367"
@@ -227,7 +227,7 @@
     </Game>
     <Game id="37373A"
         en_title="Pang! 3"
-        zhcn_title="魔鬼气泡3"
+        zhcn_title="M - 魔鬼气泡3"
         hfsplay="https://db.hfsplay.fr/games/29491-pang-3"
         launchbox="https://gamesdb.launchbox-app.com/games/details/23524-pang!-3">
         <Rom crc32="48BFD83A" bytes="1536927"
@@ -239,7 +239,7 @@
     </Game>
     <Game id="37374A"
         en_title="Pnickies"
-        zhcn_title="魔法方块"
+        zhcn_title="M - 魔法方块"
         hfsplay="https://db.hfsplay.fr/games/29492-pnickies"
         launchbox="https://gamesdb.launchbox-app.com/games/details/38165-pnickies">
         <Rom crc32="3A8E9DCB" bytes="768480"
@@ -251,7 +251,7 @@
     </Game>
     <Game id="37375A"
         en_title="The Punisher"
-        zhcn_title="惩罚者"
+        zhcn_title="C - 惩罚者"
         hfsplay="https://db.hfsplay.fr/games/29500-the-punisher"
         launchbox="">
         <Rom crc32="2E7981B0" bytes="4042628"
@@ -263,7 +263,7 @@
     </Game>
     <Game id="42583A"
         en_title="Quiz &amp; Dragons"
-        zhcn_title="龙之迷题"
+        zhcn_title="L - 龙之迷题"
         hfsplay="https://db.hfsplay.fr/games/79552-quiz-dragons-capcom-quiz-game"
         launchbox="https://gamesdb.launchbox-app.com/games/details/7955-quiz-dragons-capcom-quiz-game">
         <Rom crc32="BC181DDF" bytes="1095855"
@@ -275,7 +275,7 @@
     </Game>
     <Game id="42606A"
         en_title="Quiz Tonosama no Yabou 2 - Zenkoku-ban"
-        zhcn_title="城主的野心问答2 全国版"
+        zhcn_title="C - 城主的野心问答2 全国版"
         hfsplay="https://db.hfsplay.fr/games/79600-quiz-tonosama-no-yabou-2-zenkoku-ban"
         launchbox="">
         <Rom crc32="847A5C2B" bytes="1945248"
@@ -287,7 +287,7 @@
     </Game>
     <Game id="42982A"
         en_title="Street Fighter II - The World Warrior"
-        zhcn_title="街头霸王2 天下斗士"
+        zhcn_title="J - 街头霸王2 天下斗士"
         hfsplay="https://db.hfsplay.fr/games/29496-street-fighter-ii-the-world-warrior"
         launchbox="">
         <Rom crc32="B62D0BC7" bytes="3551819"
@@ -299,7 +299,7 @@
     </Game>
     <Game id="37377A"
         en_title="Street Fighter II' - Champion Edition"
-        zhcn_title="街头霸王2 冠军版"
+        zhcn_title="J - 街头霸王2 冠军版"
         hfsplay="https://db.hfsplay.fr/games/29497-street-fighter-ii-champion-edition"
         launchbox="">
         <Rom crc32="60FF7935" bytes="3584791"
@@ -311,7 +311,7 @@
     </Game>
     <Game id="37378A"
         en_title="Street Fighter II' - Hyper Fighting"
-        zhcn_title="街头霸王2 究极格斗"
+        zhcn_title="J - 街头霸王2 究极格斗"
         hfsplay="https://db.hfsplay.fr/games/29495-street-fighter-ii-hyper-fighting"
         launchbox="">
         <Rom crc32="A86F0C6C" bytes="3640355"
@@ -323,7 +323,7 @@
     </Game>
     <Game id="64254A"
         en_title="Street Fighter Zero"
-        zhcn_title="少年街霸1"
+        zhcn_title="S - 少年街霸1"
         hfsplay=""
         launchbox="">
         <Rom crc32="F9A2076F" bytes="3890541"
@@ -335,7 +335,7 @@
     </Game>
     <Game id="37379A"
         en_title="Saturday Night Slam Masters"
-        zhcn_title="摔角霸王1"
+        zhcn_title="S - 摔角霸王1"
         hfsplay="https://db.hfsplay.fr/games/29494-saturday-night-slam-masters"
         launchbox="https://gamesdb.launchbox-app.com/games/details/27113-saturday-night-slam-masters">
         <Rom crc32="26EB81A2" bytes="6589085"
@@ -347,7 +347,7 @@
     </Game>
     <Game id="37380A"
         en_title="Strider"
-        zhcn_title="出击飞龙"
+        zhcn_title="C - 出击飞龙"
         hfsplay="https://db.hfsplay.fr/games/29498-strider"
         launchbox="https://gamesdb.launchbox-app.com/games/details/7958-strider">
         <Rom crc32="329FB3E2" bytes="2101117"
@@ -359,7 +359,7 @@
     </Game>
     <Game id="43837A"
         en_title="U.N. Squadron"
-        zhcn_title="战区88"
+        zhcn_title="Z - 战区88"
         hfsplay="https://db.hfsplay.fr/games/29502-un-squadron"
         launchbox="">
         <Rom crc32="01ADC184" bytes="1274553"
@@ -371,7 +371,7 @@
     </Game>
     <Game id="37382A"
         en_title="Varth - Operation Thunderstorm"
-        zhcn_title="威虎战机 雷暴行动"
+        zhcn_title="W - 威虎战机 雷暴行动"
         hfsplay="https://db.hfsplay.fr/games/29503-varth-operation-thunderstorm"
         launchbox="">
         <Rom crc32="B732BB4D" bytes="1544886"
@@ -383,7 +383,7 @@
     </Game>
     <Game id="37383A"
         en_title="Willow"
-        zhcn_title="威洛之旅"
+        zhcn_title="W - 威洛之旅"
         hfsplay="https://db.hfsplay.fr/games/29505-willow"
         launchbox="https://gamesdb.launchbox-app.com/games/details/7965-willow">
         <Rom crc32="890E3C76" bytes="1773778"
@@ -401,7 +401,7 @@
     </Game>
     <Game id="44111A"
         en_title="Warriors of Fate"
-        zhcn_title="吞食天地2 赤壁之战"
+        zhcn_title="T - 吞食天地2 赤壁之战"
         hfsplay="https://db.hfsplay.fr/games/29504-warriors-of-fate"
         launchbox="https://gamesdb.launchbox-app.com/games/details/12506-warriors-of-fate">
         <Rom crc32="DC01687D" bytes="3943624"
