@@ -390,7 +390,13 @@
             file_name="willow.zip"
             en_title="Willow (World)"
             zhcn_title="威洛之旅 (世界版)"
-            apps-work="" apps-not-work=""
+            cores-work="FinalBurn Neo" cores-not-work="FB Alpha 2012 CPS-2"
+        />
+        <Rom crc32="933DD83A" bytes="1773770"
+            file_name="willow.zip"
+            en_title="Willow (US)"
+            zhcn_title="威洛之旅 (美版)"
+            cores-work="FB Alpha 2012 CPS-2" cores-not-work="FinalBurn Neo"
         />
     </Game>
     <Game id="44111A"
