@@ -45,7 +45,7 @@ It was the first shoot 'em up to add +1 to the score when a continue is used.[1]
 	<genre>Quiz / Japanese</genre>
 	</locale>	
 	<locale lang="ZHCN">
-		<title>W - 问答冒险 卡普空世界2</title>
+		<title>M - 冒险问答 卡普空世界2</title>
 		<synopsis>《问 答 冒 险 卡 普 空 世 界2》聚 集 了 很 多 卡 普 空 的 经 典 游 戏 人 物，加 上 富 有 创 意 的 剧 情，是 卡 普 空 公 司 相 当 具 有 纪 念 价 值 的 作 品。
 
 游 戏 以 大 富 翁 走 格 子 的 方 式 进 行，目 的 要 打 倒 终 极 大 魔 王。不 过 由 于 这 是 一 款 问 答 游 戏，并 且 只 有 日 文 版 本，这 使 得 游 戏 的 受 众 非 常 有 限。
@@ -145,7 +145,7 @@ Players chose to pilot any one of three different jet fighters and must battle t
 	<genre>Shooting / Horizontal</genre>
 	</locale>	
 	<locale lang="ZHCN">
-		<title>F - 飞空之翼</title>
+		<title>C - 雌虎战机</title>
 		<synopsis>在本作诞生之前，卡普空原本是想制作一款《战区88》的续编作品，但由于未能取得相关版权，制作人只好修改计划，制作成内容独立的原创作品。
 《雌虎战机》沿袭了《战区88》的佣兵制系统，每一关消灭Boss后获得的金钱，可以用来购买和升级各种武器装备，还是可以用来购买加长生命的血槽。
 游戏剧情中，X国的兵器大体上以苏联兵器为主题，也使用了一部分诸如隐形战斗机、早期警戒机等美国兵器。</synopsis>
@@ -334,7 +334,7 @@ The game was ported to the Super NES and released in 1994. An emulated version o
 	<genre>Fighting</genre>
 	</locale>
 	<locale lang="ZHCN">
-		<title>L - 洛克人1 力量之战 CPS-1版</title>
+		<title>L - 洛克人1 力量之战 (CPS1版)</title>
 		<genre>格斗</genre>
 	</locale>
 		<developer>Capcom</developer>
@@ -552,7 +552,7 @@ Another notable difference is in the game's use of backdrops: instead of the wor
 	<genre>Quiz / Japanese</genre>
 	</locale>
 	<locale lang="ZHCN">
-		<title>C - 城主的野心问答2 全国版</title>
+		<title>W - 问答信长之野望2 全国版</title>
 		<genre>问答 / 日语</genre>
 	</locale>
 		<developer>Capcom</developer>
@@ -603,7 +603,7 @@ Platform graphics (resembling the medal ceremonies in the Olympics) are added to
 	<genre>Fighting</genre>
 	</locale>
 	<locale lang="ZHCN">
-		<title>J - 街头霸王2 究极格斗</title>
+		<title>J - 街头霸王2 战斗宣言</title>
 		<genre>格斗</genre>
 	</locale>
 		<developer>Capcom</developer>
@@ -653,7 +653,7 @@ Annihilate your competition and claim the right to test your skills against the 
 	<genre>Fighting</genre>
 	</locale>
 	<locale lang="ZHCN">
-		<title>J - 街头霸王2 冠军版</title>
+		<title>J - 街头霸王2 四大天王</title>
 		<genre>格斗</genre>
 	</locale>
 		<developer>Capcom</developer>

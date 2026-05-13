@@ -10,7 +10,7 @@
             file_name="1941.zip"
             en_title="1941 - Counter Attack (900227 World)"
             zhcn_title="1941 反击战 (900227 世界版)"
-            apps-work="" apps-not-work=""
+            cores-work="" apps-not-work=""
         />
     </Game>
     <Game id="37357A"
@@ -39,26 +39,26 @@
     </Game>
     <Game id="37359A"
         en_title="Carrier Air Wing"
-        zhcn_title="F - 飞空之翼"
+        zhcn_title="C - 雌虎战机"
         hfsplay="https://db.hfsplay.fr/games/29479-carrier-air-wing"
         launchbox="">
         <Rom crc32="31B0791C" bytes="1440062"
             file_name="cawing.zip"
             en_title="Carrier Air Wing (U.S. navy 901012 etc)"
-            zhcn_title="飞空之翼 (美国海军 901012 etc)"
+            zhcn_title="雌虎战机 (美国海军 901012 etc)"
             apps-work="RetroArch-Wii (FinalBurn Neo)|RetroArch-Win (FinalBurn Neo)"
             apps-not-work="RetroArch-Wii (FB Alpha 2012 CPS-1)|RetroArch-Win (FB Alpha 2012 CPS-1)"
         />
     </Game>
     <Game id="40781A"
         en_title="Adventure Quiz - Capcom World 2"
-        zhcn_title="W - 问答冒险 卡普空世界2"
+        zhcn_title="M - 冒险问答 卡普空世界2"
         hfsplay="https://db.hfsplay.fr/games/74017-adventure-quiz-capcom-world-2"
         launchbox="https://gamesdb.launchbox-app.com/games/details/34902-adventure-quiz:-capcom-world-2">
         <Rom crc32="319BF022" bytes="1753871"
             file_name="cworld2j.zip"
             en_title="Adventure Quiz Capcom World 2 (920611 Japan)"
-            zhcn_title="问答冒险 卡普空世界2 (920611 日版)"
+            zhcn_title="冒险问答 卡普空世界2 (920611 日版)"
             apps-work="" apps-not-work=""
         />
     </Game>
@@ -116,6 +116,14 @@
             zhcn_title="失落的世界 (世界版)"
             apps-work="" apps-not-work=""
         />
+        <Rom crc32="916345E9" bytes="571809"
+            file_name="forgottnu.zip"
+            parent_rom_file_name="forgottn.zip" parent_rom_crc32="0C6F70CB"
+            en_title="Forgotten Worlds (US, B-Board 88621B-2, rev C)"
+            zhcn_title="失落的世界 (美版, B-Board 88621B-2, 修订版C)"
+            apps-work="RetroArch-Win (FinalBurn Neo)"
+            apps-not-work="RetroArch-Wii (FB Alpha 2012 CPS-1)|RetroArch-Win (FB Alpha 2012 CPS-1)"
+        />
     </Game>
     <Game id="41441A"
         en_title="Ghouls'n Ghosts"
@@ -167,7 +175,7 @@
     </Game>
     <Game id="78892A"
         en_title="Mega Man - The Power Battle"
-        zhcn_title="L - 洛克人1 力量之战 CPS-1版"
+        zhcn_title="L - 洛克人1 力量之战 (CPS1版)"
         hfsplay="https://db.hfsplay.fr/games/29487-megaman-the-power-battle"
         launchbox="https://gamesdb.launchbox-app.com/games/details/24328-mega-man:-the-power-battle">
         <Rom crc32="779C1CE7" bytes="3301557"
@@ -253,7 +261,7 @@
         en_title="The Punisher"
         zhcn_title="C - 惩罚者"
         hfsplay="https://db.hfsplay.fr/games/29500-the-punisher"
-        launchbox="">
+        launchbox="https://gamesdb.launchbox-app.com/games/details/7962-the-punisher">
         <Rom crc32="2E7981B0" bytes="4042628"
             file_name="punisher.zip"
             en_title="The Punisher (930422 World)"
@@ -275,13 +283,13 @@
     </Game>
     <Game id="42606A"
         en_title="Quiz Tonosama no Yabou 2 - Zenkoku-ban"
-        zhcn_title="C - 城主的野心问答2 全国版"
+        zhcn_title="W - 问答信长之野望2 全国版"
         hfsplay="https://db.hfsplay.fr/games/79600-quiz-tonosama-no-yabou-2-zenkoku-ban"
         launchbox="">
         <Rom crc32="847A5C2B" bytes="1945248"
             file_name="qtono2j.zip"
             en_title="Quiz Tonosama no Yabou 2 Zenkoku-ban (tonosama 2 950123 Japan)"
-            zhcn_title="城主的野心问答2 全国版 (殿样 2 950123 日版)"
+            zhcn_title="问答信长之野望2 全国版 (信长2 950123 日版)"
             apps-work="" apps-not-work=""
         />
     </Game>
@@ -289,35 +297,35 @@
         en_title="Street Fighter II - The World Warrior"
         zhcn_title="J - 街头霸王2 天下斗士"
         hfsplay="https://db.hfsplay.fr/games/29496-street-fighter-ii-the-world-warrior"
-        launchbox="">
+        launchbox="https://gamesdb.launchbox-app.com/games/details/5285-street-fighter-ii-the-world-warrior">
         <Rom crc32="B62D0BC7" bytes="3551819"
             file_name="sf2.zip"
             en_title="Street Fighter II - The World Warrior (910522 World)"
             zhcn_title="街头霸王2 天下斗士 (910522 世界版)"
             apps-work="" apps-not-work=""
         />
-    </Game>
+    </Game>究极
     <Game id="37377A"
         en_title="Street Fighter II' - Champion Edition"
-        zhcn_title="J - 街头霸王2 冠军版"
+        zhcn_title="J - 街头霸王2 四大天王"
         hfsplay="https://db.hfsplay.fr/games/29497-street-fighter-ii-champion-edition"
-        launchbox="">
+        launchbox="https://gamesdb.launchbox-app.com/games/details/22014-street-fighter-ii-champion-edition">
         <Rom crc32="60FF7935" bytes="3584791"
             file_name="sf2ce.zip"
             en_title="Street Fighter II' - Champion Edition (street fighter 2' 920513 World)"
-            zhcn_title="街头霸王2 冠军版 (街头霸王2 920513 世界版)"
+            zhcn_title="街头霸王2 四大天王 (街头霸王2 920513 世界版)"
             apps-work="" apps-not-work=""
         />
     </Game>
     <Game id="37378A"
         en_title="Street Fighter II' - Hyper Fighting"
-        zhcn_title="J - 街头霸王2 究极格斗"
+        zhcn_title="J - 街头霸王2 战斗宣言"
         hfsplay="https://db.hfsplay.fr/games/29495-street-fighter-ii-hyper-fighting"
         launchbox="">
         <Rom crc32="A86F0C6C" bytes="3640355"
             file_name="sf2hf.zip"
             en_title="Street Fighter II' - Hyper Fighting (street fighter 2' T 921209 World)"
-            zhcn_title="街头霸王2 究极格斗 (街头霸王2 T 921209 世界版)"
+            zhcn_title="街头霸王2 战斗宣言 (街头霸王2 T 921209 世界版)"
             apps-work="" apps-not-work=""
         />
     </Game>
@@ -390,13 +398,20 @@
             file_name="willow.zip"
             en_title="Willow (World)"
             zhcn_title="威洛之旅 (世界版)"
-            cores-work="FinalBurn Neo" cores-not-work="FB Alpha 2012 CPS-2"
+            cores-work="FinalBurn Neo" cores-not-work="FB Alpha 2012 CPS-1"
         />
         <Rom crc32="933DD83A" bytes="1773770"
             file_name="willow.zip"
             en_title="Willow (US)"
             zhcn_title="威洛之旅 (美版)"
-            cores-work="FB Alpha 2012 CPS-2" cores-not-work="FinalBurn Neo"
+            cores-work="FB Alpha 2012 CPS-1" cores-not-work="FinalBurn Neo"
+        />
+        <Rom crc32="573A7059" bytes="1809978"
+            file_name="willowj.zip"
+            parent_rom_file_name="willow.zip" parent_rom_crc32="890E3C76"
+            en_title="Willow (Japan, Japanese)"
+            zhcn_title="威洛之旅 (日版, 日文)"
+            cores-work="FB Alpha 2012 CPS-1|FinalBurn Neo"
         />
     </Game>
     <Game id="44111A"
